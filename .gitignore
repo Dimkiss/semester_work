@@ -11,3 +11,9 @@ venv/
 
 # IDE
 .vscode/
+.idea/
+
+# Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
