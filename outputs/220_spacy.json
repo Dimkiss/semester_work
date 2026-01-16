@@ -1,0 +1,309 @@
+{
+  "table_name": "220_sports_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Астана",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Футбол",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "2009",
+      "entities": [
+        {
+          "text": "2009",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "Казахстанская футбольная Премьер-Лига",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "Астана Арена",
+      "entities": [
+        {
+          "text": "Астана Арена",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Байтерек",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Футбол",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "2012",
+      "entities": [
+        {
+          "text": "2012",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "Первая лига Казахстана по футболу",
+      "entities": [
+        {
+          "text": "Казахстана",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "Астана Арена",
+      "entities": [
+        {
+          "text": "Астана Арена",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Барыс",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Хоккей с шайбой",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "1999",
+      "entities": [
+        {
+          "text": "1999",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "Континентальная хоккейная лига",
+      "entities": [
+        {
+          "text": "Континентальная хоккейная лига",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "Барыс Арена",
+      "entities": [
+        {
+          "text": "Барыс Арена",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Астана",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Хоккей с шайбой",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "2011",
+      "entities": [
+        {
+          "text": "2011",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "Казахстанская хоккейная лига",
+      "entities": [
+        {
+          "text": "Казахстанская хоккейная лига",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "СК «Казахстан-2»",
+      "entities": [
+        {
+          "text": "СК «Казахстан-2»",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Pro Team Astana",
+      "entities": [
+        {
+          "text": "Pro Team Astana",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Велоспорт",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "2007",
+      "entities": [
+        {
+          "text": "2007",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "UCI ProTour",
+      "entities": [
+        {
+          "text": "UCI ProTour",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "text": "Сарыарка",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Астана",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Баскетбол",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "2000",
+      "entities": [
+        {
+          "text": "2000",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "Единая лига ВТБ, Казахстанская баскетбольная лига",
+      "entities": [
+        {
+          "text": "Единая лига ВТБ",
+          "label": "ORG"
+        },
+        {
+          "text": "Казахстанская баскетбольная лига",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "text": "Сарыарка",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "Столичный авиаклуб",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Планеризм, Парашютный спорт",
+      "entities": [
+        {
+          "text": "Парашютный спорт",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "2009",
+      "entities": [
+        {
+          "text": "2009",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "text": "Аэродром Северный",
+      "entities": []
+    }
+  ]
+}

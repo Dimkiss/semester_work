@@ -1,0 +1,205 @@
+{
+  "table_name": "215_locations_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Город Гаосюн",
+      "entities": [
+        {
+          "text": "Гаосюн",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "高雄市",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Gāoxióng",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "Kaohsiung City",
+      "entities": [
+        {
+          "text": "Kaohsiung City",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Город Новый Тайбэй",
+      "entities": [
+        {
+          "text": "Новый Тайбэй",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "新北市",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Xīnběi",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "New Taipei City",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Город Тайбэй",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "臺北市，台北市",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Táiběi",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "Taipei City",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Город Тайнань",
+      "entities": [
+        {
+          "text": "Тайнань",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "臺南市，台南市",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Táinán",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "Tainan City",
+      "entities": [
+        {
+          "text": "Tainan City",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Город Тайчжун",
+      "entities": [
+        {
+          "text": "Тайчжун",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "臺中市，台中市",
+      "entities": [
+        {
+          "text": "臺中市",
+          "label": "LOC"
+        },
+        {
+          "text": "台中市",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Táizhōng",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "Taichung City",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Город Таоюань",
+      "entities": [
+        {
+          "text": "Таоюань",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "桃園市",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Táoyuán",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "Taoyuan City",
+      "entities": [
+        {
+          "text": "Taoyuan",
+          "label": "LOC"
+        }
+      ]
+    }
+  ]
+}

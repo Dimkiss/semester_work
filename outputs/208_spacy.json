@@ -1,0 +1,374 @@
+{
+  "table_name": "208_sports_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Защ",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Карл Старфельт",
+      "entities": [
+        {
+          "text": "Карл Старфельт",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Селтик",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Защ",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Данил Степанов*",
+      "entities": [
+        {
+          "text": "Данил Степанов",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Арсенал (Тула)",
+      "entities": [
+        {
+          "text": "Тула",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Защ",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Михаил Меркулов***",
+      "entities": [
+        {
+          "text": "Михаил Меркулов",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Риека",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Защ",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Алексей Грицаенко*",
+      "entities": [
+        {
+          "text": "Алексей Грицаенко",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Кубань",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Защ",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Сильвие Бегич*",
+      "entities": [
+        {
+          "text": "Бегич",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Крылья Советов",
+      "entities": [
+        {
+          "text": "Крылья Советов",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": [
+        {
+          "text": "ПЗ",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Игорь Коновалов*",
+      "entities": [
+        {
+          "text": "Игорь Коновалов",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Ахмат",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": [
+        {
+          "text": "ПЗ",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Камиль Закиров***",
+      "entities": [
+        {
+          "text": "Камиль Закиров",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": [
+        {
+          "text": "ПЗ",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Денис Макаров",
+      "entities": [
+        {
+          "text": "Денис Макаров",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Динамо (Москва)",
+      "entities": [
+        {
+          "text": "Москва",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": [
+        {
+          "text": "ПЗ",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Мицуки Сайто**",
+      "entities": [
+        {
+          "text": "Мицуки Сайто",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Сёнан Бельмаре",
+      "entities": [
+        {
+          "text": "Сёнан Бельмаре",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": [
+        {
+          "text": "ПЗ",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Зурико Давиташвили***",
+      "entities": [
+        {
+          "text": "Зурико Давиташвили",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Арсенал (Тула)",
+      "entities": [
+        {
+          "text": "Тула",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": [
+        {
+          "text": "ПЗ",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "Дарко Йевтич*",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "АЕК",
+      "entities": [
+        {
+          "text": "АЕК",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 1,
+      "text": "Нап",
+      "entities": [
+        {
+          "text": "Нап",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "Кирилл Климов*",
+      "entities": [
+        {
+          "text": "Кирилл Климов",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "Кубань",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 1,
+      "text": "Нап",
+      "entities": [
+        {
+          "text": "Нап",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "Кирилл Косарев*",
+      "entities": [
+        {
+          "text": "Кирилл Косарев",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "text": "Нижний Новгород",
+      "entities": [
+        {
+          "text": "Нижний Новгород",
+          "label": "LOC"
+        }
+      ]
+    }
+  ]
+}

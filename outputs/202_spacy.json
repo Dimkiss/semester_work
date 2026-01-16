@@ -1,0 +1,126 @@
+{
+  "table_name": "202_sports_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Атлетик Эскальдес",
+      "entities": [
+        {
+          "text": "Атлетик Эскальдес",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Эскальдес-Энгордань",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Интер Эскальдес",
+      "entities": [
+        {
+          "text": "Интер Эскальдес",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Эскальдес-Энгордань",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Каррой",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Андорра-ла-Велья",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Ордино[3]",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Ордино",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Санта-Колома",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Санта-Колома",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Сан-Жулиа",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Сан-Жулиа-де-Лория",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "УЭ Санта-Колома",
+      "entities": [
+        {
+          "text": "УЭ",
+          "label": "ORG"
+        },
+        {
+          "text": "Санта-Колома",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Санта-Колома",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "Энгордань",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Эскальдес-Энгордань",
+      "entities": []
+    }
+  ]
+}

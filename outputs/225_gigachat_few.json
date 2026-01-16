@@ -1,0 +1,412 @@
+{
+  "table_name": "225_locations_table.csv",
+  "method": "gigachat_few",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "few"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Армения",
+      "entities": [
+        {
+          "text": "Армения",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Ереван",
+      "entities": [
+        {
+          "text": "Ереван",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Болгария",
+      "entities": [
+        {
+          "text": "Болгария",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Плевен",
+      "entities": [
+        {
+          "text": "Плевен",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Белоруссия",
+      "entities": [
+        {
+          "text": "Белоруссия",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Гомель",
+      "entities": [
+        {
+          "text": "Гомель",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Великобритания",
+      "entities": [
+        {
+          "text": "Великобритания",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Глазго",
+      "entities": [
+        {
+          "text": "Глазго",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Германия",
+      "entities": [
+        {
+          "text": "Германия",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Дортмунд",
+      "entities": [
+        {
+          "text": "Дортмунд",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Германия",
+      "entities": [
+        {
+          "text": "Германия",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Гера",
+      "entities": [
+        {
+          "text": "Гера",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Греция",
+      "entities": [
+        {
+          "text": "Греция",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Волос",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Канада",
+      "entities": [
+        {
+          "text": "Канада",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Торонто",
+      "entities": [
+        {
+          "text": "Торонто",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Казахстан",
+      "entities": [
+        {
+          "text": "Казахстан",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Уральск",
+      "entities": [
+        {
+          "text": "Уральск",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Россия",
+      "entities": [
+        {
+          "text": "Россия",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Москва",
+      "entities": [
+        {
+          "text": "Москва",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "США",
+      "entities": [
+        {
+          "text": "США",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "Мобил",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "Турция",
+      "entities": [
+        {
+          "text": "Турция",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "Анталья",
+      "entities": [
+        {
+          "text": "Анталья",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "Украина",
+      "entities": [
+        {
+          "text": "Украина",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "text": "Одесса",
+      "entities": [
+        {
+          "text": "Одесса",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "Украина[199]",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 3,
+      "text": "Луганск",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "Украина[200]",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 3,
+      "text": "Донецк",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "Франция",
+      "entities": [
+        {
+          "text": "Франция",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "col": 3,
+      "text": "Ле-Ман",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "Финляндия",
+      "entities": [
+        {
+          "text": "Финляндия",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "col": 3,
+      "text": "Каяани",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 2,
+      "text": "Южная Корея",
+      "entities": [
+        {
+          "text": "Южная Корея",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "col": 3,
+      "text": "Чхонджу",
+      "entities": [
+        {
+          "text": "Чхонджу",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "col": 2,
+      "text": "Китай",
+      "entities": [
+        {
+          "text": "Китай",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "col": 3,
+      "text": "Яньтай",
+      "entities": [
+        {
+          "text": "Яньтай",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "col": 2,
+      "text": "Испания[201]",
+      "entities": [
+        {
+          "text": "Испания",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "col": 3,
+      "text": "Севилья",
+      "entities": [
+        {
+          "text": "Севилья",
+          "label": "LOC"
+        }
+      ]
+    }
+  ]
+}

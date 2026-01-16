@@ -1,0 +1,862 @@
+{
+  "table_name": "218_sports_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Вишванатан Ананд",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "турнир",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "9 из 14",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "text": "9 из 14",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "text": "9 из 14",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 8,
+      "text": "4",
+      "entities": [
+        {
+          "text": "4",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 9,
+      "text": "0",
+      "entities": [
+        {
+          "text": "0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 10,
+      "text": "10",
+      "entities": [
+        {
+          "text": "10",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 11,
+      "text": "2007",
+      "entities": [
+        {
+          "text": "2007",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 12,
+      "text": "Мехико (Мексика)",
+      "entities": [
+        {
+          "text": "Мехико",
+          "label": "LOC"
+        },
+        {
+          "text": "Мексика",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Вишванатан Ананд",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "Владимир Крамник",
+      "entities": [
+        {
+          "text": "Владимир Крамник",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "6½",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "text": ":",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "text": "4½",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 8,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 9,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 10,
+      "text": "7",
+      "entities": [
+        {
+          "text": "7",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 11,
+      "text": "2008",
+      "entities": [
+        {
+          "text": "2008",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 12,
+      "text": "Бонн (Германия)",
+      "entities": [
+        {
+          "text": "Германия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Вишванатан Ананд",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "Веселин Топалов",
+      "entities": [
+        {
+          "text": "Веселин Топалов",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "6½",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "text": ":",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "text": "5½",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 8,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 9,
+      "text": "2",
+      "entities": [
+        {
+          "text": "2",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 10,
+      "text": "7",
+      "entities": [
+        {
+          "text": "7",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 11,
+      "text": "2010",
+      "entities": [
+        {
+          "text": "2010",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 12,
+      "text": "София (Болгария)",
+      "entities": [
+        {
+          "text": "София",
+          "label": "PER"
+        },
+        {
+          "text": "Болгария",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Вишванатан Ананд",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "Борис Гельфанд",
+      "entities": [
+        {
+          "text": "Борис Гельфанд",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "8½ (6)",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "text": ":",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "text": "7½ (6)",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 8,
+      "text": "2 (1)",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 9,
+      "text": "1 (1)",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 10,
+      "text": "13 (10)",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 11,
+      "text": "2012",
+      "entities": [
+        {
+          "text": "2012",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 12,
+      "text": "Москва (Россия)",
+      "entities": [
+        {
+          "text": "Москва",
+          "label": "LOC"
+        },
+        {
+          "text": "Россия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Магнус Карлсен",
+      "entities": [
+        {
+          "text": "Магнус Карлсен",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "Вишванатан Ананд",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "text": "6½",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "text": ":",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "text": "3½",
+      "entities": [
+        {
+          "text": "3½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 8,
+      "text": "0",
+      "entities": [
+        {
+          "text": "0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 9,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 10,
+      "text": "7",
+      "entities": [
+        {
+          "text": "7",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 11,
+      "text": "2013",
+      "entities": [
+        {
+          "text": "2013",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 12,
+      "text": "Ченнаи (Индия)",
+      "entities": [
+        {
+          "text": "Ченнаи",
+          "label": "LOC"
+        },
+        {
+          "text": "Индия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Магнус Карлсен",
+      "entities": [
+        {
+          "text": "Магнус Карлсен",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "Вишванатан Ананд",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "text": "6½",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "text": ":",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "text": "4½",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 8,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 9,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 10,
+      "text": "7",
+      "entities": [
+        {
+          "text": "7",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 11,
+      "text": "2014",
+      "entities": [
+        {
+          "text": "2014",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 12,
+      "text": "Сочи (Россия)",
+      "entities": [
+        {
+          "text": "Сочи",
+          "label": "LOC"
+        },
+        {
+          "text": "Россия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Магнус Карлсен",
+      "entities": [
+        {
+          "text": "Магнус Карлсен",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "Сергей Карякин",
+      "entities": [
+        {
+          "text": "Сергей Карякин",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "text": "9 (6)",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "text": ":",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 7,
+      "text": "7 (6)",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 8,
+      "text": "3 (1)",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 9,
+      "text": "1 (1)",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 10,
+      "text": "12 (10)",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 11,
+      "text": "2016",
+      "entities": [
+        {
+          "text": "2016",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 12,
+      "text": "Нью-Йорк (США)",
+      "entities": [
+        {
+          "text": "США",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Магнус Карлсен",
+      "entities": [
+        {
+          "text": "Магнус Карлсен",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "Фабиано Каруана",
+      "entities": [
+        {
+          "text": "Фабиано Каруана",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 5,
+      "text": "9 (6)",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "text": ":",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 7,
+      "text": "6 (6)",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 8,
+      "text": "3 (0)",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 9,
+      "text": "0",
+      "entities": [
+        {
+          "text": "0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 10,
+      "text": "12(12)",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 11,
+      "text": "2018",
+      "entities": [
+        {
+          "text": "2018",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 12,
+      "text": "Лондон (Великобритания)",
+      "entities": [
+        {
+          "text": "Лондон",
+          "label": "LOC"
+        },
+        {
+          "text": "Великобритания",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Магнус Карлсен",
+      "entities": [
+        {
+          "text": "Магнус Карлсен",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "Ян Непомнящий",
+      "entities": [
+        {
+          "text": "Ян Непомнящий",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 5,
+      "text": "0 (0)",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 6,
+      "text": ":",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 7,
+      "text": "0 (0)",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 8,
+      "text": "0 (0)",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 9,
+      "text": "0",
+      "entities": [
+        {
+          "text": "0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 10,
+      "text": "0(0)",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 11,
+      "text": "2021",
+      "entities": [
+        {
+          "text": "2021",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 12,
+      "text": "Дубай (Объединённые Арабские Эмираты)",
+      "entities": [
+        {
+          "text": "Дубай",
+          "label": "LOC"
+        },
+        {
+          "text": "Объединённые Арабские Эмираты",
+          "label": "LOC"
+        }
+      ]
+    }
+  ]
+}

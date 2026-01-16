@@ -1,0 +1,124 @@
+{
+  "table_name": "207_locations_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Алма-Ата",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "30/18",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "0/−8",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Шымкент",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "32/17",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "4/−4",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Караганда",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "27/14",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "−8/−17",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Нур-Султан",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "27/15",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "−10/−18",
+      "entities": [
+        {
+          "text": "−10/−18",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Павлодар",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "28/15",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "−11/−20",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Актобе",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "30/15",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "−8/−16",
+      "entities": []
+    }
+  ]
+}

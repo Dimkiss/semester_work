@@ -1,0 +1,267 @@
+{
+  "table_name": "209_locations_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Алма-Ата",
+      "entities": [
+        {
+          "text": "Алма-Ата",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "город республиканского значения",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "1 897 143",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Нур-Султан",
+      "entities": [
+        {
+          "text": "Нур-Султан",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "город республиканского значения",
+      "entities": [
+        {
+          "text": "город республиканского значения",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "1 121 809",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Шымкент",
+      "entities": [
+        {
+          "text": "Шымкент",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "город республиканского значения",
+      "entities": [
+        {
+          "text": "город республиканского значения",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "1 028 673",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Актобе",
+      "entities": [
+        {
+          "text": "Актобе",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Актюбинская",
+      "entities": [
+        {
+          "text": "Актюбинская",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "497 381",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Караганда",
+      "entities": [
+        {
+          "text": "Караганда",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Карагандинская",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "496 701",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Тараз",
+      "entities": [
+        {
+          "text": "Тараз",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Жамбылская",
+      "entities": [
+        {
+          "text": "Жамбылская",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "357 662",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Павлодар",
+      "entities": [
+        {
+          "text": "Павлодар",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Павлодарская",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "333 554",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Усть-Каменогорск",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Восточно-Казахстанская",
+      "entities": [
+        {
+          "text": "Восточно-Казахстанская",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "333 112",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Семей",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Восточно-Казахстанская",
+      "entities": [
+        {
+          "text": "Восточно-Казахстанская",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "323 721",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Атырау",
+      "entities": [
+        {
+          "text": "Атырау",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Атырауская",
+      "entities": [
+        {
+          "text": "Атырауская",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "text": "270 882",
+      "entities": []
+    }
+  ]
+}

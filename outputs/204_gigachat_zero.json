@@ -1,0 +1,231 @@
+{
+  "table_name": "204_sports_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Академия футбола имени Юрия Коноплёва",
+      "entities": [
+        {
+          "text": "Академия футбола имени Юрия Коноплёва",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Самарская область",
+      "entities": [
+        {
+          "text": "Самарская область",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Динамо",
+      "entities": [
+        {
+          "text": "Динамо",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Москва",
+      "entities": [
+        {
+          "text": "Москва",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Зенит",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Санкт-Петербург",
+      "entities": [
+        {
+          "text": "Санкт-Петербург",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Локомотив",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Москва",
+      "entities": [
+        {
+          "text": "Москва",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Краснодар",
+      "entities": [
+        {
+          "text": "Краснодар",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Краснодар",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Мастер-Сатурн (УОР № 5)",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Московская область",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "Рубин",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Казань",
+      "entities": [
+        {
+          "text": "Казань",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "Спартак",
+      "entities": [
+        {
+          "text": "Спартак",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Москва",
+      "entities": [
+        {
+          "text": "Москва",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "Строгино",
+      "entities": [
+        {
+          "text": "Строгино",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Москва",
+      "entities": [
+        {
+          "text": "Москва",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "СШОР «Зенит»",
+      "entities": [
+        {
+          "text": "СШОР \"Зенит\"",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Санкт-Петербург",
+      "entities": [
+        {
+          "text": "Санкт-Петербург",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "text": "ЦСКА",
+      "entities": [
+        {
+          "text": "ЦСКА",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "Москва",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 1,
+      "text": "Чертаново",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "Москва",
+      "entities": []
+    }
+  ]
+}

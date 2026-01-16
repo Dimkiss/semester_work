@@ -1,0 +1,651 @@
+{
+  "table_name": "216_sports_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Ян Непомнящий",
+      "entities": [
+        {
+          "text": "Ян Непомнящий",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Россия",
+      "entities": [
+        {
+          "text": "Россия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "2792",
+      "entities": [
+        {
+          "text": "2792",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "text": "1½",
+      "entities": [
+        {
+          "text": "1½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 9,
+      "text": "1½",
+      "entities": [
+        {
+          "text": "1½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 11,
+      "text": "1½",
+      "entities": [
+        {
+          "text": "1½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 13,
+      "text": "1.0",
+      "entities": [
+        {
+          "text": "1.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 15,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 16,
+      "text": "1.0",
+      "entities": [
+        {
+          "text": "1.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 17,
+      "text": "9½",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Алиреза Фирузджа",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Франция",
+      "entities": [
+        {
+          "text": "Франция",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "2754",
+      "entities": [
+        {
+          "text": "2754",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 9,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 11,
+      "text": "0",
+      "entities": [
+        {
+          "text": "0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 13,
+      "text": "1.0",
+      "entities": [
+        {
+          "text": "1.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 14,
+      "text": "0.0",
+      "entities": [
+        {
+          "text": "0.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 15,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 17,
+      "text": "6",
+      "entities": [
+        {
+          "text": "6",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Арьян Тари",
+      "entities": [
+        {
+          "text": "Арьян Тари",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Норвегия",
+      "entities": [
+        {
+          "text": "Норвегия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "2642",
+      "entities": [
+        {
+          "text": "2642",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "text": "0",
+      "entities": [
+        {
+          "text": "0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 11,
+      "text": "0",
+      "entities": [
+        {
+          "text": "0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 12,
+      "text": "0.0",
+      "entities": [
+        {
+          "text": "0.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 13,
+      "text": "1.0",
+      "entities": [
+        {
+          "text": "1.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 15,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 17,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Рихард Раппорт",
+      "entities": [
+        {
+          "text": "Рихард Раппорт",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Венгрия",
+      "entities": [
+        {
+          "text": "Венгрия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "2760",
+      "entities": [
+        {
+          "text": "2760",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 9,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 10,
+      "text": "3.0",
+      "entities": [
+        {
+          "text": "3.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 13,
+      "text": "1.0",
+      "entities": [
+        {
+          "text": "1.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 15,
+      "text": "1½",
+      "entities": [
+        {
+          "text": "1½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 17,
+      "text": "12½",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Магнус Карлсен",
+      "entities": [
+        {
+          "text": "Магнус Карлсен",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Норвегия",
+      "entities": [
+        {
+          "text": "Норвегия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "2855",
+      "entities": [
+        {
+          "text": "2855",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "text": "1½",
+      "entities": [
+        {
+          "text": "1½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "text": "1½",
+      "entities": [
+        {
+          "text": "1½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 8,
+      "text": "3.0",
+      "entities": [
+        {
+          "text": "3.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 9,
+      "text": "1½",
+      "entities": [
+        {
+          "text": "1½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 11,
+      "text": "1½",
+      "entities": [
+        {
+          "text": "1½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 15,
+      "text": "0",
+      "entities": [
+        {
+          "text": "0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 17,
+      "text": "9",
+      "entities": [
+        {
+          "text": "9",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Сергей Карякин",
+      "entities": [
+        {
+          "text": "Сергей Карякин",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Россия",
+      "entities": [
+        {
+          "text": "Россия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "2758",
+      "entities": [
+        {
+          "text": "2758",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "text": "0",
+      "entities": [
+        {
+          "text": "0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "text": "1½",
+      "entities": [
+        {
+          "text": "1½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "text": "1½",
+      "entities": [
+        {
+          "text": "1½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 9,
+      "text": "1½",
+      "entities": [
+        {
+          "text": "1½",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 11,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 13,
+      "text": "3.0",
+      "entities": [
+        {
+          "text": "3.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 17,
+      "text": "8½",
+      "entities": []
+    }
+  ]
+}

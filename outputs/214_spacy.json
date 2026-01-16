@@ -1,0 +1,127 @@
+{
+  "table_name": "214_sports_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Генеральный менеджер",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Стив Айзерман",
+      "entities": [
+        {
+          "text": "Стив Айзерман",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "9 мая 1965 (56 лет)",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "с 2019 года",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Главный тренер",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Джефф Блэшилл",
+      "entities": [
+        {
+          "text": "Джефф Блэшилл",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "10 декабря 1973 (47 лет)",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "с 2015 года",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Помощник тренера",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Дуг Хауда",
+      "entities": [
+        {
+          "text": "Дуг Хауда",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "3 июня 1966 (55 лет)",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "с 2016 года",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Тренер вратарей",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Джефф Салейко",
+      "entities": [
+        {
+          "text": "Джефф Салейко",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "18 апреля 1975 (46 лет)",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "с 2016 года",
+      "entities": []
+    }
+  ]
+}

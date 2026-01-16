@@ -1,0 +1,496 @@
+{
+  "table_name": "224_locations_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Китай",
+      "entities": [
+        {
+          "text": "Китай",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "187",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "США",
+      "entities": [
+        {
+          "text": "США",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "122",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Япония",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "35",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Германия",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "23",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Франция",
+      "entities": [
+        {
+          "text": "Франция",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "16",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Голландия",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "16",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "Ирландия",
+      "entities": [
+        {
+          "text": "Ирландия",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "14",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "Великобритания",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "11",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "Канада",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "11",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "Италия",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "6",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "text": "Бразилия",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "6",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 1,
+      "text": "Саудовская Аравия",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "6",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 1,
+      "text": "Южная Корея",
+      "entities": [
+        {
+          "text": "Южная Корея",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "5",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 1,
+      "text": "Польша",
+      "entities": [
+        {
+          "text": "Польша",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "4",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 1,
+      "text": "Сингапур",
+      "entities": [
+        {
+          "text": "Сингапур",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "4",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 1,
+      "text": "Россия",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "3",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 1,
+      "text": "Швейцария",
+      "entities": [
+        {
+          "text": "Швейцария",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "3",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 1,
+      "text": "Норвегия",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 2,
+      "text": "3",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 1,
+      "text": "Швеция",
+      "entities": [
+        {
+          "text": "Швеция",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "col": 2,
+      "text": "3",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 1,
+      "text": "Индия",
+      "entities": [
+        {
+          "text": "Индия",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "col": 2,
+      "text": "3",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 1,
+      "text": "Словения",
+      "entities": [
+        {
+          "text": "Словения",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "col": 2,
+      "text": "2",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 1,
+      "text": "Австралия",
+      "entities": [
+        {
+          "text": "Австралия",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "col": 2,
+      "text": "2",
+      "entities": []
+    },
+    {
+      "row": 24,
+      "col": 1,
+      "text": "Люксембург",
+      "entities": []
+    },
+    {
+      "row": 24,
+      "col": 2,
+      "text": "2",
+      "entities": []
+    },
+    {
+      "row": 25,
+      "col": 1,
+      "text": "ОАЭ",
+      "entities": [
+        {
+          "text": "ОАЭ",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "col": 2,
+      "text": "2",
+      "entities": []
+    },
+    {
+      "row": 26,
+      "col": 1,
+      "text": "Финляндия",
+      "entities": [
+        {
+          "text": "Финляндия",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "col": 2,
+      "text": "2",
+      "entities": []
+    },
+    {
+      "row": 27,
+      "col": 1,
+      "text": "Чехия",
+      "entities": [
+        {
+          "text": "Чехия",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 27,
+      "col": 2,
+      "text": "2",
+      "entities": []
+    },
+    {
+      "row": 28,
+      "col": 1,
+      "text": "Тайвань",
+      "entities": []
+    },
+    {
+      "row": 28,
+      "col": 2,
+      "text": "2",
+      "entities": []
+    },
+    {
+      "row": 29,
+      "col": 1,
+      "text": "Болгария",
+      "entities": [
+        {
+          "text": "Болгария",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 29,
+      "col": 2,
+      "text": "1",
+      "entities": []
+    },
+    {
+      "row": 30,
+      "col": 1,
+      "text": "Марокко",
+      "entities": [
+        {
+          "text": "Марокко",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 30,
+      "col": 2,
+      "text": "1",
+      "entities": []
+    },
+    {
+      "row": 31,
+      "col": 1,
+      "text": "Австрия",
+      "entities": [
+        {
+          "text": "Австрия",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 31,
+      "col": 2,
+      "text": "1",
+      "entities": []
+    },
+    {
+      "row": 32,
+      "col": 1,
+      "text": "Гонконг",
+      "entities": [
+        {
+          "text": "Гонконг",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 32,
+      "col": 2,
+      "text": "1",
+      "entities": []
+    },
+    {
+      "row": 33,
+      "col": 1,
+      "text": "Испания",
+      "entities": [
+        {
+          "text": "Испания",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 33,
+      "col": 2,
+      "text": "1",
+      "entities": []
+    }
+  ]
+}

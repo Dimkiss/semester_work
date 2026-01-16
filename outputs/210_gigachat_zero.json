@@ -1,0 +1,919 @@
+{
+  "table_name": "210_sports_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "1",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "5 февраля 1986",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "«Оранж Боул», Майами, США",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "Канада",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "0:0",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "text": "Турнир Майами",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "2",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "7 февраля 1986",
+      "entities": [
+        {
+          "text": "7 февраля 1986",
+          "label": "DATE"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "«Оранж Боул», Майами, США",
+      "entities": [
+        {
+          "text": "Оранж Боул",
+          "label": "EVENT"
+        },
+        {
+          "text": "Майами",
+          "label": "LOC"
+        },
+        {
+          "text": "США",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "Уругвай",
+      "entities": [
+        {
+          "text": "Уругвай",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "1:1",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "text": "Турнир Майами",
+      "entities": [
+        {
+          "text": "Майами",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "23 мая 1987",
+      "entities": [
+        {
+          "text": "23 мая 1987",
+          "label": "DATE"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Сент-Джонс, Канада",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "Канада",
+      "entities": [
+        {
+          "text": "Канада",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "0:2",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "text": "Квалификация Предолимпийского турнира КОНКАКАФ 1988",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "30 мая 1987",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Фентон, США",
+      "entities": [
+        {
+          "text": "Фентон",
+          "label": "LOC"
+        },
+        {
+          "text": "США",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "Канада",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "3:0",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "text": "2",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "text": "Квалификация Предолимпийского турнира КОНКАКАФ 1988",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "5 сентября 1987",
+      "entities": [
+        {
+          "text": "5 сентября 1987",
+          "label": "DATE"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Фентон, США",
+      "entities": [
+        {
+          "text": "Фентон",
+          "label": "LOC"
+        },
+        {
+          "text": "США",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "Тринидад и Тобаго",
+      "entities": [
+        {
+          "text": "Тринидад и Тобаго",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "text": "4:1",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "text": "3",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "text": "Предолимпийский турнир КОНКАКАФ 1988",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "20 сентября 1987",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "«Куинс Парк Овал», Порт-оф-Спейн, Тринидад и Тобаго",
+      "entities": [
+        {
+          "text": "Куинс Парк Овал",
+          "label": "FAC"
+        },
+        {
+          "text": "Порт-оф-Спейн",
+          "label": "LOC"
+        },
+        {
+          "text": "Тринидад и Тобаго",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "Тринидад и Тобаго",
+      "entities": [
+        {
+          "text": "Тринидад и Тобаго",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "text": "1:0",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "text": "Предолимпийский турнир КОНКАКАФ 1988",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "18 октября 1987",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Сан-Сальвадор, Сальвадор",
+      "entities": [
+        {
+          "text": "Сан-Сальвадор",
+          "label": "LOC"
+        },
+        {
+          "text": "Сальвадор",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "Сальвадор",
+      "entities": [
+        {
+          "text": "Сальвадор",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "text": "4:2",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "text": "1",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 7,
+      "text": "Предолимпийский турнир КОНКАКАФ 1988",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "3",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "14 мая 1988",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "«Оранж Боул», Майами, США",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "Колумбия",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 5,
+      "text": "0:2",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 7,
+      "text": "Товарищеский матч",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "25 мая 1988",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Индианаполис, США",
+      "entities": [
+        {
+          "text": "Индианаполис",
+          "label": "LOC"
+        },
+        {
+          "text": "США",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "Сальвадор",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 5,
+      "text": "4:1",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 6,
+      "text": "2",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 7,
+      "text": "Предолимпийский турнир КОНКАКАФ 1988",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "18 сентября 1988",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Гражданский стадион, Тэгу, Республика Корея",
+      "entities": [
+        {
+          "text": "Гражданский стадион",
+          "label": "FAC"
+        },
+        {
+          "text": "Тэгу",
+          "label": "LOC"
+        },
+        {
+          "text": "Республика Корея",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "text": "Аргентина",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "text": "1:1",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 7,
+      "text": "Летние Олимпийские игры 1988",
+      "entities": [
+        {
+          "text": "Летние Олимпийские игры",
+          "label": "EVENT"
+        },
+        {
+          "text": "1988",
+          "label": "DATE"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "20 сентября 1988",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "«Пусан Кудок», Пусан, Республика Корея",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "text": "Республика Корея",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 5,
+      "text": "0:0",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 7,
+      "text": "Летние Олимпийские игры 1988",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 1,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "22 сентября 1988",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "Гражданский стадион, Тэгу, Республика Корея",
+      "entities": [
+        {
+          "text": "Гражданский стадион",
+          "label": "FAC"
+        },
+        {
+          "text": "Тэгу",
+          "label": "LOC"
+        },
+        {
+          "text": "Республика Корея",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 4,
+      "text": "СССР",
+      "entities": [
+        {
+          "text": "СССР",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 5,
+      "text": "2:4",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 6,
+      "text": "1",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 7,
+      "text": "Летние Олимпийские игры 1988",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 1,
+      "text": "4",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "16 апреля 1989",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "text": "«Рикардо Саприсса», Сан-Хосе, Коста-Рика",
+      "entities": [
+        {
+          "text": "Рикардо Саприсса",
+          "label": "PER"
+        },
+        {
+          "text": "Сан-Хосе",
+          "label": "LOC"
+        },
+        {
+          "text": "Коста-Рика",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 4,
+      "text": "Коста-Рика",
+      "entities": [
+        {
+          "text": "Коста-Рика",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 5,
+      "text": "0:1",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 7,
+      "text": "Чемпионат наций КОНКАКАФ 1989",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 1,
+      "text": "5",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "30 апреля 1989",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 3,
+      "text": "«Биг Арк Стэдиум», Сент-Луис, США",
+      "entities": [
+        {
+          "text": "Биг Арк Стэдиум",
+          "label": "FAC"
+        },
+        {
+          "text": "Сент-Луис",
+          "label": "LOC"
+        },
+        {
+          "text": "США",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 4,
+      "text": "Коста-Рика",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 5,
+      "text": "1:0",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 7,
+      "text": "Чемпионат наций КОНКАКАФ 1989",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 1,
+      "text": "6",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "13 мая 1989",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 3,
+      "text": "«Мёрдок Стэдиум», Торранс, США",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 4,
+      "text": "Тринидад и Тобаго",
+      "entities": [
+        {
+          "text": "Тринидад и Тобаго",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "col": 5,
+      "text": "1:1",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 7,
+      "text": "Чемпионат наций КОНКАКАФ 1989",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 1,
+      "text": "7",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "2 февраля 1990",
+      "entities": [
+        {
+          "text": "2 февраля 1990",
+          "label": "DATE"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "col": 3,
+      "text": "«Оранж Боул», Майами, США",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 4,
+      "text": "Коста-Рика",
+      "entities": [
+        {
+          "text": "Коста-Рика",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "col": 5,
+      "text": "0:2",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 7,
+      "text": "Турнир Майами",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 1,
+      "text": "8",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "4 февраля 1990",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 3,
+      "text": "«Оранж Боул», Майами, США",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 4,
+      "text": "Колумбия",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 5,
+      "text": "1:1(8:9 по пен.)",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 6,
+      "text": "—",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 7,
+      "text": "Турнир Майами",
+      "entities": []
+    }
+  ]
+}

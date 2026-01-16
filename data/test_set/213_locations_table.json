@@ -1,0 +1,336 @@
+{
+  "table_name": "string",
+  "method": "manual",
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Дакка",
+      "entities": [
+        {
+          "text": "Дакка",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "8 906 039",
+      "entities": [
+        {
+          "text": "8 906 039",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Дакка",
+      "entities": [
+        {
+          "text": "Дакка",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Читтагонг",
+      "entities": [
+        {
+          "text": "Читтагонг",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "2 592 439",
+      "entities": [
+        {
+          "text": "2 592 439",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Читтагонг",
+      "entities": [
+        {
+          "text": "Читтагонг",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Кхулна",
+      "entities": [
+        {
+          "text": "Кхулна",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "664 728",
+      "entities": [
+        {
+          "text": "664 728",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Кхулна",
+      "entities": [
+        {
+          "text": "Кхулна",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Силхет",
+      "entities": [
+        {
+          "text": "Силхет",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "531 663",
+      "entities": [
+        {
+          "text": "531 663",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Силхет",
+      "entities": [
+        {
+          "text": "Силхет",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Раджшахи",
+      "entities": [
+        {
+          "text": "Раджшахи",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "451 425",
+      "entities": [
+        {
+          "text": "451 425",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Раджшахи",
+      "entities": [
+        {
+          "text": "Раджшахи",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Комилла",
+      "entities": [
+        {
+          "text": "Комилла",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "407 901",
+      "entities": [
+        {
+          "text": "407 901",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Читтагонг",
+      "entities": [
+        {
+          "text": "Читтагонг",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "Тонги",
+      "entities": [
+        {
+          "text": "Тонги",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "406 420",
+      "entities": [
+        {
+          "text": "406 420",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Дакка",
+      "entities": [
+        {
+          "text": "Дакка",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "Богра",
+      "entities": [
+        {
+          "text": "Богра",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "400 983",
+      "entities": [
+        {
+          "text": "400 983",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Раджшахи",
+      "entities": [
+        {
+          "text": "Раджшахи",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "Маймансингх",
+      "entities": [
+        {
+          "text": "Маймансингх",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "389 918",
+      "entities": [
+        {
+          "text": "389 918",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Маймансингх",
+      "entities": [
+        {
+          "text": "Маймансингх",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "Барисал",
+      "entities": [
+        {
+          "text": "Барисал",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "339 308",
+      "entities": [
+        {
+          "text": "339 308",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Барисал",
+      "entities": [
+        {
+          "text": "Барисал",
+          "label": "GPE"
+        }
+      ]
+    }
+  ]
+}

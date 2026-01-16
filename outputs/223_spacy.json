@@ -1,0 +1,691 @@
+{
+  "table_name": "223_locations_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Португальская Юго-Западная Африка",
+      "entities": [
+        {
+          "text": "Юго-Западная Африка",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "1975",
+      "entities": [
+        {
+          "text": "1975",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Республика Ангола",
+      "entities": [
+        {
+          "text": "Республика Ангола",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Дагомея",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "1975",
+      "entities": [
+        {
+          "text": "1975",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Республика Бенин",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Протекторат Бечуаналенд",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "1966",
+      "entities": [
+        {
+          "text": "1966",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Республика Ботсвана",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Республика Верхняя Вольта",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "1984",
+      "entities": [
+        {
+          "text": "1984",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Республика Буркина-Фасо",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Убанги-Шари",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "1960",
+      "entities": [
+        {
+          "text": "1960",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Центральноафриканская Республика",
+      "entities": [
+        {
+          "text": "Центральноафриканская Республика",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Республика Заир",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "1997",
+      "entities": [
+        {
+          "text": "1997",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Демократическая Республика Конго",
+      "entities": [
+        {
+          "text": "Демократическая Республика Конго",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "Среднее Конго",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "1960",
+      "entities": [
+        {
+          "text": "1960",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Республика Конго",
+      "entities": [
+        {
+          "text": "Республика Конго",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "Берег Слоновой Кости",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "1985",
+      "entities": [
+        {
+          "text": "1985",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Республика Кот-д’Ивуар*",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "Французская территория афаров и исса",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "1977",
+      "entities": [
+        {
+          "text": "1977",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Республика Джибути",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "Испанская Гвинея",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "1968",
+      "entities": [
+        {
+          "text": "1968",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Республика Экваториальная Гвинея",
+      "entities": [
+        {
+          "text": "Республика Экваториальная Гвинея",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "text": "Абиссиния",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "1941",
+      "entities": [
+        {
+          "text": "1941",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "Федеральная Демократическая Республика Эфиопия",
+      "entities": [
+        {
+          "text": "Федеральная Демократическая Республика Эфиопия",
+          "label": "ORG"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 1,
+      "text": "Золотой Берег",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "1957",
+      "entities": [
+        {
+          "text": "1957",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "Республика Гана",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 1,
+      "text": "часть Французской Западной Африки",
+      "entities": [
+        {
+          "text": "Французской Западной Африки",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "1958",
+      "entities": [
+        {
+          "text": "1958",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "text": "Республика Гвинея",
+      "entities": [
+        {
+          "text": "Республика Гвинея",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 1,
+      "text": "Португальская Гвинея",
+      "entities": [
+        {
+          "text": "Португальская Гвинея",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "1974",
+      "entities": [
+        {
+          "text": "1974",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 3,
+      "text": "Республика Гвинея-Бисау",
+      "entities": [
+        {
+          "text": "Республика Гвинея-Бисау",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "col": 1,
+      "text": "Протекторат Басутоленд",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "1966",
+      "entities": [
+        {
+          "text": "1966",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "col": 3,
+      "text": "Королевство Лесото",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 1,
+      "text": "Протекторат Ньясаленд",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "1964",
+      "entities": [
+        {
+          "text": "1964",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "col": 3,
+      "text": "Республика Малави",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 1,
+      "text": "Французский Судан",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "1960",
+      "entities": [
+        {
+          "text": "1960",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "col": 3,
+      "text": "Республика Мали",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 1,
+      "text": "Германская Юго-Западная Африка",
+      "entities": [
+        {
+          "text": "Юго-Западная Африка",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "col": 2,
+      "text": "1990",
+      "entities": [
+        {
+          "text": "1990",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "col": 3,
+      "text": "Республика Намибия",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 1,
+      "text": "Германская Восточная Африка / Руанда-Урунди",
+      "entities": [
+        {
+          "text": "Руанда-Урунди",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "col": 2,
+      "text": "1962",
+      "entities": [
+        {
+          "text": "1962",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "col": 3,
+      "text": "Республика Руанда / Республика Бурунди",
+      "entities": [
+        {
+          "text": "Республика Бурунди",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "col": 1,
+      "text": "Британский Сомалиленд / Итальянский Сомалиленд",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 2,
+      "text": "1960",
+      "entities": [
+        {
+          "text": "1960",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "col": 3,
+      "text": "Республика Сомали",
+      "entities": [
+        {
+          "text": "Республика Сомали",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "col": 1,
+      "text": "Занзибар / Танганьика",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 2,
+      "text": "1964",
+      "entities": [
+        {
+          "text": "1964",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "col": 3,
+      "text": "Объединённая республика Танзания",
+      "entities": [
+        {
+          "text": "Объединённая республика Танзания",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "col": 1,
+      "text": "Буганда",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 2,
+      "text": "1962",
+      "entities": [
+        {
+          "text": "1962",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "col": 3,
+      "text": "Республика Уганда",
+      "entities": [
+        {
+          "text": "Республика Уганда",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 24,
+      "col": 1,
+      "text": "Северная Родезия",
+      "entities": [
+        {
+          "text": "Северная Родезия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 24,
+      "col": 2,
+      "text": "1964",
+      "entities": [
+        {
+          "text": "1964",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 24,
+      "col": 3,
+      "text": "Республика Замбия",
+      "entities": [
+        {
+          "text": "Республика Замбия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "col": 1,
+      "text": "Южная Родезия",
+      "entities": [
+        {
+          "text": "Южная Родезия",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "col": 2,
+      "text": "1980",
+      "entities": [
+        {
+          "text": "1980",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "col": 3,
+      "text": "Республика Зимбабве",
+      "entities": [
+        {
+          "text": "Республика Зимбабве",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "col": 1,
+      "text": "Королевство Свазиленд",
+      "entities": []
+    },
+    {
+      "row": 26,
+      "col": 2,
+      "text": "2018",
+      "entities": [
+        {
+          "text": "2018",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "col": 3,
+      "text": "Королевство Эсватини",
+      "entities": []
+    }
+  ]
+}

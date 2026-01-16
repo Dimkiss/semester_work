@@ -1,0 +1,363 @@
+{
+  "table_name": "211_locations_table.csv",
+  "method": "gigachat_few",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "few"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Андрос",
+      "entities": [
+        {
+          "text": "Андрос",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "5 957",
+      "entities": [
+        {
+          "text": "5 957",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "7 386",
+      "entities": [
+        {
+          "text": "7 386",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Абако",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "2 009",
+      "entities": [
+        {
+          "text": "2 009",
+          "label": "DATE"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "17 224",
+      "entities": [
+        {
+          "text": "17 224",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Инагуа",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "1 679",
+      "entities": [
+        {
+          "text": "1 679",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "913",
+      "entities": [
+        {
+          "text": "913",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Большой Багама",
+      "entities": [
+        {
+          "text": "Большой Багама",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "1 373",
+      "entities": [
+        {
+          "text": "1 373",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "51 756",
+      "entities": [
+        {
+          "text": "51 756",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Лонг-Айленд",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "596",
+      "entities": [
+        {
+          "text": "596",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "3 094",
+      "entities": [
+        {
+          "text": "3 094",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Эльютера",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "457",
+      "entities": [
+        {
+          "text": "457",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "11 000",
+      "entities": [
+        {
+          "text": "11 000",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Кэт",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "389",
+      "entities": [
+        {
+          "text": "389",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "1 522",
+      "entities": [
+        {
+          "text": "1 522",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Аклинс",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "389",
+      "entities": [
+        {
+          "text": "389",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "565",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Маягуана",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "280",
+      "entities": [
+        {
+          "text": "280",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "277",
+      "entities": [
+        {
+          "text": "277",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Эксума",
+      "entities": [
+        {
+          "text": "Эксума",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "250",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "text": "6 928",
+      "entities": [
+        {
+          "text": "6 928",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "Нью-Провиденс",
+      "entities": [
+        {
+          "text": "Нью-Провиденс",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "207",
+      "entities": [
+        {
+          "text": "207",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "text": "274 400",
+      "entities": [
+        {
+          "text": "274 400",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "Сан-Сальвадор",
+      "entities": [
+        {
+          "text": "Сан-Сальвадор",
+          "label": "LOC"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "163",
+      "entities": [
+        {
+          "text": "163",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 4,
+      "text": "930",
+      "entities": [
+        {
+          "text": "930",
+          "label": "QUANTITY"
+        }
+      ]
+    }
+  ]
+}

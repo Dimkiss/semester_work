@@ -1,0 +1,1335 @@
+{
+  "table_name": "212_sports_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Вратари",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Вратари",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "Вратари",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "Вратари",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "text": "Вратари",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "text": "Вратари",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 8,
+      "text": "Вратари",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 9,
+      "text": "Вратари",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Томас Грайсс",
+      "entities": [
+        {
+          "text": "Томас Грайсс",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "29 января 1986 (35 лет)",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "text": "185",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "text": "103",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 8,
+      "text": "3600000",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 9,
+      "text": "2021/22",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Кэлвин Пикард",
+      "entities": [
+        {
+          "text": "Кэлвин Пикард",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "15 апреля 1992 (29 лет)",
+      "entities": [
+        {
+          "text": "15 апреля 1992",
+          "label": "DATE"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "text": "185",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "text": "95",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 8,
+      "text": "800000",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 9,
+      "text": "2021/22",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Алекс Неделькович",
+      "entities": [
+        {
+          "text": "Алекс Неделькович",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "7 января 1996 (25 лет)",
+      "entities": [
+        {
+          "text": "7 января 1996",
+          "label": "DATE"
+        },
+        {
+          "text": "25 лет",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "text": "183",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "text": "86",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 8,
+      "text": "3000000",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 9,
+      "text": "2022/23",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Защитники",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Защитники",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "Защитники",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "text": "Защитники",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "text": "Защитники",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "text": "Защитники",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 8,
+      "text": "Защитники",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 9,
+      "text": "Защитники",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Ник Ледди",
+      "entities": [
+        {
+          "text": "Ник Ледди",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "text": "20 марта 1991 (30 лет)",
+      "entities": [
+        {
+          "text": "20 марта 1991",
+          "label": "DATE"
+        },
+        {
+          "text": "30 лет",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "text": "183",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "text": "88",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 8,
+      "text": "5500000",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 9,
+      "text": "2021/22",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Филип Гронек",
+      "entities": [
+        {
+          "text": "Филип Гронек",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "Правый",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "text": "2 ноября 1997 (23 года)",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "text": "183",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 7,
+      "text": "77",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 8,
+      "text": "4400000",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 9,
+      "text": "2023/24",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Марк Стаал",
+      "entities": [
+        {
+          "text": "Марк Стаал",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 5,
+      "text": "13 января 1987 (34 года)",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "text": "193",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 7,
+      "text": "94",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 8,
+      "text": "2000000",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 9,
+      "text": "2021/22",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Густав Линдстрём",
+      "entities": [
+        {
+          "text": "Густав Линдстрём",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "Правый",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 5,
+      "text": "20 октября 1998 (22 года)",
+      "entities": [
+        {
+          "text": "20 октября 1998",
+          "label": "DATE"
+        },
+        {
+          "text": "22 года",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 6,
+      "text": "187",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 7,
+      "text": "85",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 8,
+      "text": "850000",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 9,
+      "text": "2022/23",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Дэнни Декайзер",
+      "entities": [
+        {
+          "text": "Дэнни Декайзер",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "text": "3 июля 1990 (31 год)",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 6,
+      "text": "191",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 7,
+      "text": "87",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 8,
+      "text": "5000000",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 9,
+      "text": "2021/22",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "Трой Стечер",
+      "entities": [
+        {
+          "text": "Трой Стечер",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "text": "Правый",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 5,
+      "text": "7 апреля 1994 (27 лет)",
+      "entities": [
+        {
+          "text": "7 апреля 1994",
+          "label": "DATE"
+        },
+        {
+          "text": "27 лет",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 6,
+      "text": "178",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 7,
+      "text": "86",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 8,
+      "text": "1700000",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 9,
+      "text": "2021/22",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "Джордан Остерле",
+      "entities": [
+        {
+          "text": "Джордан Остерле",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 5,
+      "text": "25 июня 1992 (29 лет)",
+      "entities": [
+        {
+          "text": "25 июня 1992",
+          "label": "DATE"
+        },
+        {
+          "text": "29 лет",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 6,
+      "text": "183",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 7,
+      "text": "83",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 8,
+      "text": "1350000",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 9,
+      "text": "2022/23",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "Левые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "text": "Левые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 4,
+      "text": "Левые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 5,
+      "text": "Левые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 6,
+      "text": "Левые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 7,
+      "text": "Левые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 8,
+      "text": "Левые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 9,
+      "text": "Левые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "Якуб Врана",
+      "entities": [
+        {
+          "text": "Якуб Врана",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 5,
+      "text": "28 февраля 1996 (25 лет)",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 6,
+      "text": "180",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 7,
+      "text": "84",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 8,
+      "text": "5250000",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 9,
+      "text": "2023/24",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "Джавани Смит",
+      "entities": [
+        {
+          "text": "Джавани Смит",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 5,
+      "text": "27 февраля 1998 (23 года)",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 6,
+      "text": "188",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 7,
+      "text": "95",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 8,
+      "text": "750000",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 9,
+      "text": "2022/23",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "Тайлер Бертуцци",
+      "entities": [
+        {
+          "text": "Тайлер Бертуцци",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 5,
+      "text": "24 февраля 1995 (26 лет)",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 6,
+      "text": "183",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 7,
+      "text": "81",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 8,
+      "text": "4750000",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 9,
+      "text": "2022/23",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "Адам Эрни",
+      "entities": [
+        {
+          "text": "Адам Эрни",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 5,
+      "text": "20 апреля 1995 (26 лет)",
+      "entities": [
+        {
+          "text": "20 апреля 1995",
+          "label": "DATE"
+        },
+        {
+          "text": "26 лет",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "col": 6,
+      "text": "185",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 7,
+      "text": "97",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 8,
+      "text": "2100000",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 9,
+      "text": "2022/23",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 2,
+      "text": "Матиас Бруме",
+      "entities": [
+        {
+          "text": "Матиас Бруме",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 5,
+      "text": "29 июля 1994 (27 лет)",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 6,
+      "text": "182",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 7,
+      "text": "83",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 8,
+      "text": "925000",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 9,
+      "text": "2020/21",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 2,
+      "text": "Центрфорварды",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 3,
+      "text": "Центрфорварды",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 4,
+      "text": "Центрфорварды",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 5,
+      "text": "Центрфорварды",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 6,
+      "text": "Центрфорварды",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 7,
+      "text": "Центрфорварды",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 8,
+      "text": "Центрфорварды",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 9,
+      "text": "Центрфорварды",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 2,
+      "text": "Робби Фаббри",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 5,
+      "text": "22 января 1996 (25 лет)",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 6,
+      "text": "179",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 7,
+      "text": "88",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 8,
+      "text": "2950000",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 9,
+      "text": "2021/22",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 2,
+      "text": "Пиус Зутер",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 5,
+      "text": "24 мая 1996 (25 лет)",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 6,
+      "text": "180",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 7,
+      "text": "80",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 8,
+      "text": "3250000",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 9,
+      "text": "2022/23",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 2,
+      "text": "Картер Рауни",
+      "entities": [
+        {
+          "text": "Картер Рауни",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "col": 4,
+      "text": "Правый",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 5,
+      "text": "10 мая 1989 (32 года)",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 6,
+      "text": "185",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 7,
+      "text": "94",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 8,
+      "text": "825000",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 9,
+      "text": "2021/22",
+      "entities": []
+    },
+    {
+      "row": 24,
+      "col": 2,
+      "text": "Дилан Ларкин",
+      "entities": [
+        {
+          "text": "Дилан Ларкин",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 24,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 24,
+      "col": 5,
+      "text": "30 июля 1996 (25 лет)",
+      "entities": []
+    },
+    {
+      "row": 24,
+      "col": 6,
+      "text": "185",
+      "entities": []
+    },
+    {
+      "row": 24,
+      "col": 7,
+      "text": "90",
+      "entities": []
+    },
+    {
+      "row": 24,
+      "col": 8,
+      "text": "6100000",
+      "entities": []
+    },
+    {
+      "row": 24,
+      "col": 9,
+      "text": "2022/23",
+      "entities": []
+    },
+    {
+      "row": 25,
+      "col": 2,
+      "text": "Сэм Ганье",
+      "entities": [
+        {
+          "text": "Сэм Ганье",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "col": 4,
+      "text": "Правый",
+      "entities": []
+    },
+    {
+      "row": 25,
+      "col": 5,
+      "text": "10 августа 1989 (32 года)",
+      "entities": []
+    },
+    {
+      "row": 25,
+      "col": 6,
+      "text": "180",
+      "entities": []
+    },
+    {
+      "row": 25,
+      "col": 7,
+      "text": "91",
+      "entities": []
+    },
+    {
+      "row": 25,
+      "col": 8,
+      "text": "850000",
+      "entities": []
+    },
+    {
+      "row": 25,
+      "col": 9,
+      "text": "2021/22",
+      "entities": []
+    },
+    {
+      "row": 26,
+      "col": 2,
+      "text": "Владислав Наместников",
+      "entities": [
+        {
+          "text": "Владислав Наместников",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 26,
+      "col": 5,
+      "text": "22 ноября 1992 (28 лет)",
+      "entities": []
+    },
+    {
+      "row": 26,
+      "col": 6,
+      "text": "182",
+      "entities": []
+    },
+    {
+      "row": 26,
+      "col": 7,
+      "text": "85",
+      "entities": []
+    },
+    {
+      "row": 26,
+      "col": 8,
+      "text": "2000000",
+      "entities": []
+    },
+    {
+      "row": 26,
+      "col": 9,
+      "text": "2021/22",
+      "entities": []
+    },
+    {
+      "row": 27,
+      "col": 2,
+      "text": "Правые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 27,
+      "col": 3,
+      "text": "Правые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 27,
+      "col": 4,
+      "text": "Правые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 27,
+      "col": 5,
+      "text": "Правые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 27,
+      "col": 6,
+      "text": "Правые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 27,
+      "col": 7,
+      "text": "Правые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 27,
+      "col": 8,
+      "text": "Правые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 27,
+      "col": 9,
+      "text": "Правые крайние нападающие",
+      "entities": []
+    },
+    {
+      "row": 28,
+      "col": 2,
+      "text": "Филип Задина",
+      "entities": [
+        {
+          "text": "Филип Задина",
+          "label": "PER"
+        }
+      ]
+    },
+    {
+      "row": 28,
+      "col": 4,
+      "text": "Левый",
+      "entities": []
+    },
+    {
+      "row": 28,
+      "col": 5,
+      "text": "27 ноября 1999 (21 год)",
+      "entities": []
+    },
+    {
+      "row": 28,
+      "col": 6,
+      "text": "185",
+      "entities": []
+    },
+    {
+      "row": 28,
+      "col": 7,
+      "text": "86",
+      "entities": []
+    },
+    {
+      "row": 28,
+      "col": 8,
+      "text": "894167",
+      "entities": []
+    },
+    {
+      "row": 28,
+      "col": 9,
+      "text": "2021/22",
+      "entities": []
+    }
+  ]
+}

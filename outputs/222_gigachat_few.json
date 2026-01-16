@@ -1,0 +1,137 @@
+{
+  "table_name": "222_locations_table.csv",
+  "method": "gigachat_few",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "few"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Афроевразия",
+      "entities": [
+        {
+          "text": "Афроевразия",
+          "label": "MISC"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "1644,9x822,45.",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "58 %.",
+      "entities": [
+        {
+          "text": "58 %",
+          "label": "PERCENT"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "71 %.",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "95.0",
+      "entities": [
+        {
+          "text": "95.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Америка",
+      "entities": [
+        {
+          "text": "Америка",
+          "label": "GPE"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "833,2х416,6.",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "29 %.",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "12 %.",
+      "entities": [
+        {
+          "text": "12 %",
+          "label": "PERCENT"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "221.0",
+      "entities": [
+        {
+          "text": "221.0",
+          "label": "QUANTITY"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Океания",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "491,2х245,6",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "8 %.",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "8 %",
+      "entities": [
+        {
+          "text": "8 %",
+          "label": "PERCENT"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "3.2",
+      "entities": []
+    }
+  ]
+}

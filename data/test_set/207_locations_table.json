@@ -1,0 +1,114 @@
+{
+  "table_name": "string",
+  "method": "manual",
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Алма-Ата",
+      "entities": [{"text":"Алма-Ата","label":"LOC"}]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "30/18",
+      "entities": [{"text":"30/18","label":"QUANTITY"}]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "0/−8",
+      "entities": [{"text":"0/−8","label":"QUANTITY"}]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Шымкент",
+      "entities": [{"text":"Шымкент","label":"LOC"}]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "32/17",
+      "entities": [{"text":"32/17","label":"QUANTITY"}]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "4/−4",
+      "entities": [{"text":"4/−4","label":"QUANTITY"}]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Караганда",
+      "entities": [{"text":"Караганда","label":"LOC"}]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "27/14",
+      "entities": [{"text":"27/14","label":"QUANTITY"}]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "−8/−17",
+      "entities": [{"text":"−8/−17","label":"QUANTITY"}]
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Нур-Султан",
+      "entities": [{"text":"Нур-Султан","label":"LOC"}]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "27/15",
+      "entities": [{"text":"27/15","label":"QUANTITY"}]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "−10/−18",
+      "entities": [{"text":"−10/−18","label":"QUANTITY"}]
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Павлодар",
+      "entities": [{"text":"Павлодар","label":"LOC"}]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "28/15",
+      "entities": [ {"text":"28/15","label":"QUANTITY"} ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "−11/−20",
+      "entities": [{"text":"−11/−20","label":"QUANTITY"}]
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Актобе",
+      "entities": [{"text":"Актобе","label":"LOC"}]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "30/15",
+      "entities": [{"text":"30/15","label":"QUANTITY"}]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "−8/−16",
+      "entities": [{"text":"−8/−16","label":"QUANTITY"}]
+    }
+  ]
+}

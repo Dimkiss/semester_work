@@ -1,0 +1,434 @@
+{
+  "table_name": "101_tv_shows_table",
+  "method": "manual",
+  "results": [
+{
+      "row": 2,
+      "col": 2,
+      "text": "Брокопондо",
+      "entities": [
+        {"text":"Брокопондо","label":"GPE"}
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Брокопондо",
+      "entities": [
+        {"text":"Брокопондо","label":"LOC"}
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "7364",
+      "entities": [
+        {"text":"7364","label":"QUANTITY"}
+      ]
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "14 215",
+      "entities": [
+         {"text":"14 215","label":"QUANTITY"}
+      ]
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "text": "193",
+      "entities": [
+        {"text":"193","label":"QUANTITY"}
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Коммевейне",
+      "entities": [
+        { "text": "Коммевейне", "label": "GPE" }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Ньив-Амстердам",
+      "entities": [
+        { "text": "Ньив-Амстердам", "label": "LOC" }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "2353",
+      "entities": [
+        {"text":"2353","label":"QUANTITY"}
+      ]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "24 649",
+      "entities": [
+        {"text":"24 649","label":"QUANTITY"}
+      ]
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "text": "1048",
+      "entities": [
+        {"text":"1048","label":"QUANTITY"}
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Корони",
+      "entities": [
+        {"text":"Корони","label":"GPE"}
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Тотнесс",
+      "entities": [
+        {"text":"Тотнесс","label":"LOC"}
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "3902",
+      "entities": [
+        {"text":"3902","label":"QUANTITY"}
+      ]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "2887",
+      "entities": [
+        {"text":"2887","label":"QUANTITY"}
+      ]
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "text": "74",
+      "entities": [
+        {"text":"74","label":"QUANTITY"}
+      ]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Маровейне",
+      "entities": [
+        { "text": "Маровейне", "label": "GPE" }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Албина",
+      "entities": [
+        {"text":"Албина","label":"LOC"}
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "4627",
+      "entities": [
+        { "text": "4627", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "16 642",
+      "entities": [
+        {"text":"16 642","label":"QUANTITY"}
+      ]
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "text": "360",
+      "entities": [
+        {"text":"360","label":"QUANTITY"}
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Никкери",
+      "entities": [
+        {"text":"Никкери","label":"GPE"}
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Ньив-Никкери",
+      "entities": [
+        { "text": "Ньив-Никкери", "label": "LOC" }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "5353",
+      "entities": [
+        { "text": "5353", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "text": "36 639",
+      "entities": [
+        { "text": "36 639", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "text": "684",
+      "entities": [
+        { "text": "684", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Пара",
+      "entities": [
+        { "text": "Пара", "label": "GPE" }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Онвервахт",
+      "entities": [
+        { "text": "Онвервахт", "label": "LOC" }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "5393",
+      "entities": [
+        { "text": "5393", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "text": "18 749",
+      "entities": [
+        { "text": "18 749", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "text": "348",
+      "entities": [
+        { "text": "348", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Парамарибо",
+      "entities": [
+        { "text": "Парамарибо", "label": "GPE" }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Парамарибо",
+      "entities": [
+        { "text": "Парамарибо", "label": "LOC" }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "183",
+      "entities": [
+        { "text": "183", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "text": "242 946",
+      "entities": [
+        { "text": "242 946", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "text": "132757",
+      "entities": [
+        { "text": "132757", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Сарамакка",
+      "entities": [
+        { "text": "Сарамакка", "label": "GPE" }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Гронинген",
+      "entities": [
+        { "text": "Гронинген", "label": "LOC" }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "3 636",
+      "entities": [
+        { "text": "3 636", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 5,
+      "text": "15 980",
+      "entities": [
+        { "text": "15 980", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "text": "439",
+      "entities": [
+        { "text": "439", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Сипаливини",
+      "entities": [
+        { "text": "Сипаливини", "label": "GPE" }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "отсутствует",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "130 567",
+      "entities": [
+        { "text": "130 567", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 5,
+      "text": "34 136",
+      "entities": [
+        { "text": "34 136", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 6,
+      "text": "26",
+      "entities": [
+        { "text": "26", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Ваника",
+      "entities": [
+        { "text": "Ваника", "label": "GPE" }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Лелидорп",
+      "entities": [
+        { "text": "Лелидорп", "label": "LOC" }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "text": "442",
+      "entities": [
+        { "text": "442", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "text": "85 986",
+      "entities": [
+        { "text": "85 986", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 6,
+      "text": "19454",
+      "entities": [
+        { "text": "19454", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "Всего",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "text": "163 820",
+      "entities": [
+        { "text": "163 820", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 5,
+      "text": "492 829",
+      "entities": [
+        { "text": "492 829", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 6,
+      "text": "301",
+      "entities": [
+        { "text": "301", "label": "QUANTITY" }
+      ]
+    }
+  ]
+}

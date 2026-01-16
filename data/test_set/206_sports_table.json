@@ -1,0 +1,2038 @@
+{
+  "table_name": "string",
+  "method": "manual",
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "2010/11",
+      "entities": [
+        {"text":"2010/11","label":"DATE"}
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "ГруппаB",
+      "entities": [
+        {"text":"1/8 финала","label":"MISC"}
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "Лион",
+      "entities": [
+        {"text":"Лион","label":"ORG"}
+      ]
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "3–0",
+      "entities": [
+        {"text":"3–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "text": "0–1",
+      "entities": [
+        {"text":"0–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "2010/11",
+      "entities": [
+        {"text":"2010/11","label":"DATE"}
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "ГруппаB",
+      "entities": [
+        {"text":"ГруппаB","label":"MISC"}
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "Бенфика",
+      "entities": [
+        {"text":"Бенфика","label":"ORG"}
+      ]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "2–0",
+      "entities": [
+        {"text":"2–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "text": "2–1",
+      "entities": [
+        {"text":"2–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "2010/11",
+      "entities": [
+        {"text":"2010/11","label":"DATE"}
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "ГруппаB",
+      "entities": [
+        {"text":"ГруппаB","label":"MISC"}
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "Хапоэль (Тель-Авив)",
+      "entities": [
+        {"text":"Хапоэль (Тель-Авив)","label":"ORG"}
+      ]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "3–1",
+      "entities": [
+        {"text":"3–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "text": "0–0",
+      "entities": [
+        {"text":"0–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "2010/11",
+      "entities": [
+        {"text":"2010/11","label":"DATE"}
+      ]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "1/8 финала",
+      "entities": [
+        {"text":"1/8 финала","label":"MISC"}
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "Валенсия",
+      "entities": [
+        {"text":"Валенсия","label":"ORG"}
+      ]
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "3–1",
+      "entities": [
+        {"text":"3–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "text": "1–1",
+      "entities": [
+        {"text":"1–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "text": "4–2",
+      "entities": [
+        {"text":"4–2","label":"MISC"}
+      ]
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "2010/11",
+      "entities": [
+        {"text":"2010/11","label":"DATE"}
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Четвертьфинал",
+      "entities": [
+        {"text":"Четвертьфинал","label":"MISC"}
+      ]
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "Интернационале",
+      "entities": [
+        {"text":"Интернационале","label":"ORG"}
+      ]
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "text": "2–1",
+      "entities": [
+        {"text":"2–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "text": "5–2",
+      "entities": [
+        {"text":"5–2","label":"MISC"}
+      ]
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "text": "7–3",
+      "entities": [
+        {"text":"7–3","label":"MISC"}
+      ]
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "2010/11",
+      "entities": [
+        {"text":"2010/11","label":"DATE"}
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Полуфинал",
+      "entities": [
+        {"text":"Полуфинал","label":"MISC"}
+      ]
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "Манчестер Юнайтед",
+      "entities": [
+        {"text":"Манчестер Юнайтед","label":"ORG"}
+      ]
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "text": "0–2",
+      "entities": [
+        {"text":"0–2","label":"MISC"}
+      ]
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "text": "1–4",
+      "entities": [
+        {"text":"1–4","label":"MISC"}
+      ]
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "text": "1–6",
+      "entities": [
+        {"text":"1–6","label":"MISC"}
+      ]
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "2011/12",
+      "entities": [
+        {"text":"2011/12","label":"DATE"}
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [
+        {"text":"Лига Европы","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "4 кв. раунд",
+      "entities": [
+        {"text":"4 кв. раунд","label":"MISC"}
+      ]
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "ХИК",
+      "entities": [
+        {"text":"ХИК","label":"ORG"}
+      ]
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "text": "6–1",
+      "entities": [
+        {"text":"6–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "text": "0–2",
+      "entities": [
+        {"text":"0–2","label":"MISC"}
+      ]
+    },
+    {
+      "row": 8,
+      "col": 7,
+      "text": "6–3",
+      "entities": [
+        {"text":"6–3","label":"MISC"}
+      ]
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "2011/12",
+      "entities": [
+        {"text":"2011/12","label":"DATE"}
+      ]
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [
+        {"text":"Лига Европы","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "ГруппаJ",
+      "entities": [
+        {"text":"ГруппаJ","label":"MISC"}
+      ]
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "АЕК (Ларнака)",
+      "entities": [
+        {"text":"АЕК (Ларнака)","label":"ORG"}
+      ]
+    },
+    {
+      "row": 9,
+      "col": 5,
+      "text": "0–0",
+      "entities": [
+        {"text":"0–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "text": "5–0",
+      "entities": [
+        {"text":"5–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 9,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "2011/12",
+      "entities": [
+        {"text":"2011/12","label":"DATE"}
+      ]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [
+        {"text":"Лига Европы","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "ГруппаJ",
+      "entities": [
+        {"text":"ГруппаJ","label":"MISC"}
+      ]
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "Маккаби (Хайфа)",
+      "entities": [
+        {"text":"Маккаби (Хайфа)","label":"ORG"}
+      ]
+    },
+    {
+      "row": 10,
+      "col": 5,
+      "text": "3–1",
+      "entities": [
+        {"text":"3–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 10,
+      "col": 6,
+      "text": "3–0",
+      "entities": [
+        {"text":"3–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 10,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "2011/12",
+      "entities": [
+        {"text":"2011/12","label":"DATE"}
+      ]
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [
+        {"text":"Лига Европы","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "ГруппаJ",
+      "entities": [
+        {"text":"ГруппаJ","label":"MISC"}
+      ]
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "text": "Стяуа",
+      "entities": [
+        {"text":"Стяуа","label":"ORG"}
+      ]
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "text": "2–1",
+      "entities": [
+        {"text":"2–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 11,
+      "col": 6,
+      "text": "0–0",
+      "entities": [
+        {"text":"0–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 11,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "text": "2011/12",
+      "entities": [
+        {"text":"2011/12","label":"DATE"}
+      ]
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [
+        {"text":"Лига Европы","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "1/16 финала",
+      "entities": [
+        {"text":"1/16 финала","label":"MISC"}
+      ]
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "text": "Виктория (Пльзень)",
+      "entities": [
+        {"text":"Виктория (Пльзень)","label":"ORG"}
+      ]
+    },
+    {
+      "row": 12,
+      "col": 5,
+      "text": "3–1 (ОТ)",
+      "entities": [
+        {"text":"3–1 (ОТ)","label":"MISC"}
+      ]
+    },
+    {
+      "row": 12,
+      "col": 6,
+      "text": "1–1",
+      "entities": [
+        {"text":"1–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 12,
+      "col": 7,
+      "text": "4–2",
+      "entities": [
+        {"text":"4–2","label":"MISC"}
+      ]
+    },
+    {
+      "row": 13,
+      "col": 1,
+      "text": "2011/12",
+      "entities": [
+        {"text":"2011/12","label":"DATE"}
+      ]
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [
+        {"text":"Лига Европы","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "1/8 финала",
+      "entities": [
+        {"text":"1/8 финала","label":"MISC"}
+      ]
+    },
+    {
+      "row": 13,
+      "col": 4,
+      "text": "Твенте",
+      "entities": [
+        {"text":"Твенте","label":"ORG"}
+      ]
+    },
+    {
+      "row": 13,
+      "col": 5,
+      "text": "4–1",
+      "entities": [
+        {"text":"4–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 13,
+      "col": 6,
+      "text": "0–1",
+      "entities": [
+        {"text":"0–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 13,
+      "col": 7,
+      "text": "4–2",
+      "entities": [
+        {"text":"4–2","label":"MISC"}
+      ]
+    },
+    {
+      "row": 14,
+      "col": 1,
+      "text": "2011/12",
+      "entities": [
+        {"text":"2011/12","label":"DATE"}
+      ]
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [
+        {"text":"Лига Европы","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "text": "1/4 финала",
+      "entities": [
+        {"text":"1/4 финала","label":"MISC"}
+      ]
+    },
+    {
+      "row": 14,
+      "col": 4,
+      "text": "Атлетик Бильбао",
+      "entities": [
+        {"text":"Атлетик Бильбао","label":"ORG"}
+      ]
+    },
+    {
+      "row": 14,
+      "col": 5,
+      "text": "2–4",
+      "entities": [
+        {"text":"2–4","label":"MISC"}
+      ]
+    },
+    {
+      "row": 14,
+      "col": 6,
+      "text": "2–2",
+      "entities": [
+        {"text":"2–2","label":"MISC"}
+      ]
+    },
+    {
+      "row": 14,
+      "col": 7,
+      "text": "4–6",
+      "entities": [
+        {"text":"4–6","label":"MISC"}
+      ]
+    },
+    {
+      "row": 15,
+      "col": 1,
+      "text": "2012/13",
+      "entities": [
+        {"text":"2012/13","label":"DATE"}
+      ]
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 15,
+      "col": 3,
+      "text": "ГруппаB",
+      "entities": [
+        {"text":"ГруппаB","label":"MISC"}
+      ]
+    },
+    {
+      "row": 15,
+      "col": 4,
+      "text": "Олимпиакос",
+      "entities": [
+        {"text":"Олимпиакос","label":"ORG"}
+      ]
+    },
+    {
+      "row": 15,
+      "col": 5,
+      "text": "2–1",
+      "entities": [
+        {"text":"2–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 15,
+      "col": 6,
+      "text": "1–0",
+      "entities": [
+        {"text":"1–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 15,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 1,
+      "text": "2012/13",
+      "entities": [
+        {"text":"2012/13","label":"DATE"}
+      ]
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 16,
+      "col": 3,
+      "text": "ГруппаB",
+      "entities": [
+        {"text":"ГруппаB","label":"MISC"}
+      ]
+    },
+    {
+      "row": 16,
+      "col": 4,
+      "text": "Монпелье",
+      "entities": [
+        {"text":"Монпелье","label":"ORG"}
+      ]
+    },
+    {
+      "row": 16,
+      "col": 5,
+      "text": "2–2",
+      "entities": [
+        {"text":"2–2","label":"MISC"}
+      ]
+    },
+    {
+      "row": 16,
+      "col": 6,
+      "text": "1–1",
+      "entities": [
+        {"text":"1–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 16,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 1,
+      "text": "2012/13",
+      "entities": [
+        {"text":"2012/13","label":"DATE"}
+      ]
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 17,
+      "col": 3,
+      "text": "ГруппаB",
+      "entities": [
+        {"text":"ГруппаB","label":"MISC"}
+      ]
+    },
+    {
+      "row": 17,
+      "col": 4,
+      "text": "Арсенал (Лондон)",
+      "entities": [
+        {"text":"Арсенал (Лондон)","label":"ORG"}
+      ]
+    },
+    {
+      "row": 17,
+      "col": 5,
+      "text": "2–0",
+      "entities": [
+        {"text":"2–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 17,
+      "col": 6,
+      "text": "2–2",
+      "entities": [
+        {"text":"2–2","label":"MISC"}
+      ]
+    },
+    {
+      "row": 17,
+      "col": 7,
+      "text": "–",
+      "entities": [
+
+      ]
+    },
+    {
+      "row": 18,
+      "col": 1,
+      "text": "2012/13",
+      "entities": [
+        {"text":"2012/13","label":"DATE"}
+      ]
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 18,
+      "col": 3,
+      "text": "1/8 финала",
+      "entities": [
+        {"text":"1/8 финала","label":"MISC"}
+      ]
+    },
+    {
+      "row": 18,
+      "col": 4,
+      "text": "Галатасарай",
+      "entities": [
+        {"text":"Галатасарай","label":"ORG"}
+      ]
+    },
+    {
+      "row": 18,
+      "col": 5,
+      "text": "2–3",
+      "entities": [
+        {"text":"2–3","label":"MISC"}
+      ]
+    },
+    {
+      "row": 18,
+      "col": 6,
+      "text": "1–1",
+      "entities": [
+        {"text":"1–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 18,
+      "col": 7,
+      "text": "3–4",
+      "entities": [   
+        {"text":"3–4","label":"MISC"}
+      ]
+    },
+    {
+      "row": 19,
+      "col": 1,
+      "text": "2013/14",
+      "entities": [ 
+        {"text":"2013/14","label":"DATE"}
+      ]
+    },
+    {
+      "row": 19,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ 
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 19,
+      "col": 3,
+      "text": "Раундплей-офф",
+      "entities": [ 
+        {"text":"Раундплей-офф","label":"MISC"}
+      ]
+    },
+    {
+      "row": 19,
+      "col": 4,
+      "text": "ПАОК",
+      "entities": [ 
+        {"text":"ПАОК","label":"ORG"}
+      ]
+    },
+    {
+      "row": 19,
+      "col": 5,
+      "text": "1–1",
+      "entities": [ 
+        {"text":"1–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 19,
+      "col": 6,
+      "text": "3–2",
+      "entities": [ 
+        {"text":"3–2","label":"MISC"}
+      ]
+    },
+    {
+      "row": 19,
+      "col": 7,
+      "text": "4–3",
+      "entities": [ 
+        {"text":"4–3","label":"MISC"}
+      ]
+    },
+    {
+      "row": 20,
+      "col": 1,
+      "text": "2013/14",
+      "entities": [   
+        {"text":"2013/14","label":"DATE"}
+      ]
+    },
+    {
+      "row": 20,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ 
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 20,
+      "col": 3,
+      "text": "ГруппаE",
+      "entities": [ 
+        {"text":"ГруппаE","label":"MISC"}
+      ]
+    },
+    {
+      "row": 20,
+      "col": 4,
+      "text": "Стяуа",
+      "entities": [ 
+        {"text":"Стяуа","label":"ORG"}
+      ]
+    },
+    {
+      "row": 20,
+      "col": 5,
+      "text": "3–0",
+      "entities": [ 
+        {"text":"3–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 20,
+      "col": 6,
+      "text": "0–0",
+      "entities": [ 
+        {"text":"0–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 20,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 1,
+      "text": "2013/14",
+      "entities": [
+        {"text":"2013/14","label":"DATE"}
+      ]
+    },
+    {
+      "row": 21,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ 
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 21,
+      "col": 3,
+      "text": "ГруппаE",
+      "entities": [ 
+        {"text":"ГруппаE","label":"MISC"}
+      ]
+    },
+    {
+      "row": 21,
+      "col": 4,
+      "text": "Базель",
+      "entities": [ 
+        {"text":"Базель","label":"ORG"}
+      ]
+    },
+    {
+      "row": 21,
+      "col": 5,
+      "text": "2–0",
+      "entities": [ 
+        {"text":"2–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 21,
+      "col": 6,
+      "text": "1–0",
+      "entities": [ 
+        {"text":"1–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 21,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 1,
+      "text": "2013/14",
+      "entities": [ 
+        {"text":"2013/14","label":"DATE"}
+      ]
+    },
+    {
+      "row": 22,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ 
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 22,
+      "col": 3,
+      "text": "ГруппаE",
+      "entities": [ 
+        {"text":"ГруппаE","label":"MISC"}
+      ]
+    },
+    {
+      "row": 22,
+      "col": 4,
+      "text": "Челси",
+      "entities": [ 
+        {"text":"Челси","label":"ORG"}
+      ]
+    },
+    {
+      "row": 22,
+      "col": 5,
+      "text": "0–3",
+      "entities": [ 
+        {"text":"0–3","label":"MISC"}
+      ]
+    },
+    {
+      "row": 22,
+      "col": 6,
+      "text": "0–3",
+      "entities": [ 
+        {"text":"0–3","label":"MISC"}
+      ]
+    },
+    {
+      "row": 22,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 1,
+      "text": "2013/14",
+      "entities": [ 
+        {"text":"2013/14","label":"DATE"}
+      ]
+    },
+    {
+      "row": 23,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ 
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 23,
+      "col": 3,
+      "text": "1/8 финала",
+      "entities": [ 
+        {"text":"1/8 финала","label":"MISC"}
+      ]
+    },
+    {
+      "row": 23,
+      "col": 4,
+      "text": "Реал Мадрид",
+      "entities": [ 
+        {"text":"Реал Мадрид","label":"ORG"}
+      ]
+    },
+    {
+      "row": 23,
+      "col": 5,
+      "text": "1–6",
+      "entities": [
+        {"text":"1–6","label":"MISC"}
+      ]
+    },
+    {
+      "row": 23,
+      "col": 6,
+      "text": "1–3",
+      "entities": [ 
+        {"text":"1–3","label":"MISC"}
+      ]
+    },
+    {
+      "row": 23,
+      "col": 7,
+      "text": "2–9",
+      "entities": [ 
+        {"text":"2–9","label":"MISC"}
+      ]
+    },
+    {
+      "row": 24,
+      "col": 1,
+      "text": "2014/15",
+      "entities": [ 
+        {"text":"2014/15","label":"DATE"}
+      ]
+    },
+    {
+      "row": 24,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ 
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 24,
+      "col": 3,
+      "text": "ГруппаG",
+      "entities": [ 
+        {"text":"ГруппаG","label":"MISC"}
+      ]
+    },
+    {
+      "row": 24,
+      "col": 4,
+      "text": "Челси",
+      "entities": [ 
+        {"text":"Челси","label":"ORG"}
+      ]
+    },
+    {
+      "row": 24,
+      "col": 5,
+      "text": "0–5",
+      "entities": [ 
+        {"text":"0–5","label":"MISC"}
+      ]
+    },
+    {
+      "row": 24,
+      "col": 6,
+      "text": "1–1",
+      "entities": [ 
+        {"text":"1–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 24,
+      "col": 7,
+      "text": "–",
+      "entities": [ ]
+    },
+    {
+      "row": 25,
+      "col": 1,
+      "text": "2014/15",
+      "entities": [ 
+        {"text":"2014/15","label":"DATE"}
+      ]
+    },
+    {
+      "row": 25,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ 
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 25,
+      "col": 3,
+      "text": "ГруппаG",
+      "entities": [ 
+        {"text":"ГруппаG","label":"MISC"}
+      ]
+    },
+    {
+      "row": 25,
+      "col": 4,
+      "text": "Марибор",
+      "entities": [ 
+        {"text":"Марибор","label":"ORG"}
+      ]
+    },
+    {
+      "row": 25,
+      "col": 5,
+      "text": "1–1",
+      "entities": [ 
+        {"text":"1–1","label":"MISC"}
+      ]
+    },
+    {
+      "row": 25,
+      "col": 6,
+      "text": "1–0",
+      "entities": [ 
+        {"text":"1–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 25,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 26,
+      "col": 1,
+      "text": "2014/15",
+      "entities": [ 
+        {"text":"2014/15","label":"DATE"}
+      ]
+    },
+    {
+      "row": 26,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ 
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 26,
+      "col": 3,
+      "text": "ГруппаG",
+      "entities": [ 
+        {"text":"ГруппаG","label":"MISC"}
+      ]
+    },
+    {
+      "row": 26,
+      "col": 4,
+      "text": "Спортинг (Лиссабон)",
+      "entities": [ 
+        {"text":"Спортинг (Лиссабон)","label":"ORG"}
+      ]
+    },
+    {
+      "row": 26,
+      "col": 5,
+      "text": "4–3",
+      "entities": [ 
+        {"text":"4–3","label":"MISC"}
+      ]
+    },
+    {
+      "row": 26,
+      "col": 6,
+      "text": "2–4",
+      "entities": [ 
+        {"text":"2–4","label":"MISC"}
+      ]
+    },
+    {
+      "row": 26,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 27,
+      "col": 1,
+      "text": "2014/15",
+      "entities": [
+        {"text":"2014/15","label":"DATE"}
+      ]
+    },
+    {
+      "row": 27,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ 
+        {"text":"Лига чемпионов","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 27,
+      "col": 3,
+      "text": "1/8 финала",
+      "entities": [ 
+        {"text":"1/8 финала","label":"MISC"}
+      ]
+    },
+    {
+      "row": 27,
+      "col": 4,
+      "text": "Реал Мадрид",
+      "entities": [ 
+        {"text":"Реал Мадрид","label":"ORG"}
+      ]
+    },
+    {
+      "row": 27,
+      "col": 5,
+      "text": "0–2",
+      "entities": [ 
+        {"text":"0–2","label":"MISC"}
+      ]
+    },
+    {
+      "row": 27,
+      "col": 6,
+      "text": "4–3",
+      "entities": [ 
+        {"text":"4–3","label":"MISC"}
+      ]
+    },
+    {
+      "row": 27,
+      "col": 7,
+      "text": "4–5",
+      "entities": [ 
+        {"text":"4–5","label":"MISC"}
+      ]
+    },
+    {
+      "row": 28,
+      "col": 1,
+      "text": "2015/16",
+      "entities": [ 
+        {"text":"2015/16","label":"DATE"}
+      ]  
+    },
+    {
+      "row": 28,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [ 
+        {"text":"Лига Европы","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 28,
+      "col": 3,
+      "text": "ГруппаK",
+      "entities": [ 
+        {"text":"ГруппаK","label":"MISC"}
+      ]
+    },
+    {
+      "row": 28,
+      "col": 4,
+      "text": "АПОЭЛ",
+      "entities": [ 
+        {"text":"АПОЭЛ","label":"ORG"}
+      ]
+    },
+    {
+      "row": 28,
+      "col": 5,
+      "text": "1–0",
+      "entities": [ 
+        {"text":"1–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 28,
+      "col": 6,
+      "text": "3–0",
+      "entities": [ 
+        {"text":"3–0","label":"MISC"}
+      ]
+    },
+    {
+      "row": 28,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 29,
+      "col": 1,
+      "text": "2015/16",
+      "entities": [
+        {"text":"2015/16","label":"DATE"}
+      ]
+    },
+    {
+      "row": 29,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [ 
+        {"text":"Лига Европы","label":"EVENT"}
+      ]
+    },
+    {
+      "row": 29,
+      "col": 3,
+      "text": "ГруппаK",
+      "entities": [ {"text":"ГруппаK","label":"MISC"} ]
+    },
+    {
+      "row": 29,
+      "col": 4,
+      "text": "Астерас",
+      "entities": [ {"text":"Астерас","label":"ORG"} ]
+    },
+    {
+      "row": 29,
+      "col": 5,
+      "text": "4–0",
+      "entities": [ {"text":"4–0","label":"MISC"} ]
+    },
+    {
+      "row": 29,
+      "col": 6,
+      "text": "4–0",
+      "entities": [ {"text":"4–0","label":"MISC"} ]
+    },
+    {
+      "row": 29,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 30,
+      "col": 1,
+      "text": "2015/16",
+      "entities": [ {"text":"2015/16","label":"DATE"} ]
+    },
+    {
+      "row": 30,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [ {"text":"Лига Европы","label":"EVENT"} ]
+    },
+    {
+      "row": 30,
+      "col": 3,
+      "text": "ГруппаK",
+      "entities": [ {"text":"ГруппаK","label":"MISC"} ]
+    },
+    {
+      "row": 30,
+      "col": 4,
+      "text": "Спарта (Прага)",
+      "entities": [ {"text":"Спарта (Прага)","label":"ORG"} ]
+    },
+    {
+      "row": 30,
+      "col": 5,
+      "text": "2–2",
+      "entities": [ {"text":"2–2","label":"MISC"} ]
+    },
+    {
+      "row": 30,
+      "col": 6,
+      "text": "1–1",
+      "entities": [ {"text":"1–1","label":"MISC"} ]
+    },
+    {
+      "row": 30,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 31,
+      "col": 1,
+      "text": "2015/16",
+      "entities": [ {"text":"2015/16","label":"DATE"} ]
+    },
+    {
+      "row": 31,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [ {"text":"Лига Европы","label":"EVENT"} ]
+    },
+    {
+      "row": 31,
+      "col": 3,
+      "text": "1/16 финала",
+      "entities": [ {"text":"1/16 финала","label":"MISC"} ]
+    },
+    {
+      "row": 31,
+      "col": 4,
+      "text": "Шахтер (Донецк)",
+      "entities": [ {"text":"Шахтер (Донецк)","label":"ORG"} ]
+    },
+    {
+      "row": 31,
+      "col": 5,
+      "text": "0–0",
+      "entities": [ {"text":"0–0","label":"MISC"} ]  
+    },
+    {
+      "row": 31,
+      "col": 6,
+      "text": "0–3",
+      "entities": [ {"text":"0–3","label":"MISC"} ]
+    },
+    {
+      "row": 31,
+      "col": 7,
+      "text": "0–3",
+      "entities": [ {"text":"0–3","label":"MISC"} ]
+    },
+    {
+      "row": 32,
+      "col": 1,
+      "text": "2016/17",
+      "entities": [ {"text":"2016/17","label":"DATE"}   ]
+    },
+    {
+      "row": 32,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [ {"text":"Лига Европы","label":"EVENT"} ]
+    },
+    {
+      "row": 32,
+      "col": 3,
+      "text": "ГруппаI",
+      "entities": [ {"text":"ГруппаI","label":"MISC"} ]
+    },
+    {
+      "row": 32,
+      "col": 4,
+      "text": "Ницца",
+      "entities": [ {"text":"Ницца","label":"ORG"} ]
+    },
+    {
+      "row": 32,
+      "col": 5,
+      "text": "2–0",
+      "entities": [ {"text":"2–0","label":"MISC"} ]
+    },
+    {
+      "row": 32,
+      "col": 6,
+      "text": "1–0",
+      "entities": [ {"text":"1–0","label":"MISC"} ]
+    },
+    {
+      "row": 32,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 33,
+      "col": 1,
+      "text": "2016/17",
+      "entities": [ {"text":"2016/17","label":"DATE"} ]
+    },
+    {
+      "row": 33,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [ {"text":"Лига Европы","label":"EVENT"} ]
+    },
+    {
+      "row": 33,
+      "col": 3,
+      "text": "ГруппаI",
+      "entities": [ {"text":"ГруппаI","label":"MISC"} ]
+    },
+    {
+      "row": 33,
+      "col": 4,
+      "text": "Ред Булл (Зальцбург)",
+      "entities": [ {"text":"Ред Булл (Зальцбург)","label":"ORG"} ]
+    },
+    {
+      "row": 33,
+      "col": 5,
+      "text": "3–1",
+      "entities": [ {"text":"3–1","label":"MISC"} ]
+    },
+    {
+      "row": 33,
+      "col": 6,
+      "text": "0–2",
+      "entities": [ {"text":"0–2","label":"MISC"} ]
+    },
+    {
+      "row": 33,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 34,
+      "col": 1,
+      "text": "2016/17",
+      "entities": [ {"text":"2016/17","label":"DATE"} ]
+    },
+    {
+      "row": 34,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [ {"text":"Лига Европы","label":"EVENT"} ]
+    },
+    {
+      "row": 34,
+      "col": 3,
+      "text": "ГруппаI",
+      "entities": [ {"text":"ГруппаI","label":"MISC"} ]
+    },
+    {
+      "row": 34,
+      "col": 4,
+      "text": "Краснодар",
+      "entities": [ {"text":"Краснодар","label":"ORG"} ]
+    },
+    {
+      "row": 34,
+      "col": 5,
+      "text": "2–0",
+      "entities": [ {"text":"2–0","label":"MISC"} ]
+    },
+    {
+      "row": 34,
+      "col": 6,
+      "text": "1–0",
+      "entities": [ {"text":"1–0","label":"MISC"} ]
+    },
+    {
+      "row": 34,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 35,
+      "col": 1,
+      "text": "2016/17",
+      "entities": [ {"text":"2016/17","label":"DATE"} ]
+    },
+    {
+      "row": 35,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [ {"text":"Лига Европы","label":"EVENT"} ]
+    },
+    {
+      "row": 35,
+      "col": 3,
+      "text": "1/16 финала",
+      "entities": [ {"text":"1/16 финала","label":"MISC"} ]
+    },
+    {
+      "row": 35,
+      "col": 4,
+      "text": "ПАОК",
+      "entities": [ {"text":"ПАОК","label":"ORG"} ]
+    },
+    {
+      "row": 35,
+      "col": 5,
+      "text": "3–0",
+      "entities": [ {"text":"3–0","label":"MISC"} ]
+    },
+    {
+      "row": 35,
+      "col": 6,
+      "text": "1–1",
+      "entities": [ {"text":"1–1","label":"MISC"} ]
+    },
+    {
+      "row": 35,
+      "col": 7,
+      "text": "4–1",
+      "entities": [ {"text":"4–1","label":"MISC"} ]
+    },
+    {
+      "row": 36,
+      "col": 1,
+      "text": "2016/17",
+      "entities": [ {"text":"2016/17","label":"DATE"} ]
+    },
+    {
+      "row": 36,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [ {"text":"Лига Европы","label":"EVENT"} ]
+    },
+    {
+      "row": 36,
+      "col": 3,
+      "text": "1/8 финала",
+      "entities": [ {"text":"1/8 финала","label":"MISC"} ]
+    },
+    {
+      "row": 36,
+      "col": 4,
+      "text": "Боруссия (Мёнхенгладбах)",
+      "entities": [ {"text":"Боруссия (Мёнхенгладбах)","label":"ORG"} ]
+    },
+    {
+      "row": 36,
+      "col": 5,
+      "text": "1–1",
+      "entities": [ {"text":"1–1","label":"MISC"} ]
+    },
+    {
+      "row": 36,
+      "col": 6,
+      "text": "2–2",
+      "entities": [ {"text":"2–2","label":"MISC"} ]
+    },
+    {
+      "row": 36,
+      "col": 7,
+      "text": "3–3",
+      "entities": [ {"text":"3–3","label":"MISC"} ]
+    },
+    {
+      "row": 37,
+      "col": 1,
+      "text": "2016/17",
+      "entities": [ {"text":"2016/17","label":"DATE"} ]
+    },
+    {
+      "row": 37,
+      "col": 2,
+      "text": "Лига Европы",
+      "entities": [ {"text":"Лига Европы","label":"EVENT"} ]
+    },
+    {
+      "row": 37,
+      "col": 3,
+      "text": "1/4 финала",
+      "entities": [ {"text":"1/4 финала","label":"MISC"} ]
+    },
+    {
+      "row": 37,
+      "col": 4,
+      "text": "Аякс",
+      "entities": [ {"text":"Аякс","label":"ORG"} ]
+    },
+    {
+      "row": 37,
+      "col": 5,
+      "text": "0–2",
+      "entities": [ {"text":"0–2","label":"MISC"} ]
+    },
+    {
+      "row": 37,
+      "col": 6,
+      "text": "3–2 (ОТ)",
+      "entities": [ {"text":"3–2 (ОТ)","label":"MISC"} ]
+    },
+    {
+      "row": 37,
+      "col": 7,
+      "text": "3–4",
+      "entities": [ {"text":"3–4","label":"MISC"} ]
+    },
+    {
+      "row": 38,
+      "col": 1,
+      "text": "2018/19",
+      "entities": [ {"text":"2018/19","label":"DATE"} ]
+    },
+    {
+      "row": 38,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ {"text":"Лига чемпионов","label":"EVENT"} ]
+    },
+    {
+      "row": 38,
+      "col": 3,
+      "text": "ГруппаD",
+      "entities": [ {"text":"ГруппаD","label":"MISC"} ]
+    },
+    {
+      "row": 38,
+      "col": 4,
+      "text": "Порту",
+      "entities": [ {"text":"Порту","label":"ORG"} ]
+    },
+    {
+      "row": 38,
+      "col": 5,
+      "text": "1–1",
+      "entities": [ {"text":"1–1","label":"MISC"} ]
+    },
+    {
+      "row": 38,
+      "col": 6,
+      "text": "1–3",
+      "entities": [ {"text":"1–3","label":"MISC"} ]
+    },
+    {
+      "row": 38,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 39,
+      "col": 1,
+      "text": "2018/19",
+      "entities": [ {"text":"2018/19","label":"DATE"} ]
+    },
+    {
+      "row": 39,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ {"text":"Лига чемпионов","label":"EVENT"} ]
+    },
+    {
+      "row": 39,
+      "col": 3,
+      "text": "ГруппаD",
+      "entities": [ {"text":"ГруппаD","label":"MISC"} ]
+    },
+    {
+      "row": 39,
+      "col": 4,
+      "text": "Локомотив (Москва)",
+      "entities": [ {"text":"Локомотив (Москва)","label":"ORG"} ]
+    },
+    {
+      "row": 39,
+      "col": 5,
+      "text": "1–0",
+      "entities": [ {"text":"1–0","label":"MISC"} ]
+    },
+    {
+      "row": 39,
+      "col": 6,
+      "text": "1–0",
+      "entities":[ {"text":"1–0","label":"MISC"} ]
+    },
+    {
+      "row": 39,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 40,
+      "col": 1,
+      "text": "2018/19",
+      "entities": [ {"text":"2018/19","label":"DATE"} ]
+    },
+    {
+      "row": 40,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ {"text":"Лига чемпионов","label":"EVENT"} ]
+    },
+    {
+      "row": 40,
+      "col": 3,
+      "text": "ГруппаD",
+      "entities": [ {"text":"ГруппаD","label":"MISC"} ]
+    },
+    {
+      "row": 40,
+      "col": 4,
+      "text": "Галатасарай",
+      "entities": [ {"text":"Галатасарай","label":"ORG"} ]
+    },
+    {
+      "row": 40,
+      "col": 5,
+      "text": "2–0",
+      "entities": [ {"text":"2–0","label":"MISC"} ]
+    },
+    {
+      "row": 40,
+      "col": 6,
+      "text": "0–0",
+      "entities": [ {"text":"0–0","label":"MISC"} ]
+    },
+    {
+      "row": 40,
+      "col": 7,
+      "text": "–",
+      "entities": []
+    },
+    {
+      "row": 41,
+      "col": 1,
+      "text": "2018/19",
+      "entities": [ {"text":"2018/19","label":"DATE"} ]
+    },
+    {
+      "row": 41,
+      "col": 2,
+      "text": "Лига чемпионов",
+      "entities": [ {"text":"Лига чемпионов","label":"EVENT"} ]
+    },
+    {
+      "row": 41,
+      "col": 3,
+      "text": "1/8 финала",
+      "entities": [ {"text":"1/8 финала","label":"MISC"} ]
+    },
+    {
+      "row": 41,
+      "col": 4,
+      "text": "Манчестер Сити",
+      "entities": [ {"text":"Манчестер Сити","label":"ORG"} ]
+    },
+    {
+      "row": 41,
+      "col": 5,
+      "text": "2–3",
+      "entities": [ {"text":"2–3","label":"MISC"} ]
+    },
+    {
+      "row": 41,
+      "col": 6,
+      "text": "0–7",
+      "entities": [ {"text":"0–7","label":"MISC"} ]
+    },
+    {
+      "row": 41,
+      "col": 7,
+      "text": "2–10",
+      "entities": [ {"text":"2–10","label":"MISC"} ]
+    }
+  ]
+}
