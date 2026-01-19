@@ -1,0 +1,390 @@
+{
+  "table_name": "string",
+  "method": "manual",
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Китай",
+      "entities": [{"text":"Китай","label":"GPE"}]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "187",
+      "entities": [{"text":"187","label":"QUANTITY"}]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "США",
+      "entities": [{"text":"США","label":"GPE"}]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "122",
+      "entities": [{"text":"122","label":"QUANTITY"}]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Япония",
+      "entities": [{"text":"Япония","label":"GPE"}]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "35",
+      "entities": [{"text":"35","label":"QUANTITY"}]
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Германия",
+      "entities": [{"text":"Германия","label":"GPE"}]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "23",
+      "entities": [{"text":"23","label":"QUANTITY"}]
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Франция",
+      "entities": [{"text":"Франция","label":"GPE"}]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "16",
+      "entities": [{"text":"16","label":"QUANTITY"}]
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Голландия",
+      "entities": [{"text":"Голландия","label":"GPE"}]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "16",
+      "entities": [{"text":"16","label":"QUANTITY"}]
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "Ирландия",
+      "entities": [{"text":"Ирландия","label":"GPE"}]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "14",
+      "entities": [{"text":"14","label":"QUANTITY"}]
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "Великобритания",
+      "entities": [{"text":"Великобритания","label":"GPE"}]
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "11",
+      "entities": [{"text":"11","label":"QUANTITY"}]
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "Канада",
+      "entities": [{"text":"Канада","label":"GPE"}]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "11",
+      "entities": [{"text":"11","label":"QUANTITY"}]
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "Италия",
+      "entities": [{"text":"Италия","label":"GPE"}]
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "6",
+      "entities": [{"text":"6","label":"QUANTITY"}]
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "text": "Бразилия",
+      "entities": [{"text":"Бразилия","label":"GPE"}]
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "6",
+      "entities": [{"text":"6","label":"QUANTITY"}]
+    },
+    {
+      "row": 13,
+      "col": 1,
+      "text": "Саудовская Аравия",
+      "entities": [{"text":"Саудовская Аравия","label":"GPE"}]
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "6",
+      "entities": [{"text":"6","label":"QUANTITY"}]
+    },
+    {
+      "row": 14,
+      "col": 1,
+      "text": "Южная Корея",
+      "entities": [{"text":"Южная Корея","label":"GPE"}]
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "5",
+      "entities": [{"text":"5","label":"QUANTITY"}]
+    },
+    {
+      "row": 15,
+      "col": 1,
+      "text": "Польша",
+      "entities": [{"text":"Польша","label":"GPE"}]
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "4",
+      "entities": [{"text":"4","label":"QUANTITY"}]
+    },
+    {
+      "row": 16,
+      "col": 1,
+      "text": "Сингапур",
+      "entities": [{"text":"Сингапур","label":"GPE"}]
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "4",
+      "entities": [{"text":"4","label":"QUANTITY"}]
+    },
+    {
+      "row": 17,
+      "col": 1,
+      "text": "Россия",
+      "entities": [{"text":"Россия","label":"GPE"}]
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "3",
+      "entities": [{"text":"3","label":"QUANTITY"}]
+    },
+    {
+      "row": 18,
+      "col": 1,
+      "text": "Швейцария",
+      "entities": [{"text":"Швейцария","label":"GPE"}]
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "3",
+      "entities": [{"text":"3","label":"QUANTITY"}]
+    },
+    {
+      "row": 19,
+      "col": 1,
+      "text": "Норвегия",
+      "entities": [{"text":"Норвегия","label":"GPE"}]
+    },
+    {
+      "row": 19,
+      "col": 2,
+      "text": "3",
+      "entities": [{"text":"3","label":"QUANTITY"}]
+    },
+    {
+      "row": 20,
+      "col": 1,
+      "text": "Швеция",
+      "entities": [{"text":"Швеция","label":"GPE"}]
+    },
+    {
+      "row": 20,
+      "col": 2,
+      "text": "3",
+      "entities": [{"text":"3","label":"QUANTITY"}]
+    },
+    {
+      "row": 21,
+      "col": 1,
+      "text": "Индия",
+      "entities": [{"text":"Индия","label":"GPE"}]
+    },
+    {
+      "row": 21,
+      "col": 2,
+      "text": "3",
+      "entities": [{"text":"3","label":"QUANTITY"}]
+    },
+    {
+      "row": 22,
+      "col": 1,
+      "text": "Словения",
+      "entities": [{"text":"Словения","label":"GPE"}]
+    },
+    {
+      "row": 22,
+      "col": 2,
+      "text": "2",
+      "entities": [{"text":"2","label":"QUANTITY"}]
+    },
+    {
+      "row": 23,
+      "col": 1,
+      "text": "Австралия",
+      "entities": [{"text":"Австралия","label":"GPE"}]
+    },
+    {
+      "row": 23,
+      "col": 2,
+      "text": "2",
+      "entities": [{"text":"2","label":"QUANTITY"}]
+    },
+    {
+      "row": 24,
+      "col": 1,
+      "text": "Люксембург",
+      "entities": [{"text":"Люксембург","label":"GPE"}]
+    },
+    {
+      "row": 24,
+      "col": 2,
+      "text": "2",
+      "entities": [{"text":"2","label":"QUANTITY"}]
+    },
+    {
+      "row": 25,
+      "col": 1,
+      "text": "ОАЭ",
+      "entities": [{"text":"ОАЭ","label":"GPE"}]
+    },
+    {
+      "row": 25,
+      "col": 2,
+      "text": "2",
+      "entities": [{"text":"2","label":"QUANTITY"}]
+    },
+    {
+      "row": 26,
+      "col": 1,
+      "text": "Финляндия",
+      "entities": [{"text":"Финляндия","label":"GPE"}]
+    },
+    {
+      "row": 26,
+      "col": 2,
+      "text": "2",
+      "entities": [{"text":"2","label":"QUANTITY"}]
+    },
+    {
+      "row": 27,
+      "col": 1,
+      "text": "Чехия",
+      "entities": [{"text":"Чехия","label":"GPE"}]
+    },
+    {
+      "row": 27,
+      "col": 2,
+      "text": "2",
+      "entities": [{"text":"2","label":"QUANTITY"}]
+    },
+    {
+      "row": 28,
+      "col": 1,
+      "text": "Тайвань",
+      "entities": [{"text":"Тайвань","label":"GPE"}]
+    },
+    {
+      "row": 28,
+      "col": 2,
+      "text": "2",
+      "entities": [{"text":"2","label":"QUANTITY"}]
+    },
+    {
+      "row": 29,
+      "col": 1,
+      "text": "Болгария",
+      "entities": [{"text":"Болгария","label":"GPE"}]
+    },
+    {
+      "row": 29,
+      "col": 2,
+      "text": "1",
+      "entities": [{"text":"1","label":"QUANTITY"}]
+    },
+    {
+      "row": 30,
+      "col": 1,
+      "text": "Марокко",
+      "entities": [{"text":"Марокко","label":"GPE"}]
+    },
+    {
+      "row": 30,
+      "col": 2,
+      "text": "1",
+      "entities": [{"text":"1","label":"QUANTITY"}]
+    },
+    {
+      "row": 31,
+      "col": 1,
+      "text": "Австрия",
+      "entities": [{"text":"Австрия","label":"GPE"}]
+    },
+    {
+      "row": 31,
+      "col": 2,
+      "text": "1",
+      "entities": [{"text":"1","label":"QUANTITY"}]
+    },
+    {
+      "row": 32,
+      "col": 1,
+      "text": "Гонконг",
+      "entities": [{"text":"Гонконг","label":"GPE"}]
+    },
+    {
+      "row": 32,
+      "col": 2,
+      "text": "1",
+      "entities": [{"text":"1","label":"QUANTITY"}]
+    },
+    {
+      "row": 33,
+      "col": 1,
+      "text": "Испания",
+      "entities": [{"text":"Испания","label":"GPE"}]
+    },
+    {
+      "row": 33,
+      "col": 2,
+      "text": "1",
+      "entities": [{"text":"1","label":"QUANTITY"}]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "table_name": "string",
+  "method": "manual",
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Афроевразия",
+      "entities": [{"text":"Афроевразия","label":"LOC"}]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "1644,9x822,45.",
+      "entities": [{"text":"1644,9x822,45","label":"QUANTITY"}]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "58 %.",
+      "entities": [{"text":"58 %","label":"PERCENT"}]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "71 %.",
+      "entities": [{"text":"71 %","label":"PERCENT"}]
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "95.0",
+      "entities": [{"text":"95.0","label":"QUANTITY"}]
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "text": "",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Америка",
+      "entities": [{"text":"Америка","label":"LOC"}]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "833,2х416,6.",
+      "entities": [{"text":"833,2х416,6","label":"QUANTITY"}]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "29 %.",
+      "entities": [{"text":"29 %","label":"PERCENT"}]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "12 %.",
+      "entities": [{"text":"12 %","label":"PERCENT"}]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "221.0",
+      "entities": [{"text":"221.0","label":"QUANTITY"}]
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "text": "",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Океания",
+      "entities": [{"text":"Океания","label":"LOC"}]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "491,2х245,6",
+      "entities": [{"text":"491,2х245,6","label":"QUANTITY"}]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "8 %.",
+      "entities": [{"text":"8 %","label":"PERCENT"}]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "8 %",
+      "entities": [{"text":"8 %","label":"PERCENT"}]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "3.2",
+      "entities": [{"text":"3.2","label":"QUANTITY"}]
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "text": "",
+      "entities": []
+    }
+  ]
+}

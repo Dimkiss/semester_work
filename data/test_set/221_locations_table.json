@@ -1,0 +1,516 @@
+{
+  "table_name": "string",
+  "method": "manual",
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Моту (исторический северный регион)",
+      "entities": [{"text":"Моту","label":"LOC"}]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Моту (исторический северный регион)",
+      "entities": [{"text":"Моту","label":"LOC"}]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "Моту (исторический северный регион)",
+      "entities": [{"text":"Моту","label":"LOC"}]
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "Моту (исторический северный регион)",
+      "entities": [{"text":"Моту","label":"LOC"}]
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "text": "Моту (исторический северный регион)",
+      "entities": [ {"text":"Моту","label":"LOC"}]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Лакепа",
+      "entities": [{"text":"Лакепа","label":"LOC"}]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Lakepa",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "51",
+      "entities": [{"text":"51","label":"QUANTITY"}]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "2158",
+      "entities": [{"text":"2158","label":"QUANTITY"}]
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "text": "236",
+      "entities": [{"text":"236","label":"QUANTITY"}]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Лику",
+      "entities": [{"text":"Лику","label":"LOC"}]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Liku",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "70",
+      "entities": [{"text":"70","label":"QUANTITY"}]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "4164",
+      "entities": [{"text":"4164","label":"QUANTITY"}]
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "text": "168",
+      "entities": [{"text":"168","label":"QUANTITY"}]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Макефу",
+      "entities": [{"text":"Макефу","label":"LOC"}]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Makefu",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "69",
+      "entities": [{"text":"69","label":"QUANTITY"}]
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "1713",
+      "entities": [{"text":"1713","label":"QUANTITY"}]
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "text": "403",
+      "entities": [{"text":"403","label":"QUANTITY"}]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Муталау",
+      "entities": [{"text":"Муталау","label":"LOC"}]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Mutalau",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "94",
+      "entities": [{"text":"94","label":"QUANTITY"}]
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "text": "2631",
+      "entities": [{"text":"2631","label":"QUANTITY"}]
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "text": "357",
+      "entities": [{"text":"357","label":"QUANTITY"}]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Намукулу",
+      "entities": [{"text":"Намукулу","label":"LOC"}]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Namukulu",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "14",
+      "entities": [{"text":"14","label":"QUANTITY"}]
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "text": "148",
+      "entities": [{"text":"148","label":"QUANTITY"}]
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "text": "946",
+      "entities": [{"text":"946","label":"QUANTITY"}]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Тои",
+      "entities": [{"text":"Тои","label":"LOC"}]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Toi",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "23",
+      "entities": [{"text":"23","label":"QUANTITY"}]
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "text": "477",
+      "entities": [{"text":"477","label":"QUANTITY"}]
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "text": "482",
+      "entities": [{"text":"482","label":"QUANTITY"}]
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Туапа",
+      "entities": [{"text":"Туапа","label":"LOC"}]
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Tuapa",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "97",
+      "entities": [{"text":"97","label":"QUANTITY"}]
+    },
+    {
+      "row": 9,
+      "col": 5,
+      "text": "1254",
+      "entities": [{"text":"1254","label":"QUANTITY"}]
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "text": "774",
+      "entities": [{"text":"774","label":"QUANTITY"}]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Хикутаваке",
+      "entities": [{"text":"Хикутаваке","label":"LOC"}]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Hikutavake",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "40",
+      "entities": [{"text":"40","label":"QUANTITY"}]
+    },
+    {
+      "row": 10,
+      "col": 5,
+      "text": "1017",
+      "entities": [{"text":"1017","label":"QUANTITY"}]
+    },
+    {
+      "row": 10,
+      "col": 6,
+      "text": "393",
+      "entities": [{"text":"393","label":"QUANTITY"}]
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Тафити (исторический южный регион)",
+      "entities": [{"text":"Тафити","label":"LOC"}]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Тафити (исторический южный регион)",
+      "entities": [{"text":"Тафити","label":"LOC"}]
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "text": "Тафити (исторический южный регион)",
+      "entities": [{"text":"Тафити","label":"LOC"}]
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "text": "Тафити (исторический южный регион)",
+      "entities": [{"text":"Тафити","label":"LOC"}]
+    },
+    {
+      "row": 11,
+      "col": 6,
+      "text": "Тафити (исторический южный регион)",
+      "entities": [{"text":"Тафити","label":"LOC"}]
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "Авателе",
+      "entities": [{"text":"Авателе","label":"LOC"}]
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "Avatele",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "text": "139",
+      "entities": [{"text":"139","label":"QUANTITY"}]
+    },
+    {
+      "row": 12,
+      "col": 5,
+      "text": "1399",
+      "entities": [{"text":"1399","label":"QUANTITY"}]
+    },
+    {
+      "row": 12,
+      "col": 6,
+      "text": "994",
+      "entities": [{"text":"994","label":"QUANTITY"}]
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "Алофи (южная часть)",
+      "entities": [{"text":"Алофи (южная часть)","label":"LOC"}]
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "Alofi South",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 4,
+      "text": "424",
+      "entities": [{"text":"424","label":"QUANTITY"}]
+    },
+    {
+      "row": 13,
+      "col": 5,
+      "text": "4648",
+      "entities": [{"text":"4648","label":"QUANTITY"}]
+    },
+    {
+      "row": 13,
+      "col": 6,
+      "text": "1375",
+      "entities": [{"text":"1375","label":"QUANTITY"}]
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "Алофи (северная часть)",
+      "entities": [{"text":"Алофи (северная часть)","label":"LOC"}]
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "text": "Alofi North",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 4,
+      "text": "215",
+      "entities": [{"text":"215","label":"QUANTITY"}]
+    },
+    {
+      "row": 14,
+      "col": 5,
+      "text": "4648",
+      "entities": [{"text":"4648","label":"QUANTITY"}]
+    },
+    {
+      "row": 14,
+      "col": 6,
+      "text": "1375",
+      "entities": [{"text":"1375","label":"QUANTITY"}]
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "Ваиеа",
+      "entities": [{"text":"Ваиеа","label":"LOC"}]
+    },
+    {
+      "row": 15,
+      "col": 3,
+      "text": "Vaiea",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 4,
+      "text": "89",
+      "entities": [{"text":"89","label":"QUANTITY"}]
+    },
+    {
+      "row": 15,
+      "col": 5,
+      "text": "540",
+      "entities": [{"text":"540","label":"QUANTITY"}]
+    },
+    {
+      "row": 15,
+      "col": 6,
+      "text": "1648",
+      "entities": [{"text":"1648","label":"QUANTITY"}]
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "Тамакаутога",
+      "entities": [{"text":"Тамакаутога","label":"LOC"}]
+    },
+    {
+      "row": 16,
+      "col": 3,
+      "text": "Tamakautoga",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 4,
+      "text": "157",
+      "entities": [{"text":"157","label":"QUANTITY"}]
+    },
+    {
+      "row": 16,
+      "col": 5,
+      "text": "1193",
+      "entities": [{"text":"1193","label":"QUANTITY"}]
+    },
+    {
+      "row": 16,
+      "col": 6,
+      "text": "1316",
+      "entities": [{"text":"1316","label":"QUANTITY"}]
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "Хакупу",
+      "entities": [{"text":"Хакупу","label":"LOC"}]
+    },
+    {
+      "row": 17,
+      "col": 3,
+      "text": "Hakupu",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 4,
+      "text": "129",
+      "entities": [{"text":"129","label":"QUANTITY"}]
+    },
+    {
+      "row": 17,
+      "col": 5,
+      "text": "4804",
+      "entities": [{"text":"4804","label":"QUANTITY"}]
+    },
+    {
+      "row": 17,
+      "col": 6,
+      "text": "269",
+      "entities": [{"text":"269","label":"QUANTITY"}]
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "Всего",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 3,
+      "text": "",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 4,
+      "text": "1611",
+      "entities": [{"text":"1611","label":"QUANTITY"}]
+    },
+    {
+      "row": 18,
+      "col": 5,
+      "text": "26146",
+      "entities": [{"text":"26146","label":"QUANTITY"}]
+    },
+    {
+      "row": 18,
+      "col": 6,
+      "text": "616",
+      "entities": [{"text":"616","label":"QUANTITY"}]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "table_name": "string",
+  "method": "manual",
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Генеральный менеджер",
+      "entities": [{ "text": "Генеральный менеджер", "label": "MISC" }]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Стив Айзерман",
+      "entities": [{ "text": "Стив Айзерман", "label": "PER" }]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "9 мая 1965 (56 лет)",
+      "entities": [
+        { "text": "9 мая 1965", "label": "DATE" },
+        { "text": "56 лет", "label": "QUANTITY" }]
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "с 2019 года",
+      "entities": [{ "text": "с 2019 года", "label": "DATE" }]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Главный тренер",
+      "entities": [{ "text": "Главный тренер", "label": "MISC" }]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Джефф Блэшилл",
+      "entities": [{ "text": "Джефф Блэшилл", "label": "PER" }]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "10 декабря 1973 (47 лет)",
+      "entities": [
+        { "text": "10 декабря 1973", "label": "DATE" },
+        { "text": "47 лет", "label": "QUANTITY" }]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "с 2015 года",
+      "entities": [{ "text": "с 2015 года", "label": "DATE" }]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Помощник тренера",
+      "entities": [{ "text": "Помощник тренера", "label": "MISC" }]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Дуг Хауда",
+      "entities": [{ "text": "Дуг Хауда", "label": "PER" }]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "3 июня 1966 (55 лет)",
+      "entities": [
+        { "text": "3 июня 1966", "label": "DATE" },
+        { "text": "55 лет", "label": "QUANTITY" }]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "с 2016 года",
+      "entities": [{ "text": "с 2016 года", "label": "DATE" }]
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Тренер вратарей",
+      "entities": [{ "text": "Тренер вратарей", "label": "MISC" }]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Джефф Салейко",
+      "entities": [{ "text": "Джефф Салейко", "label": "PER" }]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "18 апреля 1975 (46 лет)",
+      "entities": [
+        { "text": "18 апреля 1975", "label": "DATE" },
+        { "text": "46 лет", "label": "QUANTITY" }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "с 2016 года",
+      "entities": [{ "text": "с 2016 года", "label": "DATE" }]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "table_name": "string",
+  "method": "manual",
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Беверидж (англ. Beveridge Reef)",
+      "entities": [{"text":"Беверидж","label":"LOC"}]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "20°00′ ю. ш. 167°47′ з. д.HGЯO",
+      "entities": [{"text":"20°00′ ю. ш. 167°47′ з. д.","label":"LOC"}]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Представляет собой подводную гору, увенчанную коралловым атоллом, обнажающимся во время отливов. Длина с севера на юг — 9,5 км, ширина с запада на восток — 7,5 км. Общая площадь — 56 км². Глубина лагуны — 11 м.",
+      "entities": [{"text":"9,5 км","label":"QUANTITY"},
+        {"text":"7,5 км","label":"QUANTITY"},
+        {"text":"56 км²","label":"QUANTITY"},
+        {"text":"11 м","label":"QUANTITY"}]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Антиоп (англ. Antiope Reef)",
+      "entities": [{"text":"Антиоп","label":"LOC"}]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "18°14′ ю. ш. 168°20′ з. д.HGЯO",
+      "entities": [{"text":"18°14′ ю. ш. 168°20′ з. д.","label":"LOC"}]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Представляет собой овальное плато диаметром в 400 м. Минимальная глубина — 9,5 м. Впервые замечен в 1886 году британским судном «Antiope».",
+      "entities": [{"text":"400 м","label":"QUANTITY"},
+        {"text":"9,5 м","label":"QUANTITY"},
+        {"text":"1886 году","label":"DATE"}]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Хэренс (англ. Harans Reef)",
+      "entities": [{"text":"Хэренс","label":"LOC"}]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "21°32′ ю. ш. 168°54′ з. д.HGЯO",
+      "entities": [{"text":"21°32′ ю. ш. 168°54′ з. д.","label":"LOC"}]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Впервые замечен в 1848 году Хэренсом с корабля «Thomas Dickenson».",
+      "entities": [{"text":"1848 году","label":"DATE"}]
+    }
+  ]
+}

@@ -156,5 +156,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-#py csv_to_json_template.py "data\all_tables\212_sports_table.csv" -o "data\test_set\212_sports_table.json" --drop-first-col yes
-#py csv_to_json_template.py "data\all_tables\213_locations_table.csv" -o "data\test_set\213_locations_table.json" --drop-first-col no
+#py csv_to_json_template.py "data\all_tables\221_locations_table.csv" -o "data\test_set\221_locations_table.json" --drop-first-col yes
+#py csv_to_json_template.py "data\all_tables\222_locations_table.csv" -o "data\test_set\222_locations_table.json" --drop-first-col no
