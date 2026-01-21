@@ -52,16 +52,7 @@
       "row": 3,
       "col": 3,
       "text": "Арсенал (Тула)",
-      "entities": [
-        {
-          "text": "Арсенал",
-          "label": "ORG"
-        },
-        {
-          "text": "Тула",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
@@ -84,12 +75,7 @@
       "row": 4,
       "col": 3,
       "text": "Риека",
-      "entities": [
-        {
-          "text": "Риека",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 5,
@@ -291,12 +277,7 @@
       "row": 12,
       "col": 3,
       "text": "АЕК",
-      "entities": [
-        {
-          "text": "АЕК",
-          "label": "MISC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 13,

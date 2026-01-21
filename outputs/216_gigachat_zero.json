@@ -23,12 +23,7 @@
       "row": 2,
       "col": 3,
       "text": "Россия",
-      "entities": [
-        {
-          "text": "Россия",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 2,
@@ -93,12 +88,7 @@
       "row": 3,
       "col": 3,
       "text": "Франция",
-      "entities": [
-        {
-          "text": "Франция",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 3,
@@ -303,7 +293,12 @@
       "row": 6,
       "col": 3,
       "text": "Норвегия",
-      "entities": []
+      "entities": [
+        {
+          "text": "Норвегия",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 6,

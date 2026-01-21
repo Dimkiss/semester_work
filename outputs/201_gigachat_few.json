@@ -1,11 +1,11 @@
 {
   "table_name": "201_locations_table.csv",
-  "method": "gigachat_zero",
+  "method": "gigachat_few",
   "meta": {
     "drop_header": true,
     "drop_first_col": null,
     "index_base": 1,
-    "mode": "zero"
+    "mode": "few"
   },
   "results": [
     {
@@ -24,19 +24,34 @@
       "row": 2,
       "col": 4,
       "text": "7364",
-      "entities": []
+      "entities": [
+        {
+          "text": "7364",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 2,
       "col": 5,
       "text": "14 215",
-      "entities": []
+      "entities": [
+        {
+          "text": "14 215",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 2,
       "col": 6,
       "text": "193",
-      "entities": []
+      "entities": [
+        {
+          "text": "193",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 3,
@@ -54,19 +69,34 @@
       "row": 3,
       "col": 4,
       "text": "2353",
-      "entities": []
+      "entities": [
+        {
+          "text": "2353",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 3,
       "col": 5,
       "text": "24 649",
-      "entities": []
+      "entities": [
+        {
+          "text": "24 649",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 3,
       "col": 6,
       "text": "1048",
-      "entities": []
+      "entities": [
+        {
+          "text": "1048",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 4,
@@ -84,19 +114,34 @@
       "row": 4,
       "col": 4,
       "text": "3902",
-      "entities": []
+      "entities": [
+        {
+          "text": "3902",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 4,
       "col": 5,
       "text": "2887",
-      "entities": []
+      "entities": [
+        {
+          "text": "2887",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 4,
       "col": 6,
       "text": "74",
-      "entities": []
+      "entities": [
+        {
+          "text": "74",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 5,
@@ -119,13 +164,23 @@
       "row": 5,
       "col": 4,
       "text": "4627",
-      "entities": []
+      "entities": [
+        {
+          "text": "4627",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 5,
       "col": 5,
       "text": "16 642",
-      "entities": []
+      "entities": [
+        {
+          "text": "16 642",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 5,
@@ -155,13 +210,23 @@
       "row": 6,
       "col": 5,
       "text": "36 639",
-      "entities": []
+      "entities": [
+        {
+          "text": "36 639",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 6,
       "col": 6,
       "text": "684",
-      "entities": []
+      "entities": [
+        {
+          "text": "684",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 7,
@@ -179,19 +244,34 @@
       "row": 7,
       "col": 4,
       "text": "5393",
-      "entities": []
+      "entities": [
+        {
+          "text": "5393",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 7,
       "col": 5,
       "text": "18 749",
-      "entities": []
+      "entities": [
+        {
+          "text": "18 749",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 7,
       "col": 6,
       "text": "348",
-      "entities": []
+      "entities": [
+        {
+          "text": "348",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 8,
@@ -208,25 +288,45 @@
       "row": 8,
       "col": 3,
       "text": "Парамарибо",
-      "entities": []
+      "entities": [
+        {
+          "text": "Парамарибо",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 8,
       "col": 4,
       "text": "183",
-      "entities": []
+      "entities": [
+        {
+          "text": "183",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 8,
       "col": 5,
       "text": "242 946",
-      "entities": []
+      "entities": [
+        {
+          "text": "242 946",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 8,
       "col": 6,
       "text": "132757",
-      "entities": []
+      "entities": [
+        {
+          "text": "132757",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 9,
@@ -238,25 +338,45 @@
       "row": 9,
       "col": 3,
       "text": "Гронинген",
-      "entities": []
+      "entities": [
+        {
+          "text": "Гронинген",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 9,
       "col": 4,
       "text": "3 636",
-      "entities": []
+      "entities": [
+        {
+          "text": "3 636",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 9,
       "col": 5,
       "text": "15 980",
-      "entities": []
+      "entities": [
+        {
+          "text": "15 980",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 9,
       "col": 6,
       "text": "439",
-      "entities": []
+      "entities": [
+        {
+          "text": "439",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 10,
@@ -274,19 +394,34 @@
       "row": 10,
       "col": 4,
       "text": "130 567",
-      "entities": []
+      "entities": [
+        {
+          "text": "130 567",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 10,
       "col": 5,
       "text": "34 136",
-      "entities": []
+      "entities": [
+        {
+          "text": "34 136",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 10,
       "col": 6,
       "text": "26",
-      "entities": []
+      "entities": [
+        {
+          "text": "26",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 11,
@@ -309,19 +444,34 @@
       "row": 11,
       "col": 4,
       "text": "442",
-      "entities": []
+      "entities": [
+        {
+          "text": "442",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 11,
       "col": 5,
       "text": "85 986",
-      "entities": []
+      "entities": [
+        {
+          "text": "85 986",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 11,
       "col": 6,
       "text": "19454",
-      "entities": []
+      "entities": [
+        {
+          "text": "19454",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 12,
@@ -333,19 +483,34 @@
       "row": 12,
       "col": 4,
       "text": "163 820",
-      "entities": []
+      "entities": [
+        {
+          "text": "163 820",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 12,
       "col": 5,
       "text": "492 829",
-      "entities": []
+      "entities": [
+        {
+          "text": "492 829",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 12,
       "col": 6,
       "text": "301",
-      "entities": []
+      "entities": [
+        {
+          "text": "301",
+          "label": "QUANTITY"
+        }
+      ]
     }
   ]
 }

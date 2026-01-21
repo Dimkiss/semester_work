@@ -69,16 +69,7 @@
       "row": 4,
       "col": 2,
       "text": "27/14",
-      "entities": [
-        {
-          "text": "27",
-          "label": "QUANTITY"
-        },
-        {
-          "text": "14",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
@@ -101,7 +92,12 @@
       "row": 5,
       "col": 2,
       "text": "27/15",
-      "entities": []
+      "entities": [
+        {
+          "text": "27/15",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 5,
@@ -156,16 +152,7 @@
       "row": 7,
       "col": 2,
       "text": "30/15",
-      "entities": [
-        {
-          "text": "30",
-          "label": "QUANTITY"
-        },
-        {
-          "text": "15",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 7,

@@ -18,19 +18,42 @@
       "row": 2,
       "col": 2,
       "text": "5 февраля 1986",
-      "entities": []
+      "entities": [
+        {
+          "text": "5 февраля 1986",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 2,
       "col": 3,
       "text": "«Оранж Боул», Майами, США",
-      "entities": []
+      "entities": [
+        {
+          "text": "Оранж Боул",
+          "label": "EVENT"
+        },
+        {
+          "text": "Майами",
+          "label": "LOC"
+        },
+        {
+          "text": "США",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 2,
       "col": 4,
       "text": "Канада",
-      "entities": []
+      "entities": [
+        {
+          "text": "Канада",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 2,
@@ -71,31 +94,13 @@
       "row": 3,
       "col": 3,
       "text": "«Оранж Боул», Майами, США",
-      "entities": [
-        {
-          "text": "Оранж Боул",
-          "label": "EVENT"
-        },
-        {
-          "text": "Майами",
-          "label": "LOC"
-        },
-        {
-          "text": "США",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 3,
       "col": 4,
       "text": "Уругвай",
-      "entities": [
-        {
-          "text": "Уругвай",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 3,
@@ -113,12 +118,7 @@
       "row": 3,
       "col": 7,
       "text": "Турнир Майами",
-      "entities": [
-        {
-          "text": "Майами",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
@@ -130,12 +130,7 @@
       "row": 4,
       "col": 2,
       "text": "23 мая 1987",
-      "entities": [
-        {
-          "text": "23 мая 1987",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
@@ -147,12 +142,7 @@
       "row": 4,
       "col": 4,
       "text": "Канада",
-      "entities": [
-        {
-          "text": "Канада",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
@@ -188,22 +178,18 @@
       "row": 5,
       "col": 3,
       "text": "Фентон, США",
-      "entities": [
-        {
-          "text": "Фентон",
-          "label": "LOC"
-        },
-        {
-          "text": "США",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 5,
       "col": 4,
       "text": "Канада",
-      "entities": []
+      "entities": [
+        {
+          "text": "Канада",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 5,
@@ -233,12 +219,7 @@
       "row": 6,
       "col": 2,
       "text": "5 сентября 1987",
-      "entities": [
-        {
-          "text": "5 сентября 1987",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 6,
@@ -282,7 +263,24 @@
       "row": 6,
       "col": 7,
       "text": "Предолимпийский турнир КОНКАКАФ 1988",
-      "entities": []
+      "entities": [
+        {
+          "text": "Предолимпийский",
+          "label": "EVENT"
+        },
+        {
+          "text": "турнир",
+          "label": "EVENT"
+        },
+        {
+          "text": "КОНКАКАФ",
+          "label": "ORG"
+        },
+        {
+          "text": "1988",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 7,
@@ -300,20 +298,7 @@
       "row": 7,
       "col": 3,
       "text": "«Куинс Парк Овал», Порт-оф-Спейн, Тринидад и Тобаго",
-      "entities": [
-        {
-          "text": "Куинс Парк Овал",
-          "label": "FAC"
-        },
-        {
-          "text": "Порт-оф-Спейн",
-          "label": "LOC"
-        },
-        {
-          "text": "Тринидад и Тобаго",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 7,
@@ -354,7 +339,12 @@
       "row": 8,
       "col": 2,
       "text": "18 октября 1987",
-      "entities": []
+      "entities": [
+        {
+          "text": "18 октября 1987",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 8,
@@ -375,12 +365,7 @@
       "row": 8,
       "col": 4,
       "text": "Сальвадор",
-      "entities": [
-        {
-          "text": "Сальвадор",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 8,
@@ -398,7 +383,24 @@
       "row": 8,
       "col": 7,
       "text": "Предолимпийский турнир КОНКАКАФ 1988",
-      "entities": []
+      "entities": [
+        {
+          "text": "Предолимпийский",
+          "label": "EVENT"
+        },
+        {
+          "text": "турнир",
+          "label": "EVENT"
+        },
+        {
+          "text": "КОНКАКАФ",
+          "label": "ORG"
+        },
+        {
+          "text": "1988",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 9,
@@ -458,16 +460,7 @@
       "row": 10,
       "col": 3,
       "text": "Индианаполис, США",
-      "entities": [
-        {
-          "text": "Индианаполис",
-          "label": "LOC"
-        },
-        {
-          "text": "США",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 10,
@@ -509,26 +502,18 @@
       "row": 11,
       "col": 3,
       "text": "Гражданский стадион, Тэгу, Республика Корея",
-      "entities": [
-        {
-          "text": "Гражданский стадион",
-          "label": "FAC"
-        },
-        {
-          "text": "Тэгу",
-          "label": "LOC"
-        },
-        {
-          "text": "Республика Корея",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 11,
       "col": 4,
       "text": "Аргентина",
-      "entities": []
+      "entities": [
+        {
+          "text": "Аргентина",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 11,
@@ -567,7 +552,12 @@
       "row": 12,
       "col": 2,
       "text": "20 сентября 1988",
-      "entities": []
+      "entities": [
+        {
+          "text": "20 сентября 1988",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 12,
@@ -597,7 +587,16 @@
       "row": 12,
       "col": 7,
       "text": "Летние Олимпийские игры 1988",
-      "entities": []
+      "entities": [
+        {
+          "text": "Летние Олимпийские игры",
+          "label": "EVENT"
+        },
+        {
+          "text": "1988",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 13,
@@ -657,7 +656,16 @@
       "row": 13,
       "col": 7,
       "text": "Летние Олимпийские игры 1988",
-      "entities": []
+      "entities": [
+        {
+          "text": "Летние Олимпийские игры",
+          "label": "EVENT"
+        },
+        {
+          "text": "1988",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 14,
@@ -694,12 +702,7 @@
       "row": 14,
       "col": 4,
       "text": "Коста-Рика",
-      "entities": [
-        {
-          "text": "Коста-Рика",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 14,
@@ -717,7 +720,24 @@
       "row": 14,
       "col": 7,
       "text": "Чемпионат наций КОНКАКАФ 1989",
-      "entities": []
+      "entities": [
+        {
+          "text": "Чемпионат",
+          "label": "EVENT"
+        },
+        {
+          "text": "наций",
+          "label": "GPE"
+        },
+        {
+          "text": "КОНКАКАФ",
+          "label": "ORG"
+        },
+        {
+          "text": "1989",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 15,
@@ -735,20 +755,7 @@
       "row": 15,
       "col": 3,
       "text": "«Биг Арк Стэдиум», Сент-Луис, США",
-      "entities": [
-        {
-          "text": "Биг Арк Стэдиум",
-          "label": "FAC"
-        },
-        {
-          "text": "Сент-Луис",
-          "label": "LOC"
-        },
-        {
-          "text": "США",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 15,
@@ -784,7 +791,12 @@
       "row": 16,
       "col": 2,
       "text": "13 мая 1989",
-      "entities": []
+      "entities": [
+        {
+          "text": "13 мая 1989",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 16,
@@ -848,12 +860,7 @@
       "row": 17,
       "col": 4,
       "text": "Коста-Рика",
-      "entities": [
-        {
-          "text": "Коста-Рика",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 17,
@@ -889,7 +896,20 @@
       "row": 18,
       "col": 3,
       "text": "«Оранж Боул», Майами, США",
-      "entities": []
+      "entities": [
+        {
+          "text": "«Оранж Боул»",
+          "label": "EVENT"
+        },
+        {
+          "text": "Майами",
+          "label": "LOC"
+        },
+        {
+          "text": "США",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 18,

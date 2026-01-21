@@ -64,12 +64,7 @@
       "row": 3,
       "col": 4,
       "text": "New Taipei City",
-      "entities": [
-        {
-          "text": "New Taipei City",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
@@ -132,12 +127,7 @@
       "row": 5,
       "col": 4,
       "text": "Tainan City",
-      "entities": [
-        {
-          "text": "Tainan City",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 6,

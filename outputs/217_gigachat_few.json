@@ -114,12 +114,7 @@
       "row": 5,
       "col": 2,
       "text": "Эль-Мардж",
-      "entities": [
-        {
-          "text": "Эль-Мардж",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 5,
@@ -265,7 +260,12 @@
       "row": 9,
       "col": 2,
       "text": "Сирт",
-      "entities": []
+      "entities": [
+        {
+          "text": "Сирт",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 9,
@@ -277,13 +277,23 @@
       "row": 9,
       "col": 4,
       "text": "Сирт",
-      "entities": []
+      "entities": [
+        {
+          "text": "Сирт",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 9,
       "col": 5,
       "text": "141378",
-      "entities": []
+      "entities": [
+        {
+          "text": "141378",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 10,
@@ -345,12 +355,7 @@
       "row": 11,
       "col": 4,
       "text": "Хомс",
-      "entities": [
-        {
-          "text": "Хомс",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 11,
@@ -503,7 +508,12 @@
       "row": 16,
       "col": 2,
       "text": "Эль-Джабал-эль-Гарби",
-      "entities": []
+      "entities": [
+        {
+          "text": "Эль-Джабал-эль-Гарби",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 16,

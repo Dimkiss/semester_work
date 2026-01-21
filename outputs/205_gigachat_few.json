@@ -1,11 +1,11 @@
 {
   "table_name": "205_locations_table.csv",
-  "method": "gigachat_zero",
+  "method": "gigachat_few",
   "meta": {
     "drop_header": true,
     "drop_first_col": null,
     "index_base": 1,
-    "mode": "zero"
+    "mode": "few"
   },
   "results": [
     {
@@ -24,13 +24,23 @@
       "row": 2,
       "col": 6,
       "text": "6037",
-      "entities": []
+      "entities": [
+        {
+          "text": "6037",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 2,
       "col": 7,
       "text": "18",
-      "entities": []
+      "entities": [
+        {
+          "text": "18",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 2,
@@ -53,7 +63,12 @@
       "row": 3,
       "col": 2,
       "text": "Северо-Западный",
-      "entities": []
+      "entities": [
+        {
+          "text": "Северо-Западный",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 3,
@@ -70,7 +85,12 @@
       "row": 3,
       "col": 6,
       "text": "826",
-      "entities": []
+      "entities": [
+        {
+          "text": "826",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 3,
@@ -82,7 +102,12 @@
       "row": 3,
       "col": 8,
       "text": "Санкт-Петербург",
-      "entities": []
+      "entities": [
+        {
+          "text": "Санкт-Петербург",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 3,
@@ -94,24 +119,29 @@
       "row": 4,
       "col": 2,
       "text": "Южный",
-      "entities": []
-    },
-    {
-      "row": 4,
-      "col": 3,
-      "text": "ЮФО",
       "entities": [
         {
-          "text": "ЮФО",
-          "label": "GPE"
+          "text": "Южный",
+          "label": "LOC"
         }
       ]
     },
     {
       "row": 4,
+      "col": 3,
+      "text": "ЮФО",
+      "entities": []
+    },
+    {
+      "row": 4,
       "col": 6,
       "text": "3681",
-      "entities": []
+      "entities": [
+        {
+          "text": "3681",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 4,
@@ -146,13 +176,23 @@
       "row": 5,
       "col": 3,
       "text": "СКФО",
-      "entities": []
+      "entities": [
+        {
+          "text": "СКФО",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 5,
       "col": 6,
       "text": "5848",
-      "entities": []
+      "entities": [
+        {
+          "text": "5848",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 5,
@@ -175,7 +215,12 @@
       "row": 5,
       "col": 9,
       "text": "68",
-      "entities": []
+      "entities": [
+        {
+          "text": "68",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 6,
@@ -198,13 +243,23 @@
       "row": 6,
       "col": 6,
       "text": "2803",
-      "entities": []
+      "entities": [
+        {
+          "text": "2803",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 6,
       "col": 7,
       "text": "14",
-      "entities": []
+      "entities": [
+        {
+          "text": "14",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 6,
@@ -244,7 +299,12 @@
       "row": 7,
       "col": 6,
       "text": "678",
-      "entities": []
+      "entities": [
+        {
+          "text": "678",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 7,
@@ -273,25 +333,45 @@
       "row": 8,
       "col": 2,
       "text": "Сибирский",
-      "entities": []
+      "entities": [
+        {
+          "text": "Сибирский",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 8,
       "col": 3,
       "text": "СФО",
-      "entities": []
+      "entities": [
+        {
+          "text": "СФО",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 8,
       "col": 6,
       "text": "390",
-      "entities": []
+      "entities": [
+        {
+          "text": "390",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 8,
       "col": 7,
       "text": "10",
-      "entities": []
+      "entities": [
+        {
+          "text": "10",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 8,
@@ -314,7 +394,12 @@
       "row": 9,
       "col": 2,
       "text": "Дальневосточный",
-      "entities": []
+      "entities": [
+        {
+          "text": "Дальневосточный",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 9,
@@ -326,13 +411,23 @@
       "row": 9,
       "col": 6,
       "text": "117",
-      "entities": []
+      "entities": [
+        {
+          "text": "117",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 9,
       "col": 7,
       "text": "11",
-      "entities": []
+      "entities": [
+        {
+          "text": "11",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 9,
@@ -366,19 +461,34 @@
       "row": 10,
       "col": 3,
       "text": "РФ",
-      "entities": []
+      "entities": [
+        {
+          "text": "РФ",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 10,
       "col": 6,
       "text": "854",
-      "entities": []
+      "entities": [
+        {
+          "text": "854",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 10,
       "col": 7,
       "text": "85",
-      "entities": []
+      "entities": [
+        {
+          "text": "85",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 10,
@@ -395,7 +505,12 @@
       "row": 10,
       "col": 9,
       "text": "−1,5",
-      "entities": []
+      "entities": [
+        {
+          "text": "-1,5",
+          "label": "QUANTITY"
+        }
+      ]
     }
   ]
 }

@@ -7,8 +7,8 @@ OUT_DIR = r".\outputs"
 
 os.makedirs(OUT_DIR, exist_ok=True)
 
-MODES = ["zero", "few"]          # ← ОБА РЕЖИМА
-TABLE_RANGE = range(207, 226)    # ← диапазон таблиц
+MODES = ["few"]          # ← ОБА РЕЖИМА
+TABLE_RANGE = range(211, 226)    # ← диапазон таблиц
 
 for mode in MODES:
     print(f"\n===== GIGACHAT MODE: {mode.upper()} =====\n")

@@ -63,7 +63,12 @@
       "row": 3,
       "col": 4,
       "text": "10 декабря 1973 (47 лет)",
-      "entities": []
+      "entities": [
+        {
+          "text": "10 декабря 1973",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 3,
@@ -92,7 +97,16 @@
       "row": 4,
       "col": 4,
       "text": "3 июня 1966 (55 лет)",
-      "entities": []
+      "entities": [
+        {
+          "text": "3 июня 1966",
+          "label": "DATE"
+        },
+        {
+          "text": "55 лет",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 4,

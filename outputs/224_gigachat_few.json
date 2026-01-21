@@ -34,7 +34,12 @@
       "row": 3,
       "col": 1,
       "text": "США",
-      "entities": []
+      "entities": [
+        {
+          "text": "США",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 3,
@@ -117,7 +122,12 @@
       "row": 7,
       "col": 1,
       "text": "Голландия",
-      "entities": []
+      "entities": [
+        {
+          "text": "Голландия",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 7,
@@ -291,7 +301,12 @@
       "row": 16,
       "col": 2,
       "text": "4",
-      "entities": []
+      "entities": [
+        {
+          "text": "4",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 17,

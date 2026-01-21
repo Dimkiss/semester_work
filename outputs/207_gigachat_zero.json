@@ -53,7 +53,12 @@
       "row": 4,
       "col": 1,
       "text": "Караганда",
-      "entities": []
+      "entities": [
+        {
+          "text": "Караганда",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 4,

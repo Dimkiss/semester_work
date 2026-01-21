@@ -12,12 +12,7 @@
       "row": 2,
       "col": 1,
       "text": "Китай",
-      "entities": [
-        {
-          "text": "Китай",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 2,
@@ -29,12 +24,7 @@
       "row": 3,
       "col": 1,
       "text": "США",
-      "entities": [
-        {
-          "text": "США",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 3,
@@ -70,12 +60,7 @@
       "row": 6,
       "col": 1,
       "text": "Франция",
-      "entities": [
-        {
-          "text": "Франция",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 6,
@@ -140,7 +125,12 @@
       "row": 11,
       "col": 1,
       "text": "Италия",
-      "entities": []
+      "entities": [
+        {
+          "text": "Италия",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 11,
@@ -152,7 +142,12 @@
       "row": 12,
       "col": 1,
       "text": "Бразилия",
-      "entities": []
+      "entities": [
+        {
+          "text": "Бразилия",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 12,
@@ -176,12 +171,7 @@
       "row": 14,
       "col": 1,
       "text": "Южная Корея",
-      "entities": [
-        {
-          "text": "Южная Корея",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 14,
@@ -239,12 +229,7 @@
       "row": 18,
       "col": 1,
       "text": "Швейцария",
-      "entities": [
-        {
-          "text": "Швейцария",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 18,
@@ -268,12 +253,7 @@
       "row": 20,
       "col": 1,
       "text": "Швеция",
-      "entities": [
-        {
-          "text": "Швеция",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 20,
@@ -285,12 +265,7 @@
       "row": 21,
       "col": 1,
       "text": "Индия",
-      "entities": [
-        {
-          "text": "Индия",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 21,
@@ -336,7 +311,12 @@
       "row": 24,
       "col": 1,
       "text": "Люксембург",
-      "entities": []
+      "entities": [
+        {
+          "text": "Люксембург",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 24,
@@ -348,12 +328,7 @@
       "row": 25,
       "col": 1,
       "text": "ОАЭ",
-      "entities": [
-        {
-          "text": "ОАЭ",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 25,
@@ -365,12 +340,7 @@
       "row": 26,
       "col": 1,
       "text": "Финляндия",
-      "entities": [
-        {
-          "text": "Финляндия",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 26,
@@ -382,12 +352,7 @@
       "row": 27,
       "col": 1,
       "text": "Чехия",
-      "entities": [
-        {
-          "text": "Чехия",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 27,
@@ -428,12 +393,7 @@
       "row": 30,
       "col": 1,
       "text": "Марокко",
-      "entities": [
-        {
-          "text": "Марокко",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 30,
@@ -445,12 +405,7 @@
       "row": 31,
       "col": 1,
       "text": "Австрия",
-      "entities": [
-        {
-          "text": "Австрия",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 31,
@@ -462,12 +417,7 @@
       "row": 32,
       "col": 1,
       "text": "Гонконг",
-      "entities": [
-        {
-          "text": "Гонконг",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 32,
@@ -479,12 +429,7 @@
       "row": 33,
       "col": 1,
       "text": "Испания",
-      "entities": [
-        {
-          "text": "Испания",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 33,

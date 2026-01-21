@@ -124,12 +124,7 @@
       "row": 4,
       "col": 5,
       "text": "15 апреля 1992 (29 лет)",
-      "entities": [
-        {
-          "text": "15 апреля 1992",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
@@ -176,16 +171,7 @@
       "row": 5,
       "col": 5,
       "text": "7 января 1996 (25 лет)",
-      "entities": [
-        {
-          "text": "7 января 1996",
-          "label": "DATE"
-        },
-        {
-          "text": "25 лет",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 5,
@@ -263,12 +249,7 @@
       "row": 7,
       "col": 2,
       "text": "Ник Ледди",
-      "entities": [
-        {
-          "text": "Ник Ледди",
-          "label": "PER"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 7,
@@ -280,16 +261,7 @@
       "row": 7,
       "col": 5,
       "text": "20 марта 1991 (30 лет)",
-      "entities": [
-        {
-          "text": "20 марта 1991",
-          "label": "DATE"
-        },
-        {
-          "text": "30 лет",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 7,
@@ -383,7 +355,16 @@
       "row": 9,
       "col": 5,
       "text": "13 января 1987 (34 года)",
-      "entities": []
+      "entities": [
+        {
+          "text": "13 января 1987",
+          "label": "DATE"
+        },
+        {
+          "text": "34 года",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 9,
@@ -413,12 +394,7 @@
       "row": 10,
       "col": 2,
       "text": "Густав Линдстрём",
-      "entities": [
-        {
-          "text": "Густав Линдстрём",
-          "label": "PER"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 10,
@@ -430,16 +406,7 @@
       "row": 10,
       "col": 5,
       "text": "20 октября 1998 (22 года)",
-      "entities": [
-        {
-          "text": "20 октября 1998",
-          "label": "DATE"
-        },
-        {
-          "text": "22 года",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 10,
@@ -533,16 +500,7 @@
       "row": 12,
       "col": 5,
       "text": "7 апреля 1994 (27 лет)",
-      "entities": [
-        {
-          "text": "7 апреля 1994",
-          "label": "DATE"
-        },
-        {
-          "text": "27 лет",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 12,
@@ -589,16 +547,7 @@
       "row": 13,
       "col": 5,
       "text": "25 июня 1992 (29 лет)",
-      "entities": [
-        {
-          "text": "25 июня 1992",
-          "label": "DATE"
-        },
-        {
-          "text": "29 лет",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 13,
@@ -834,16 +783,7 @@
       "row": 18,
       "col": 5,
       "text": "20 апреля 1995 (26 лет)",
-      "entities": [
-        {
-          "text": "20 апреля 1995",
-          "label": "DATE"
-        },
-        {
-          "text": "26 лет",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 18,
@@ -890,7 +830,16 @@
       "row": 19,
       "col": 5,
       "text": "29 июля 1994 (27 лет)",
-      "entities": []
+      "entities": [
+        {
+          "text": "29 июля 1994",
+          "label": "DATE"
+        },
+        {
+          "text": "27 лет",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 19,
@@ -1010,7 +959,12 @@
       "row": 22,
       "col": 2,
       "text": "Пиус Зутер",
-      "entities": []
+      "entities": [
+        {
+          "text": "Пиус Зутер",
+          "label": "PER"
+        }
+      ]
     },
     {
       "row": 22,
@@ -1069,7 +1023,16 @@
       "row": 23,
       "col": 5,
       "text": "10 мая 1989 (32 года)",
-      "entities": []
+      "entities": [
+        {
+          "text": "10 мая 1989",
+          "label": "DATE"
+        },
+        {
+          "text": "32 года",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 23,
@@ -1099,12 +1062,7 @@
       "row": 24,
       "col": 2,
       "text": "Дилан Ларкин",
-      "entities": [
-        {
-          "text": "Дилан Ларкин",
-          "label": "PER"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 24,
@@ -1163,7 +1121,12 @@
       "row": 25,
       "col": 5,
       "text": "10 августа 1989 (32 года)",
-      "entities": []
+      "entities": [
+        {
+          "text": "10 августа 1989",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 25,

@@ -98,12 +98,7 @@
       "row": 5,
       "col": 3,
       "text": "Кубань",
-      "entities": [
-        {
-          "text": "Кубань",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 6,
@@ -249,16 +244,7 @@
       "row": 11,
       "col": 3,
       "text": "Арсенал (Тула)",
-      "entities": [
-        {
-          "text": "Арсенал",
-          "label": "ORG"
-        },
-        {
-          "text": "Тула",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 12,

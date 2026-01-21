@@ -12,7 +12,20 @@
       "row": 2,
       "col": 1,
       "text": "Португальская Юго-Западная Африка",
-      "entities": []
+      "entities": [
+        {
+          "text": "Португальская",
+          "label": "LANGUAGE"
+        },
+        {
+          "text": "Юго-Западная",
+          "label": "MISC"
+        },
+        {
+          "text": "Африка",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 2,
@@ -112,7 +125,12 @@
       "row": 5,
       "col": 2,
       "text": "1984",
-      "entities": []
+      "entities": [
+        {
+          "text": "1984",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 5,
@@ -239,7 +257,12 @@
       "row": 9,
       "col": 2,
       "text": "1985",
-      "entities": []
+      "entities": [
+        {
+          "text": "1985",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 9,
@@ -256,16 +279,7 @@
       "row": 10,
       "col": 1,
       "text": "Французская территория афаров и исса",
-      "entities": [
-        {
-          "text": "афары",
-          "label": "NORP"
-        },
-        {
-          "text": "исса",
-          "label": "NORP"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 10,
@@ -293,12 +307,7 @@
       "row": 11,
       "col": 1,
       "text": "Испанская Гвинея",
-      "entities": [
-        {
-          "text": "Испанская Гвинея",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 11,
@@ -315,7 +324,12 @@
       "row": 11,
       "col": 3,
       "text": "Республика Экваториальная Гвинея",
-      "entities": []
+      "entities": [
+        {
+          "text": "Экваториальная Гвинея",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 12,
@@ -410,12 +424,7 @@
       "row": 15,
       "col": 1,
       "text": "Португальская Гвинея",
-      "entities": [
-        {
-          "text": "Португальская Гвинея",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 15,
@@ -467,7 +476,7 @@
       "text": "Королевство Лесото",
       "entities": [
         {
-          "text": "Лесото",
+          "text": "Королевство Лесото",
           "label": "GPE"
         }
       ]
@@ -509,12 +518,7 @@
       "row": 18,
       "col": 1,
       "text": "Французский Судан",
-      "entities": [
-        {
-          "text": "Французский Судан",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 18,
@@ -559,7 +563,12 @@
       "row": 19,
       "col": 3,
       "text": "Республика Намибия",
-      "entities": []
+      "entities": [
+        {
+          "text": "Намибия",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 20,
@@ -582,16 +591,7 @@
       "row": 20,
       "col": 3,
       "text": "Республика Руанда / Республика Бурунди",
-      "entities": [
-        {
-          "text": "Руанда",
-          "label": "GPE"
-        },
-        {
-          "text": "Бурунди",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 21,
@@ -662,12 +662,7 @@
       "row": 23,
       "col": 1,
       "text": "Буганда",
-      "entities": [
-        {
-          "text": "Буганда",
-          "label": "NORP"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 23,
@@ -684,12 +679,7 @@
       "row": 23,
       "col": 3,
       "text": "Республика Уганда",
-      "entities": [
-        {
-          "text": "Уганда",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 24,
@@ -706,12 +696,7 @@
       "row": 24,
       "col": 2,
       "text": "1964",
-      "entities": [
-        {
-          "text": "1964",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 24,
@@ -728,24 +713,29 @@
       "row": 25,
       "col": 1,
       "text": "Южная Родезия",
-      "entities": []
+      "entities": [
+        {
+          "text": "Южная Родезия",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 25,
       "col": 2,
       "text": "1980",
-      "entities": []
+      "entities": [
+        {
+          "text": "1980",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 25,
       "col": 3,
       "text": "Республика Зимбабве",
-      "entities": [
-        {
-          "text": "Зимбабве",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 26,
@@ -762,7 +752,12 @@
       "row": 26,
       "col": 2,
       "text": "2018",
-      "entities": []
+      "entities": [
+        {
+          "text": "2018",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 26,

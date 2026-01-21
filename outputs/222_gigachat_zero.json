@@ -84,7 +84,12 @@
       "row": 4,
       "col": 3,
       "text": "8 %.",
-      "entities": []
+      "entities": [
+        {
+          "text": "8 %",
+          "label": "PERCENT"
+        }
+      ]
     },
     {
       "row": 4,

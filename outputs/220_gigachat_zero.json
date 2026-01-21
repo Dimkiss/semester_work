@@ -12,12 +12,7 @@
       "row": 2,
       "col": 1,
       "text": "Астана",
-      "entities": [
-        {
-          "text": "Астана",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 2,
@@ -35,27 +30,13 @@
       "row": 2,
       "col": 4,
       "text": "Казахстанская футбольная Премьер-Лига",
-      "entities": [
-        {
-          "text": "Казахстанская",
-          "label": "GPE"
-        },
-        {
-          "text": "Премьер-Лига",
-          "label": "WORK_OF_ART"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 2,
       "col": 5,
       "text": "Астана Арена",
-      "entities": [
-        {
-          "text": "Астана Арена",
-          "label": "FAC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 3,
@@ -85,7 +66,12 @@
       "row": 3,
       "col": 5,
       "text": "Астана Арена",
-      "entities": []
+      "entities": [
+        {
+          "text": "Астана Арена",
+          "label": "FAC"
+        }
+      ]
     },
     {
       "row": 4,
@@ -115,18 +101,18 @@
       "row": 4,
       "col": 5,
       "text": "Барыс Арена",
-      "entities": []
+      "entities": [
+        {
+          "text": "Барыс Арена",
+          "label": "FAC"
+        }
+      ]
     },
     {
       "row": 5,
       "col": 1,
       "text": "Астана",
-      "entities": [
-        {
-          "text": "Астана",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 5,

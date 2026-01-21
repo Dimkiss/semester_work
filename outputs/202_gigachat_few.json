@@ -1,11 +1,11 @@
 {
   "table_name": "202_sports_table.csv",
-  "method": "gigachat_zero",
+  "method": "gigachat_few",
   "meta": {
     "drop_header": true,
     "drop_first_col": null,
     "index_base": 1,
-    "mode": "zero"
+    "mode": "few"
   },
   "results": [
     {
@@ -53,18 +53,18 @@
       "row": 5,
       "col": 1,
       "text": "Ордино[3]",
-      "entities": []
+      "entities": [
+        {
+          "text": "Ордино",
+          "label": "MISC"
+        }
+      ]
     },
     {
       "row": 5,
       "col": 2,
       "text": "Ордино",
-      "entities": [
-        {
-          "text": "Ордино",
-          "label": "ORG"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 6,
@@ -82,13 +82,23 @@
       "row": 7,
       "col": 1,
       "text": "Сан-Жулиа",
-      "entities": []
+      "entities": [
+        {
+          "text": "Сан-Жулиа",
+          "label": "MISC"
+        }
+      ]
     },
     {
       "row": 7,
       "col": 2,
       "text": "Сан-Жулиа-де-Лория",
-      "entities": []
+      "entities": [
+        {
+          "text": "Сан-Жулиа-де-Лория",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 8,
@@ -106,7 +116,12 @@
       "row": 9,
       "col": 1,
       "text": "Энгордань",
-      "entities": []
+      "entities": [
+        {
+          "text": "Энгордань",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 9,

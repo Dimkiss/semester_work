@@ -12,12 +12,7 @@
       "row": 2,
       "col": 1,
       "text": "Город Гаосюн",
-      "entities": [
-        {
-          "text": "Гаосюн",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 2,
@@ -69,13 +64,23 @@
       "row": 3,
       "col": 4,
       "text": "New Taipei City",
-      "entities": []
+      "entities": [
+        {
+          "text": "New Taipei City",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 4,
       "col": 1,
       "text": "Город Тайбэй",
-      "entities": []
+      "entities": [
+        {
+          "text": "Тайбэй",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 4,
@@ -99,12 +104,7 @@
       "row": 5,
       "col": 1,
       "text": "Город Тайнань",
-      "entities": [
-        {
-          "text": "Тайнань",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 5,
@@ -122,38 +122,19 @@
       "row": 5,
       "col": 4,
       "text": "Tainan City",
-      "entities": [
-        {
-          "text": "Tainan City",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 6,
       "col": 1,
       "text": "Город Тайчжун",
-      "entities": [
-        {
-          "text": "Тайчжун",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 6,
       "col": 2,
       "text": "臺中市，台中市",
-      "entities": [
-        {
-          "text": "臺中市",
-          "label": "LOC"
-        },
-        {
-          "text": "台中市",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 6,
@@ -165,18 +146,18 @@
       "row": 6,
       "col": 4,
       "text": "Taichung City",
-      "entities": []
+      "entities": [
+        {
+          "text": "Taichung City",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 7,
       "col": 1,
       "text": "Город Таоюань",
-      "entities": [
-        {
-          "text": "Таоюань",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 7,
@@ -194,12 +175,7 @@
       "row": 7,
       "col": 4,
       "text": "Taoyuan City",
-      "entities": [
-        {
-          "text": "Taoyuan",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     }
   ]
 }

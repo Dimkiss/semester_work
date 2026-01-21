@@ -300,7 +300,12 @@
       "row": 16,
       "col": 2,
       "text": "Украина[200]",
-      "entities": []
+      "entities": [
+        {
+          "text": "Украина",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 16,
@@ -390,12 +395,7 @@
       "row": 21,
       "col": 2,
       "text": "Испания[201]",
-      "entities": [
-        {
-          "text": "Испания",
-          "label": "GPE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 21,

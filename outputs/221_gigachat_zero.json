@@ -24,13 +24,39 @@
       "row": 2,
       "col": 4,
       "text": "Моту (исторический северный регион)",
-      "entities": []
+      "entities": [
+        {
+          "text": "Моту",
+          "label": "GPE"
+        },
+        {
+          "text": "северный",
+          "label": "ADJ"
+        },
+        {
+          "text": "регион",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 2,
       "col": 5,
       "text": "Моту (исторический северный регион)",
-      "entities": []
+      "entities": [
+        {
+          "text": "Моту",
+          "label": "GPE"
+        },
+        {
+          "text": "северный",
+          "label": "ADJ"
+        },
+        {
+          "text": "регион",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 2,
@@ -295,96 +321,31 @@
       "row": 11,
       "col": 2,
       "text": "Тафити (исторический южный регион)",
-      "entities": [
-        {
-          "text": "Тафити",
-          "label": "GPE"
-        },
-        {
-          "text": "южный",
-          "label": "ADJ"
-        },
-        {
-          "text": "регион",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 11,
       "col": 3,
       "text": "Тафити (исторический южный регион)",
-      "entities": [
-        {
-          "text": "Тафити",
-          "label": "GPE"
-        },
-        {
-          "text": "южный",
-          "label": "ADJ"
-        },
-        {
-          "text": "регион",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 11,
       "col": 4,
       "text": "Тафити (исторический южный регион)",
-      "entities": [
-        {
-          "text": "Тафити",
-          "label": "GPE"
-        },
-        {
-          "text": "южный",
-          "label": "ADJ"
-        },
-        {
-          "text": "регион",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 11,
       "col": 5,
       "text": "Тафити (исторический южный регион)",
-      "entities": [
-        {
-          "text": "Тафити",
-          "label": "GPE"
-        },
-        {
-          "text": "южный",
-          "label": "ADJ"
-        },
-        {
-          "text": "регион",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 11,
       "col": 6,
       "text": "Тафити (исторический южный регион)",
-      "entities": [
-        {
-          "text": "Тафити",
-          "label": "GPE"
-        },
-        {
-          "text": "южный",
-          "label": "ADJ"
-        },
-        {
-          "text": "регион",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 12,
@@ -420,16 +381,7 @@
       "row": 13,
       "col": 2,
       "text": "Алофи (южная часть)",
-      "entities": [
-        {
-          "text": "Алофи",
-          "label": "LOC"
-        },
-        {
-          "text": "южная часть",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 13,

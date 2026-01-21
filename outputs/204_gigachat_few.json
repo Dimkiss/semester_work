@@ -1,11 +1,11 @@
 {
   "table_name": "204_sports_table.csv",
-  "method": "gigachat_zero",
+  "method": "gigachat_few",
   "meta": {
     "drop_header": true,
     "drop_first_col": null,
     "index_base": 1,
-    "mode": "zero"
+    "mode": "few"
   },
   "results": [
     {
@@ -14,12 +14,8 @@
       "text": "Академия футбола имени Юрия Коноплёва",
       "entities": [
         {
-          "text": "Академия футбола",
-          "label": "ORG"
-        },
-        {
-          "text": "Юрия Коноплёва",
-          "label": "PER"
+          "text": "Академия футбола имени Юрия Коноплёва",
+          "label": "FAC"
         }
       ]
     },
@@ -27,7 +23,12 @@
       "row": 2,
       "col": 2,
       "text": "Самарская область",
-      "entities": []
+      "entities": [
+        {
+          "text": "Самарская область",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 3,
@@ -55,7 +56,12 @@
       "row": 4,
       "col": 1,
       "text": "Зенит",
-      "entities": []
+      "entities": [
+        {
+          "text": "Зенит",
+          "label": "ORG"
+        }
+      ]
     },
     {
       "row": 4,
@@ -133,7 +139,12 @@
       "row": 8,
       "col": 1,
       "text": "Рубин",
-      "entities": []
+      "entities": [
+        {
+          "text": "Рубин",
+          "label": "MISC"
+        }
+      ]
     },
     {
       "row": 8,
@@ -152,8 +163,8 @@
       "text": "Спартак",
       "entities": [
         {
-          "text": "Спартак»,",
-          "label": "PER"
+          "text": "Спартак",
+          "label": "ORG"
         }
       ]
     },
@@ -194,13 +205,23 @@
       "row": 11,
       "col": 1,
       "text": "СШОР «Зенит»",
-      "entities": []
+      "entities": [
+        {
+          "text": "СШОР «Зенит»",
+          "label": "ORG"
+        }
+      ]
     },
     {
       "row": 11,
       "col": 2,
       "text": "Санкт-Петербург",
-      "entities": []
+      "entities": [
+        {
+          "text": "Санкт-Петербург",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 12,

@@ -12,6 +12,18 @@
       "row": 2,
       "col": 2,
       "text": "Моту (исторический северный регион)",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Моту (исторический северный регион)",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "Моту (исторический северный регион)",
       "entities": [
         {
           "text": "Моту",
@@ -29,18 +41,6 @@
     },
     {
       "row": 2,
-      "col": 3,
-      "text": "Моту (исторический северный регион)",
-      "entities": []
-    },
-    {
-      "row": 2,
-      "col": 4,
-      "text": "Моту (исторический северный регион)",
-      "entities": []
-    },
-    {
-      "row": 2,
       "col": 5,
       "text": "Моту (исторический северный регион)",
       "entities": []
@@ -49,7 +49,20 @@
       "row": 2,
       "col": 6,
       "text": "Моту (исторический северный регион)",
-      "entities": []
+      "entities": [
+        {
+          "text": "Моту",
+          "label": "LOC"
+        },
+        {
+          "text": "северный",
+          "label": "ADJ"
+        },
+        {
+          "text": "регион",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 3,
@@ -157,12 +170,7 @@
       "row": 5,
       "col": 4,
       "text": "69",
-      "entities": [
-        {
-          "text": "69",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 5,
@@ -213,7 +221,12 @@
       "row": 6,
       "col": 5,
       "text": "2631",
-      "entities": []
+      "entities": [
+        {
+          "text": "2631",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 6,
@@ -364,7 +377,12 @@
       "row": 9,
       "col": 6,
       "text": "774",
-      "entities": []
+      "entities": [
+        {
+          "text": "774",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 10,
@@ -393,12 +411,7 @@
       "row": 10,
       "col": 5,
       "text": "1017",
-      "entities": [
-        {
-          "text": "1017",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 10,
@@ -490,16 +503,7 @@
       "row": 13,
       "col": 2,
       "text": "Алофи (южная часть)",
-      "entities": [
-        {
-          "text": "Алофи",
-          "label": "LOC"
-        },
-        {
-          "text": "южная часть",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 13,
@@ -533,27 +537,13 @@
       "row": 13,
       "col": 6,
       "text": "1375",
-      "entities": [
-        {
-          "text": "1375",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 14,
       "col": 2,
       "text": "Алофи (северная часть)",
-      "entities": [
-        {
-          "text": "Алофи",
-          "label": "LOC"
-        },
-        {
-          "text": "северная часть",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 14,
@@ -576,12 +566,7 @@
       "row": 14,
       "col": 5,
       "text": "4648",
-      "entities": [
-        {
-          "text": "4648",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 14,
@@ -632,7 +617,12 @@
       "row": 15,
       "col": 6,
       "text": "1648",
-      "entities": []
+      "entities": [
+        {
+          "text": "1648",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 16,

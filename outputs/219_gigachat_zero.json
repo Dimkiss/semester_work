@@ -12,7 +12,16 @@
       "row": 2,
       "col": 1,
       "text": "Беверидж (англ. Beveridge Reef)",
-      "entities": []
+      "entities": [
+        {
+          "text": "Беверидж",
+          "label": "PER"
+        },
+        {
+          "text": "Beveridge Reef",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 2,

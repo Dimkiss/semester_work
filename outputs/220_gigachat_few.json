@@ -29,12 +29,7 @@
       "row": 2,
       "col": 3,
       "text": "2009",
-      "entities": [
-        {
-          "text": "2009",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 2,
@@ -170,12 +165,7 @@
       "row": 5,
       "col": 4,
       "text": "Казахстанская хоккейная лига",
-      "entities": [
-        {
-          "text": "Казахстанская хоккейная лига",
-          "label": "ORG"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 5,
@@ -203,18 +193,18 @@
       "row": 6,
       "col": 2,
       "text": "Велоспорт",
-      "entities": []
+      "entities": [
+        {
+          "text": "Велоспорт",
+          "label": "WORK_OF_ART"
+        }
+      ]
     },
     {
       "row": 6,
       "col": 3,
       "text": "2007",
-      "entities": [
-        {
-          "text": "2007",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 6,
@@ -276,12 +266,7 @@
       "row": 7,
       "col": 5,
       "text": "Сарыарка",
-      "entities": [
-        {
-          "text": "Сарыарка",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 8,
@@ -315,12 +300,7 @@
       "row": 8,
       "col": 5,
       "text": "Аэродром Северный",
-      "entities": [
-        {
-          "text": "Аэродром Северный",
-          "label": "FAC"
-        }
-      ]
+      "entities": []
     }
   ]
 }

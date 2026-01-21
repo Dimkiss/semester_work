@@ -74,7 +74,12 @@
       "row": 3,
       "col": 3,
       "text": "29 %.",
-      "entities": []
+      "entities": [
+        {
+          "text": "29 %",
+          "label": "PERCENT"
+        }
+      ]
     },
     {
       "row": 3,
@@ -91,18 +96,18 @@
       "row": 3,
       "col": 5,
       "text": "221.0",
-      "entities": [
-        {
-          "text": "221.0",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
       "col": 1,
       "text": "Океания",
-      "entities": []
+      "entities": [
+        {
+          "text": "Океания",
+          "label": "GPE"
+        }
+      ]
     },
     {
       "row": 4,
@@ -131,7 +136,12 @@
       "row": 4,
       "col": 5,
       "text": "3.2",
-      "entities": []
+      "entities": [
+        {
+          "text": "3.2",
+          "label": "QUANTITY"
+        }
+      ]
     }
   ]
 }

@@ -57,7 +57,12 @@
       "row": 3,
       "col": 3,
       "text": "Читтагонг",
-      "entities": []
+      "entities": [
+        {
+          "text": "Читтагонг",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 4,
@@ -81,12 +86,7 @@
       "row": 5,
       "col": 1,
       "text": "Силхет",
-      "entities": [
-        {
-          "text": "Силхет",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 5,
@@ -104,7 +104,12 @@
       "row": 6,
       "col": 1,
       "text": "Раджшахи",
-      "entities": []
+      "entities": [
+        {
+          "text": "Раджшахи",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 6,
@@ -116,7 +121,12 @@
       "row": 6,
       "col": 3,
       "text": "Раджшахи",
-      "entities": []
+      "entities": [
+        {
+          "text": "Раджшахи",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 7,

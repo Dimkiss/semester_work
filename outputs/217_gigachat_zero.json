@@ -84,7 +84,12 @@
       "row": 5,
       "col": 2,
       "text": "Эль-Мардж",
-      "entities": []
+      "entities": [
+        {
+          "text": "Эль-Мардж",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 5,
@@ -96,7 +101,12 @@
       "row": 5,
       "col": 4,
       "text": "Эль-Мардж",
-      "entities": []
+      "entities": [
+        {
+          "text": "Эль-Мардж",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 5,
@@ -209,12 +219,7 @@
       "row": 10,
       "col": 2,
       "text": "Мисурата",
-      "entities": [
-        {
-          "text": "Мисурата",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 10,
@@ -274,12 +279,7 @@
       "row": 12,
       "col": 4,
       "text": "Триполи",
-      "entities": [
-        {
-          "text": "Триполи",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 12,

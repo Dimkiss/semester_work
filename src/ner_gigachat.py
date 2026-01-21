@@ -4,7 +4,7 @@ from langchain.schema import HumanMessage
 import json
 import re
 
-gigachat_api_key = 'MDE5YWFiNDctODQ2Yy03NzAzLWFkYzctNDMzZTAyMjNiN2ViOjQyNjhjOTI4LTMzMWUtNDk5ZS1hOTQ3LTdhZWIzODViYTlhYg=='
+gigachat_api_key = 'MDE5YTZiZjMtM2FlZS03ZjQ1LTkwNDMtMmJkNjBhZGNmY2Y3OjkyMmVkMmIxLTMyMGUtNDU1YS1hMWU0LThjM2RlNmUxY2Q1Mw=='
 
 class GigaChatNER:
     def __init__(self, mode="zero"):

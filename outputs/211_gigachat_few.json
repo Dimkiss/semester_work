@@ -134,7 +134,12 @@
       "row": 6,
       "col": 2,
       "text": "Лонг-Айленд",
-      "entities": []
+      "entities": [
+        {
+          "text": "Лонг-Айленд",
+          "label": "LOC"
+        }
+      ]
     },
     {
       "row": 6,
@@ -235,7 +240,12 @@
       "row": 9,
       "col": 4,
       "text": "565",
-      "entities": []
+      "entities": [
+        {
+          "text": "565",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 10,
@@ -280,7 +290,12 @@
       "row": 11,
       "col": 3,
       "text": "250",
-      "entities": []
+      "entities": [
+        {
+          "text": "250",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 11,

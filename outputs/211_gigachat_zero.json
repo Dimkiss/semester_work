@@ -84,12 +84,7 @@
       "row": 6,
       "col": 2,
       "text": "Лонг-Айленд",
-      "entities": [
-        {
-          "text": "Лонг-Айленд",
-          "label": "LOC"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 6,

@@ -88,12 +88,7 @@
       "row": 3,
       "col": 6,
       "text": "185",
-      "entities": [
-        {
-          "text": "185",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 3,
@@ -121,7 +116,12 @@
       "row": 3,
       "col": 9,
       "text": "2021/22",
-      "entities": []
+      "entities": [
+        {
+          "text": "2021/22",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 4,
@@ -155,12 +155,7 @@
       "row": 4,
       "col": 6,
       "text": "185",
-      "entities": [
-        {
-          "text": "185",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
@@ -410,7 +405,12 @@
       "row": 8,
       "col": 7,
       "text": "77",
-      "entities": []
+      "entities": [
+        {
+          "text": "77",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 8,
@@ -427,7 +427,12 @@
       "row": 8,
       "col": 9,
       "text": "2023/24",
-      "entities": []
+      "entities": [
+        {
+          "text": "2023/24",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 9,
@@ -450,12 +455,7 @@
       "row": 9,
       "col": 5,
       "text": "13 января 1987 (34 года)",
-      "entities": [
-        {
-          "text": "13 января 1987",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 9,
@@ -584,18 +584,18 @@
       "row": 11,
       "col": 5,
       "text": "3 июля 1990 (31 год)",
-      "entities": [
-        {
-          "text": "3 июля 1990",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 11,
       "col": 6,
       "text": "191",
-      "entities": []
+      "entities": [
+        {
+          "text": "191",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 11,
@@ -713,12 +713,7 @@
       "row": 13,
       "col": 5,
       "text": "25 июня 1992 (29 лет)",
-      "entities": [
-        {
-          "text": "25 июня 1992",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 13,
@@ -746,12 +741,7 @@
       "row": 13,
       "col": 8,
       "text": "1350000",
-      "entities": [
-        {
-          "text": "1350000",
-          "label": "QUANTITY"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 13,
@@ -828,7 +818,12 @@
       "row": 15,
       "col": 5,
       "text": "28 февраля 1996 (25 лет)",
-      "entities": []
+      "entities": [
+        {
+          "text": "28 февраля 1996",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 15,
@@ -890,12 +885,7 @@
       "row": 16,
       "col": 5,
       "text": "27 февраля 1998 (23 года)",
-      "entities": [
-        {
-          "text": "27 февраля 1998",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 16,
@@ -934,7 +924,12 @@
       "row": 16,
       "col": 9,
       "text": "2022/23",
-      "entities": []
+      "entities": [
+        {
+          "text": "2022/23",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 17,
@@ -957,7 +952,12 @@
       "row": 17,
       "col": 5,
       "text": "24 февраля 1995 (26 лет)",
-      "entities": []
+      "entities": [
+        {
+          "text": "24 февраля 1995",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 17,
@@ -1019,7 +1019,12 @@
       "row": 18,
       "col": 5,
       "text": "20 апреля 1995 (26 лет)",
-      "entities": []
+      "entities": [
+        {
+          "text": "20 апреля 1995",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 18,
@@ -1081,7 +1086,12 @@
       "row": 19,
       "col": 5,
       "text": "29 июля 1994 (27 лет)",
-      "entities": []
+      "entities": [
+        {
+          "text": "29 июля 1994",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 19,
@@ -1191,7 +1201,16 @@
       "row": 21,
       "col": 5,
       "text": "22 января 1996 (25 лет)",
-      "entities": []
+      "entities": [
+        {
+          "text": "22 января 1996",
+          "label": "DATE"
+        },
+        {
+          "text": "25 лет",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 21,
@@ -1257,6 +1276,10 @@
         {
           "text": "24 мая 1996",
           "label": "DATE"
+        },
+        {
+          "text": "25 лет",
+          "label": "TIME"
         }
       ]
     },
@@ -1326,7 +1349,12 @@
       "row": 23,
       "col": 6,
       "text": "185",
-      "entities": []
+      "entities": [
+        {
+          "text": "185",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 23,
@@ -1439,7 +1467,12 @@
       "row": 25,
       "col": 5,
       "text": "10 августа 1989 (32 года)",
-      "entities": []
+      "entities": [
+        {
+          "text": "10 августа 1989",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 25,
@@ -1540,12 +1573,7 @@
       "row": 26,
       "col": 9,
       "text": "2021/22",
-      "entities": [
-        {
-          "text": "2021/22",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 27,

@@ -29,7 +29,16 @@
       "row": 2,
       "col": 5,
       "text": "9 из 14",
-      "entities": []
+      "entities": [
+        {
+          "text": "9",
+          "label": "QUANTITY"
+        },
+        {
+          "text": "14",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 2,
@@ -41,7 +50,16 @@
       "row": 2,
       "col": 7,
       "text": "9 из 14",
-      "entities": []
+      "entities": [
+        {
+          "text": "9",
+          "label": "QUANTITY"
+        },
+        {
+          "text": "14",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 2,
@@ -59,7 +77,12 @@
       "row": 2,
       "col": 10,
       "text": "10",
-      "entities": []
+      "entities": [
+        {
+          "text": "10",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 2,
@@ -250,12 +273,7 @@
       "row": 4,
       "col": 11,
       "text": "2010",
-      "entities": [
-        {
-          "text": "2010",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
@@ -430,12 +448,7 @@
       "row": 6,
       "col": 11,
       "text": "2013",
-      "entities": [
-        {
-          "text": "2013",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 6,
@@ -484,7 +497,12 @@
       "row": 7,
       "col": 5,
       "text": "6½",
-      "entities": []
+      "entities": [
+        {
+          "text": "6½",
+          "label": "QUANTITY"
+        }
+      ]
     },
     {
       "row": 7,
@@ -520,12 +538,7 @@
       "row": 7,
       "col": 11,
       "text": "2014",
-      "entities": [
-        {
-          "text": "2014",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 7,
@@ -790,13 +803,27 @@
       "row": 10,
       "col": 11,
       "text": "2021",
-      "entities": []
+      "entities": [
+        {
+          "text": "2021",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 10,
       "col": 12,
       "text": "Дубай (Объединённые Арабские Эмираты)",
-      "entities": []
+      "entities": [
+        {
+          "text": "Дубай",
+          "label": "LOC"
+        },
+        {
+          "text": "Объединённые Арабские Эмираты",
+          "label": "GPE"
+        }
+      ]
     }
   ]
 }

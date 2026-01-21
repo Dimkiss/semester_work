@@ -34,23 +34,13 @@
       "row": 2,
       "col": 4,
       "text": "9 мая 1965 (56 лет)",
-      "entities": [
-        {
-          "text": "9 мая 1965 (56 лет)",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 2,
       "col": 5,
       "text": "с 2019 года",
-      "entities": [
-        {
-          "text": "2019 года",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 3,
@@ -79,12 +69,7 @@
       "row": 3,
       "col": 5,
       "text": "с 2015 года",
-      "entities": [
-        {
-          "text": "2015",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
@@ -107,38 +92,19 @@
       "row": 4,
       "col": 4,
       "text": "3 июня 1966 (55 лет)",
-      "entities": [
-        {
-          "text": "3 июня 1966",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 4,
       "col": 5,
       "text": "с 2016 года",
-      "entities": [
-        {
-          "text": "2016",
-          "label": "DATE"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 5,
       "col": 1,
       "text": "Тренер вратарей",
-      "entities": [
-        {
-          "text": "тренер",
-          "label": "PER"
-        },
-        {
-          "text": "вратарей",
-          "label": "PER"
-        }
-      ]
+      "entities": []
     },
     {
       "row": 5,
@@ -155,7 +121,12 @@
       "row": 5,
       "col": 4,
       "text": "18 апреля 1975 (46 лет)",
-      "entities": []
+      "entities": [
+        {
+          "text": "18 апреля 1975",
+          "label": "DATE"
+        }
+      ]
     },
     {
       "row": 5,
