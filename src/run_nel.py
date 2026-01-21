@@ -1,9 +1,11 @@
 import argparse
 import json
 import os
-from typing import Any, Dict
+from typing import Any, Dict, Tuple
 
-from nel_wikidata import WikidataNEL
+from nel_wikidata import EntityLinker, is_russian
+
+LINK_LABELS = {"LOC", "GPE", "PER", "PERSON", "ORG", "ORGANIZATION"}
 
 
 def load_json(path: str) -> Dict[str, Any]:
@@ -17,50 +19,61 @@ def save_json(path: str, obj: Dict[str, Any]):
         json.dump(obj, f, ensure_ascii=False, indent=2)
 
 
-def add_nel(obj: Dict[str, Any], linker: WikidataNEL, limit: int) -> Dict[str, Any]:
+def add_nel(obj: Dict[str, Any], linker: EntityLinker) -> Tuple[int, int, int]:
     linked = 0
+    attempted = 0
     total = 0
 
     for cell in obj.get("results", []):
         entities = cell.get("entities") or []
         for ent in entities:
             total += 1
-            text = ent.get("text", "") or ""
-            kb_id = linker.search_wikidata(text, limit=limit)
+            label = (ent.get("label") or "").upper()
+            text = (ent.get("text") or "").strip()
+
+            if label not in LINK_LABELS:
+                ent["kb_id"] = None
+                continue
+
+            if not is_russian(text):
+                ent["kb_id"] = None
+                continue
+
+            attempted += 1
+            kb_id = linker.search_wikidata(text)
             ent["kb_id"] = kb_id
             if kb_id:
                 linked += 1
 
-    obj["nel"] = {
-        "kb": "wikidata",
-        "linked": linked,
-        "total": total,
-        "limit": limit,
-    }
-    return obj
+    return linked, attempted, total
 
 
 def main():
     p = argparse.ArgumentParser(description="NEL: добавить ссылки Wikidata к сущностям из NER-json")
-    p.add_argument("--in_ner", required=True, help="Входной JSON от NER (spacy/zero/few)")
-    p.add_argument("--out", required=True, help="Выходной JSON (NER+NEL)")
-    p.add_argument("--limit", type=int, default=5, help="Сколько кандидатов смотреть в wbsearchentities")
-    p.add_argument("--sleep", type=float, default=0.05, help="Пауза между запросами (сек)")
-    p.add_argument("--timeout", type=float, default=10.0, help="Timeout http (сек)")
-    p.add_argument("--quiet", action="store_true", help="Не печатать статистику")
-
+    p.add_argument("--in_ner", required=True, help="входной JSON после NER")
+    p.add_argument("--out", required=True, help="выходной JSON (NER+NEL)")
+    p.add_argument("--limit", type=int, default=1, help="сколько кандидатов брать из Wikidata")
+    p.add_argument("--sleep", type=float, default=0.05, help="пауза между запросами (сек)")
+    p.add_argument("--quiet", action="store_true")
     args = p.parse_args()
 
     obj = load_json(args.in_ner)
 
-    with WikidataNEL(language="ru", sleep_s=args.sleep, timeout_s=args.timeout) as linker:
-        out_obj = add_nel(obj, linker, limit=args.limit)
+    linker = EntityLinker(limit=args.limit, sleep_s=args.sleep)
+    linked, attempted, total = add_nel(obj, linker)
 
-    save_json(args.out, out_obj)
+    obj["nel"] = {
+        "kb": "wikidata",
+        "linked": linked,
+        "attempted": attempted,
+        "total": total,
+        "limit": args.limit,
+    }
+
+    save_json(args.out, obj)
 
     if not args.quiet:
-        nel_info = out_obj.get("nel", {})
-        print(f"[OK] Linked {nel_info.get('linked', 0)}/{nel_info.get('total', 0)}")
+        print(f"[OK] Linked {linked}/{attempted} (attempted), total entities {total}")
         print(f"[OK] Saved: {args.out}")
 
 

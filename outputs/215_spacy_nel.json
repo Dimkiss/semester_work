@@ -1,0 +1,270 @@
+{
+  "table_name": "215_locations_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Город Гаосюн",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "高雄市",
+      "entities": [
+        {
+          "text": "高雄市",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Gāoxióng",
+      "entities": [
+        {
+          "text": "Gāoxióng",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "Kaohsiung City",
+      "entities": [
+        {
+          "text": "Kaohsiung City",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Город Новый Тайбэй",
+      "entities": [
+        {
+          "text": "Новый Тайбэй",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q244898"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "新北市",
+      "entities": [
+        {
+          "text": "新北市",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Xīnběi",
+      "entities": [
+        {
+          "text": "Xīnběi",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "New Taipei City",
+      "entities": [
+        {
+          "text": "New Taipei City",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Город Тайбэй",
+      "entities": [
+        {
+          "text": "Тайбэй",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q1867"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "臺北市，台北市",
+      "entities": [
+        {
+          "text": "臺北市，台北市",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Táiběi",
+      "entities": [
+        {
+          "text": "Táiběi",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "Taipei City",
+      "entities": [
+        {
+          "text": "Taipei City",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Город Тайнань",
+      "entities": [
+        {
+          "text": "Тайнань",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q140631"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "臺南市，台南市",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Táinán",
+      "entities": [
+        {
+          "text": "Táinán",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "Tainan City",
+      "entities": [
+        {
+          "text": "Tainan City",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Город Тайчжун",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "臺中市，台中市",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Táizhōng",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "Taichung City",
+      "entities": [
+        {
+          "text": "Taichung City",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Город Таоюань",
+      "entities": [
+        {
+          "text": "Таоюань",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q115256"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "桃園市",
+      "entities": [
+        {
+          "text": "桃園市",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Táoyuán",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "Taoyuan City",
+      "entities": [
+        {
+          "text": "Taoyuan City",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 4,
+    "attempted": 4,
+    "total": 18,
+    "limit": 1
+  }
+}

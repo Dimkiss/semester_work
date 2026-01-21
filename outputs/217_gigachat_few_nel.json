@@ -1,0 +1,817 @@
+{
+  "table_name": "217_locations_table.csv",
+  "method": "gigachat_few",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "few"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Эль-Бутнан",
+      "entities": [
+        {
+          "text": "Эль-Бутнан",
+          "label": "MISC",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "البطنان",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "Тобрук",
+      "entities": [
+        {
+          "text": "Тобрук",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q182092"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "159536",
+      "entities": [
+        {
+          "text": "159536",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Дерна",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "درنة",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "Дерна",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "163351",
+      "entities": [
+        {
+          "text": "163351",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Эль-Джебал-Эль-Ахдар",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "الجبل الاخضر",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "Эль-Байда",
+      "entities": [
+        {
+          "text": "Эль-Байда",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q35784"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "203156",
+      "entities": [
+        {
+          "text": "203156",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Эль-Мардж",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "المرج",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "Эль-Мардж",
+      "entities": [
+        {
+          "text": "Эль-Мардж",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q26023"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "185848",
+      "entities": [
+        {
+          "text": "185848",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Бенгази",
+      "entities": [
+        {
+          "text": "Бенгази",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q40816"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "بنغازي",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "Бенгази",
+      "entities": [
+        {
+          "text": "Бенгази",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q40816"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "text": "670797",
+      "entities": [
+        {
+          "text": "670797",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Эль-Вахат",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "الواحات",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "Адждабия",
+      "entities": [
+        {
+          "text": "Адждабия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q202991"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "text": "177047",
+      "entities": [
+        {
+          "text": "177047",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Эль-Куфра",
+      "entities": [
+        {
+          "text": "Эль-Куфра",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q48200"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "الكفرة",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "Эль-Джауф",
+      "entities": [
+        {
+          "text": "Эль-Джауф",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q1471266"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "text": "50104",
+      "entities": [
+        {
+          "text": "50104",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Сирт",
+      "entities": [
+        {
+          "text": "Сирт",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q162413"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "سرت",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "Сирт",
+      "entities": [
+        {
+          "text": "Сирт",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q162413"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 5,
+      "text": "141378",
+      "entities": [
+        {
+          "text": "141378",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Мисурата",
+      "entities": [
+        {
+          "text": "Мисурата",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q131323"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "مصراتة",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "Мисурата",
+      "entities": [
+        {
+          "text": "Мисурата",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q131323"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 5,
+      "text": "550938",
+      "entities": [
+        {
+          "text": "550938",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Эль-Маргаб",
+      "entities": [
+        {
+          "text": "Эль-Маргаб",
+          "label": "MISC",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "المرقب",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "text": "Хомс",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "text": "432202",
+      "entities": [
+        {
+          "text": "432202",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "Тарабулус",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "طرابلس",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "text": "Триполи",
+      "entities": [
+        {
+          "text": "Триполи",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q3579"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 5,
+      "text": "1065405",
+      "entities": [
+        {
+          "text": "1065405",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "Эль-Джифара",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "الجفارة",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 4,
+      "text": "Эль-Азизия",
+      "entities": [
+        {
+          "text": "Эль-Азизия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q312307"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 5,
+      "text": "453198",
+      "entities": [
+        {
+          "text": "453198",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "Эз-Завия",
+      "entities": [
+        {
+          "text": "Эз-Завия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q221503"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "text": "الزاوية",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 4,
+      "text": "Эз-Завия",
+      "entities": [
+        {
+          "text": "Эз-Завия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q221503"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 5,
+      "text": "290993",
+      "entities": [
+        {
+          "text": "290993",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "Эн-Нугат-эль-Хумс",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 3,
+      "text": "النقاط الخمس",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 4,
+      "text": "Зувара",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 5,
+      "text": "287662",
+      "entities": [
+        {
+          "text": "287662",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "Эль-Джабал-эль-Гарби",
+      "entities": [
+        {
+          "text": "Эль-Джабал-эль-Гарби",
+          "label": "LOC",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "col": 3,
+      "text": "الجبل الغربي",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 4,
+      "text": "Гарьян",
+      "entities": [
+        {
+          "text": "Гарьян",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q867102"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "col": 5,
+      "text": "304159",
+      "entities": [
+        {
+          "text": "304159",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "Налут",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 3,
+      "text": "نالوت",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 4,
+      "text": "Налут",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 5,
+      "text": "93224",
+      "entities": [
+        {
+          "text": "93224",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "Эль-Джуфра",
+      "entities": [
+        {
+          "text": "Эль-Джуфра",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q48247"
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "col": 3,
+      "text": "الجفرة",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 4,
+      "text": "Хун",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 5,
+      "text": "52342",
+      "entities": [
+        {
+          "text": "52342",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "col": 2,
+      "text": "Вади-эш-Шати",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 3,
+      "text": "وادي الشاطئ",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 4,
+      "text": "Адири",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 5,
+      "text": "78532",
+      "entities": [
+        {
+          "text": "78532",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "col": 2,
+      "text": "Сабха",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 3,
+      "text": "سبها",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 4,
+      "text": "Сабха",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 5,
+      "text": "134162",
+      "entities": [
+        {
+          "text": "134162",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "col": 2,
+      "text": "Вади-эль-Хаят",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 3,
+      "text": "وادي الحياة",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 4,
+      "text": "Авбари",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 5,
+      "text": "76858",
+      "entities": [
+        {
+          "text": "76858",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "col": 2,
+      "text": "Гат",
+      "entities": [
+        {
+          "text": "Гат",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q209393"
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "col": 3,
+      "text": "غات",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 4,
+      "text": "Гат",
+      "entities": [
+        {
+          "text": "Гат",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q209393"
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "col": 5,
+      "text": "23518",
+      "entities": [
+        {
+          "text": "23518",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "col": 2,
+      "text": "Марзук",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 3,
+      "text": "مرزق",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 4,
+      "text": "Марзук",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 5,
+      "text": "78621",
+      "entities": [
+        {
+          "text": "78621",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 20,
+    "attempted": 21,
+    "total": 45,
+    "limit": 1
+  }
+}

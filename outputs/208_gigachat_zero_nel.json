@@ -1,0 +1,354 @@
+{
+  "table_name": "208_sports_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Защ",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Карл Старфельт",
+      "entities": [
+        {
+          "text": "Карл Старфельт",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q16633442"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Селтик",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Защ",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Данил Степанов*",
+      "entities": [
+        {
+          "text": "Данил Степанов",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q59594340"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Арсенал (Тула)",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Защ",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Михаил Меркулов***",
+      "entities": [
+        {
+          "text": "Михаил Меркулов",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q6849620"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Риека",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Защ",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Алексей Грицаенко*",
+      "entities": [
+        {
+          "text": "Алексей Грицаенко",
+          "label": "PER",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Кубань",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Защ",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Сильвие Бегич*",
+      "entities": [
+        {
+          "text": "Сильвие Бегич",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q21621906"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Крылья Советов",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Игорь Коновалов*",
+      "entities": [
+        {
+          "text": "Игорь Коновалов",
+          "label": "PER",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Ахмат",
+      "entities": [
+        {
+          "text": "Ахмат",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q240444"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Камиль Закиров***",
+      "entities": [
+        {
+          "text": "Камиль Закиров",
+          "label": "PER",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Денис Макаров",
+      "entities": [
+        {
+          "text": "Денис Макаров",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q56493469"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Динамо (Москва)",
+      "entities": [
+        {
+          "text": "Динамо",
+          "label": "ORG",
+          "kb_id": "http://www.wikidata.org/entity/Q179075"
+        },
+        {
+          "text": "Москва",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q649"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Мицуки Сайто**",
+      "entities": [
+        {
+          "text": "Мицуки Сайто",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q24082809"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Сёнан Бельмаре",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Зурико Давиташвили***",
+      "entities": [
+        {
+          "text": "Зурико Давиташвили",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q55102261"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Арсенал (Тула)",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "text": "ПЗ",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "Дарко Йевтич*",
+      "entities": [
+        {
+          "text": "Дарко Йевтич",
+          "label": "PER",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "АЕК",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 1,
+      "text": "Нап",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "Кирилл Климов*",
+      "entities": [
+        {
+          "text": "Кирилл Климов",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q1149001"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "Кубань",
+      "entities": [
+        {
+          "text": "Кубань",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q29103"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 1,
+      "text": "Нап",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "Кирилл Косарев*",
+      "entities": [
+        {
+          "text": "Кирилл Косарев",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q34212892"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "text": "Нижний Новгород",
+      "entities": [
+        {
+          "text": "Нижний Новгород",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q891"
+        }
+      ]
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 14,
+    "attempted": 18,
+    "total": 18,
+    "limit": 1
+  }
+}

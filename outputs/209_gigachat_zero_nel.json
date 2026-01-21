@@ -1,0 +1,283 @@
+{
+  "table_name": "209_locations_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Алма-Ата",
+      "entities": [
+        {
+          "text": "Алма-Ата",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q35493"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "город республиканского значения",
+      "entities": [
+        {
+          "text": "город республиканского значения",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q12266391"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "1 897 143",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Нур-Султан",
+      "entities": [
+        {
+          "text": "Нур-Султан",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q1520"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "город республиканского значения",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "1 121 809",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Шымкент",
+      "entities": [
+        {
+          "text": "Шымкент",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q485496"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "город республиканского значения",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "1 028 673",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Актобе",
+      "entities": [
+        {
+          "text": "Актобе",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q477232"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Актюбинская",
+      "entities": [
+        {
+          "text": "Актюбинская",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q485437"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "497 381",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Караганда",
+      "entities": [
+        {
+          "text": "Караганда",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q484706"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Карагандинская",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "496 701",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Тараз",
+      "entities": [
+        {
+          "text": "Тараз",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q486545"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Жамбылская",
+      "entities": [
+        {
+          "text": "Жамбылская",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q486657"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "357 662",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Павлодар",
+      "entities": [
+        {
+          "text": "Павлодар",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q486282"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Павлодарская",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "333 554",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Усть-Каменогорск",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Восточно-Казахстанская",
+      "entities": [
+        {
+          "text": "Восточно-Казахстанская",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q36156"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "333 112",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Семей",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Восточно-Казахстанская",
+      "entities": [
+        {
+          "text": "Восточно-Казахстанская",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q36156"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "323 721",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Атырау",
+      "entities": [
+        {
+          "text": "Атырау",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q486913"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Атырауская",
+      "entities": [
+        {
+          "text": "Атырауская",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q427658"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "text": "270 882",
+      "entities": []
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 14,
+    "attempted": 14,
+    "total": 14,
+    "limit": 1
+  }
+}

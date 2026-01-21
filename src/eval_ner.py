@@ -1,13 +1,6 @@
 # eval_ner.py
 # Оценка качества NER: сопоставление pred ↔ test_set по table_id
-# Улучшения:
-# 1) extract_table_id понимает: "201_*.json", "201*.json", "table201*.json" (берёт первый блок цифр)
-# 2) Фильтр по диапазону table_id: --min_id / --max_id (например 201..213)
-# 3) Опциональный маппинг меток (например GPE->LOC): --label_map "GPE=LOC,PER=PERSON"
-# 4) Можно исключать метки из оценки: --exclude_labels "QUANTITY,DATE"
-# 5) Доп. статистика: FP/FN и (опционально) метрики по каждой метке: --per_label
-#
-# :contentReference[oaicite:0]{index=0}
+# Авто-режим: оценивает 3 набора (spacy / gigachat_zero / gigachat_few) и сохраняет в reports/
 
 import argparse
 import json
@@ -15,6 +8,11 @@ import os
 import glob
 import re
 from typing import Dict, Tuple, Set, Optional, Iterable
+
+
+DEFAULT_PRED_DIR = r".\outputs"
+DEFAULT_TEST_SET_DIR = r".\data\test_set"
+DEFAULT_REPORTS_DIR = r".\reports"
 
 
 def norm_text(s: str) -> str:
@@ -30,261 +28,143 @@ def load_json(path: str) -> dict:
 
 
 def extract_table_id(filename: str) -> Optional[int]:
-    """
-    Извлекает table_id из имени файла.
-    Поддерживает:
-      - 201_spacy.json -> 201
-      - 201_locations_table.json -> 201
-      - 201.json -> 201
-      - table201_pred.json -> 201
-    Берём первый блок цифр в имени файла.
-    """
     base = os.path.basename(filename)
     m = re.search(r"(\d+)", base)
     return int(m.group(1)) if m else None
 
 
 def parse_label_map(s: Optional[str]) -> Dict[str, str]:
-    """
-    "GPE=LOC,PER=PERSON" -> {"GPE": "LOC", "PER": "PERSON"}
-    """
     if not s:
         return {}
     out: Dict[str, str] = {}
     parts = [p.strip() for p in s.split(",") if p.strip()]
     for p in parts:
         if "=" not in p:
-            raise ValueError(f"Неверный формат --label_map: {p} (ожидается A=B)")
-        a, b = [x.strip() for x in p.split("=", 1)]
-        if not a or not b:
-            raise ValueError(f"Неверный формат --label_map: {p} (пустая сторона)")
-        out[a] = b
+            raise ValueError(f"Неверный формат label_map: '{p}' (ожидается KEY=VALUE)")
+        k, v = p.split("=", 1)
+        out[k.strip()] = v.strip()
     return out
 
 
 def parse_label_set(s: Optional[str]) -> Set[str]:
-    """
-    "QUANTITY,DATE" -> {"QUANTITY","DATE"}
-    """
     if not s:
         return set()
     return {p.strip() for p in s.split(",") if p.strip()}
 
 
-def apply_label_map(label: Optional[str], label_map: Dict[str, str]) -> Optional[str]:
-    if label is None:
-        return None
+def apply_label_map(label: str, label_map: Dict[str, str]) -> str:
     return label_map.get(label, label)
 
 
-def index_entities(
-    table_obj: dict,
-    label_map: Dict[str, str],
-    exclude_labels: Set[str],
-) -> Dict[Tuple[int, int], Set[Tuple[str, str]]]:
-    """
-    Индекс: (row,col) -> set((norm_text(entity_text), label))
-    """
-    idx: Dict[Tuple[int, int], Set[Tuple[str, str]]] = {}
+def iter_entities(obj: dict) -> Iterable[Tuple[int, int, str, str]]:
+    for cell in obj.get("results", []):
+        row = cell.get("row")
+        col = cell.get("col")
+        for ent in (cell.get("entities") or []):
+            text = ent.get("text")
+            label = ent.get("label")
+            if row is None or col is None or text is None or label is None:
+                continue
+            yield int(row), int(col), str(text), str(label)
 
-    for cell in table_obj.get("results", []):
-        try:
-            key = (int(cell["row"]), int(cell["col"]))
-        except Exception:
-            # если формат внезапно кривой — пропускаем клетку
+
+def build_index(obj: dict, label_map: Dict[str, str], exclude_labels: Set[str]) -> Set[Tuple[int, int, str, str]]:
+    out: Set[Tuple[int, int, str, str]] = set()
+    for row, col, text, label in iter_entities(obj):
+        label2 = apply_label_map(label, label_map)
+        if label2 in exclude_labels:
             continue
-
-        idx.setdefault(key, set())
-
-        for e in cell.get("entities", []):
-            et = norm_text(e.get("text", ""))
-            lb = apply_label_map(e.get("label"), label_map)
-            if not et or not lb:
-                continue
-            if lb in exclude_labels:
-                continue
-            idx[key].add((et, lb))
-
-    return idx
-
-
-def compute_counts(
-    pred_idx: Dict[Tuple[int, int], Set[Tuple[str, str]]],
-    test_idx: Dict[Tuple[int, int], Set[Tuple[str, str]]],
-) -> Tuple[int, int, int, int, int]:
-    """
-    Возвращает:
-      C = correct (пересечение)
-      A = predicted all
-      N = gold all
-      FP = false positives
-      FN = false negatives
-    """
-    C = A = N = FP = FN = 0
-    all_cells = set(pred_idx) | set(test_idx)
-
-    for cell in all_cells:
-        p = pred_idx.get(cell, set())
-        t = test_idx.get(cell, set())
-        inter = p & t
-        C += len(inter)
-        A += len(p)
-        N += len(t)
-        FP += len(p - t)
-        FN += len(t - p)
-
-    return C, A, N, FP, FN
-
-
-def metrics(C: int, A: int, N: int) -> Tuple[float, float, float]:
-    precision = C / A if A else 0.0
-    recall = C / N if N else 0.0
-    f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) else 0.0
-    return precision, recall, f1
-
-
-def per_label_counts(
-    pred_idx: Dict[Tuple[int, int], Set[Tuple[str, str]]],
-    test_idx: Dict[Tuple[int, int], Set[Tuple[str, str]]],
-) -> Dict[str, Dict[str, int]]:
-    """
-    Для каждой метки считает C/A/N (строгий match по (text,label)).
-    """
-    out: Dict[str, Dict[str, int]] = {}
-    all_cells = set(pred_idx) | set(test_idx)
-
-    for cell in all_cells:
-        p = pred_idx.get(cell, set())
-        t = test_idx.get(cell, set())
-
-        labels = {lb for _, lb in p} | {lb for _, lb in t}
-        for lb in labels:
-            out.setdefault(lb, {"C": 0, "A": 0, "N": 0})
-            p_lb = {(et, l) for (et, l) in p if l == lb}
-            t_lb = {(et, l) for (et, l) in t if l == lb}
-            out[lb]["C"] += len(p_lb & t_lb)
-            out[lb]["A"] += len(p_lb)
-            out[lb]["N"] += len(t_lb)
-
+        out.add((row, col, norm_text(text), label2))
     return out
 
 
-def in_range(tid: int, min_id: Optional[int], max_id: Optional[int]) -> bool:
-    if min_id is not None and tid < min_id:
-        return False
-    if max_id is not None and tid > max_id:
-        return False
-    return True
+def metrics(C: int, A: int, N: int) -> Tuple[float, float, float]:
+    p = (C / A) if A else 0.0
+    r = (C / N) if N else 0.0
+    f1 = (2 * p * r / (p + r)) if (p + r) else 0.0
+    return p, r, f1
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Оценка качества NER по test_set (сопоставление по table_id)"
-    )
-    parser.add_argument("--pred_dir", required=True, help="Папка с предсказаниями (JSON)")
-    parser.add_argument("--test_set_dir", required=True, help="Папка с test_set (JSON)")
-    parser.add_argument("--out", required=True, help="JSON-отчёт")
+def should_skip_pred_file(filename: str) -> bool:
+    name = os.path.basename(filename).lower()
+    return name.endswith("_nel.json") or "_nel" in name
 
-    # новые опции
-    parser.add_argument("--min_id", type=int, default=None, help="Минимальный table_id (включительно)")
-    parser.add_argument("--max_id", type=int, default=None, help="Максимальный table_id (включительно)")
-    parser.add_argument(
-        "--label_map",
-        default=None,
-        help='Маппинг меток, например: "GPE=LOC,PER=PERSON"'
-    )
-    parser.add_argument(
-        "--exclude_labels",
-        default=None,
-        help='Исключить метки из оценки, например: "QUANTITY,DATE"'
-    )
-    parser.add_argument(
-        "--per_label",
-        action="store_true",
-        help="Добавить в отчёт метрики по каждой метке"
-    )
-    parser.add_argument(
-        "--strict_test_id",
-        action="store_true",
-        help="Если у test_set несколько файлов на один table_id — считать это ошибкой (иначе берём последний найденный)"
-    )
 
-    args = parser.parse_args()
+def evaluate_one(
+    pred_dir: str,
+    test_set_dir: str,
+    out_path: str,
+    pred_glob: str,
+    min_id: Optional[int],
+    max_id: Optional[int],
+    label_map: Dict[str, str],
+    exclude_labels: Set[str],
+    per_label: bool,
+    strict_test_id: bool,
+):
+    pred_files = sorted(glob.glob(os.path.join(pred_dir, pred_glob)))
+    pred_files = [p for p in pred_files if not should_skip_pred_file(p)]
 
-    try:
-        label_map = parse_label_map(args.label_map)
-    except ValueError as e:
-        print(f"[ERROR] {e}")
-        return
+    test_files = sorted(glob.glob(os.path.join(test_set_dir, "*.json")))
 
-    exclude_labels = parse_label_set(args.exclude_labels)
-
-    pred_files = glob.glob(os.path.join(args.pred_dir, "*.json"))
-    test_files = glob.glob(os.path.join(args.test_set_dir, "*.json"))
-
-    if not pred_files:
-        print("[ERROR] Нет файлов предсказаний")
-        return
     if not test_files:
-        print("[ERROR] Нет файлов test_set")
+        print(f"[ERROR] Нет файлов test_set в {test_set_dir}")
         return
 
-    # индексируем test_set по tid
-    test_map: Dict[int, str] = {}
-    collisions: Dict[int, Set[str]] = {}
-
-    for tf in test_files:
-        tid = extract_table_id(os.path.basename(tf))
+    test_by_id: Dict[int, str] = {}
+    for f in test_files:
+        tid = extract_table_id(f)
         if tid is None:
             continue
-        if not in_range(tid, args.min_id, args.max_id):
+        if min_id is not None and tid < min_id:
             continue
+        if max_id is not None and tid > max_id:
+            continue
+        if strict_test_id and tid in test_by_id:
+            raise RuntimeError(f"В test_set несколько файлов с table_id={tid}: '{test_by_id[tid]}' и '{f}'")
+        test_by_id[tid] = f
 
-        if tid in test_map:
-            collisions.setdefault(tid, set()).update({test_map[tid], tf})
-        test_map[tid] = tf  # по умолчанию берём последний
+    total_C = 0
+    total_A = 0
+    total_N = 0
+    total_FP = 0
+    total_FN = 0
 
-    if args.strict_test_id and collisions:
-        print("[ERROR] В test_set найдено несколько файлов для одного table_id:")
-        for tid, files in sorted(collisions.items()):
-            print(f"  table_id={tid}:")
-            for f in sorted(files):
-                print(f"    - {os.path.basename(f)}")
-        print("Переименуйте файлы или отключите --strict_test_id.")
-        return
-
-    total_C = total_A = total_N = total_FP = total_FN = 0
-    per_table = []
-    skipped_no_test = 0
     skipped_out_of_range = 0
+    skipped_no_test = 0
 
-    # сортировка для красивого отчёта
-    pred_files_sorted = sorted(pred_files, key=lambda p: (extract_table_id(os.path.basename(p)) or 10**12, p))
+    per_table = []
 
-    for pf in pred_files_sorted:
-        fname = os.path.basename(pf)
-        tid = extract_table_id(fname)
-
+    for pred_path in pred_files:
+        tid = extract_table_id(pred_path)
         if tid is None:
             continue
 
-        if not in_range(tid, args.min_id, args.max_id):
+        if min_id is not None and tid < min_id:
+            skipped_out_of_range += 1
+            continue
+        if max_id is not None and tid > max_id:
             skipped_out_of_range += 1
             continue
 
-        if tid not in test_map:
-            print(f"[WARN] Нет test_set для {fname} (table_id={tid})")
+        test_path = test_by_id.get(tid)
+        if not test_path:
             skipped_no_test += 1
             continue
 
-        pred = load_json(pf)
-        test = load_json(test_map[tid])
+        pred_obj = load_json(pred_path)
+        test_obj = load_json(test_path)
 
-        pred_idx = index_entities(pred, label_map=label_map, exclude_labels=exclude_labels)
-        test_idx = index_entities(test, label_map=label_map, exclude_labels=exclude_labels)
+        pred_idx = build_index(pred_obj, label_map, exclude_labels)
+        test_idx = build_index(test_obj, label_map, exclude_labels)
 
-        C, A, N, FP, FN = compute_counts(pred_idx, test_idx)
-        p, r, f1 = metrics(C, A, N)
+        correct = pred_idx & test_idx
+        C = len(correct)
+        A = len(pred_idx)
+        N = len(test_idx)
+
+        FP = A - C
+        FN = N - C
 
         total_C += C
         total_A += A
@@ -292,11 +172,12 @@ def main():
         total_FP += FP
         total_FN += FN
 
+        p, r, f1 = metrics(C, A, N)
+
         row = {
             "table_id": tid,
-            "pred_file": fname,
-            "test_file": os.path.basename(test_map[tid]),
-            "method": pred.get("method"),
+            "pred_file": os.path.basename(pred_path),
+            "test_file": os.path.basename(test_path),
             "C": C,
             "A": A,
             "N": N,
@@ -307,8 +188,15 @@ def main():
             "f1": f1,
         }
 
-        if args.per_label:
-            plc = per_label_counts(pred_idx, test_idx)
+        if per_label:
+            plc: Dict[str, Dict[str, int]] = {}
+            for _, _, _, lb in test_idx:
+                plc.setdefault(lb, {"C": 0, "A": 0, "N": 0})["N"] += 1
+            for _, _, _, lb in pred_idx:
+                plc.setdefault(lb, {"C": 0, "A": 0, "N": 0})["A"] += 1
+            for _, _, _, lb in correct:
+                plc.setdefault(lb, {"C": 0, "A": 0, "N": 0})["C"] += 1
+
             per_label_report = {}
             for lb, cnts in plc.items():
                 lp, lr, lf1 = metrics(cnts["C"], cnts["A"], cnts["N"])
@@ -328,13 +216,14 @@ def main():
 
     report = {
         "config": {
-            "pred_dir": os.path.abspath(args.pred_dir),
-            "test_set_dir": os.path.abspath(args.test_set_dir),
-            "min_id": args.min_id,
-            "max_id": args.max_id,
+            "pred_dir": os.path.abspath(pred_dir),
+            "test_set_dir": os.path.abspath(test_set_dir),
+            "min_id": min_id,
+            "max_id": max_id,
             "label_map": label_map,
             "exclude_labels": sorted(exclude_labels),
-            "per_label": args.per_label,
+            "per_label": per_label,
+            "pred_glob": pred_glob,
         },
         "per_table": per_table,
         "overall": {
@@ -350,22 +239,89 @@ def main():
         "skipped": {
             "pred_out_of_range": skipped_out_of_range,
             "pred_without_test": skipped_no_test,
-        }
+        },
     }
 
-    os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
-    with open(args.out, "w", encoding="utf-8") as f:
+    os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
 
     print(f"[OK] Таблиц оценено: {len(per_table)}")
-    if args.min_id is not None or args.max_id is not None:
-        print(f"[OK] Диапазон: {args.min_id}..{args.max_id}")
+    if min_id is not None or max_id is not None:
+        print(f"[OK] Диапазон: {min_id}..{max_id}")
     if exclude_labels:
         print(f"[OK] Исключённые метки: {', '.join(sorted(exclude_labels))}")
     if label_map:
-        print(f"[OK] label_map: {', '.join([f'{k}->{v}' for k,v in label_map.items()])}")
+        print(f"[OK] label_map: {', '.join([f'{k}->{v}' for k, v in label_map.items()])}")
     print(f"[OK] Overall F1 = {f1:.4f}")
-    print(f"[OK] Отчёт сохранён: {args.out}")
+    print(f"[OK] Отчёт сохранён: {out_path}")
+
+    return report
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Оценка качества NER по test_set (spacy / zero / few)")
+
+    parser.add_argument("--pred_dir", default=DEFAULT_PRED_DIR, help="Папка с предсказаниями (JSON)")
+    parser.add_argument("--test_set_dir", default=DEFAULT_TEST_SET_DIR, help="Папка с test_set (JSON)")
+    parser.add_argument("--reports_dir", default=DEFAULT_REPORTS_DIR, help="Куда сохранять отчёты")
+
+    parser.add_argument("--min_id", type=int, default=None, help="Минимальный table_id (включительно)")
+    parser.add_argument("--max_id", type=int, default=None, help="Максимальный table_id (включительно)")
+    parser.add_argument("--label_map", default=None, help='Маппинг меток, например: "GPE=LOC,PER=PERSON"')
+    parser.add_argument("--exclude_labels", default=None, help='Исключить метки, например: "QUANTITY,DATE"')
+    parser.add_argument("--per_label", action="store_true", help="Добавить метрики по каждой метке")
+    parser.add_argument(
+        "--strict_test_id",
+        action="store_true",
+        help="Если у test_set несколько файлов на один table_id — считать это ошибкой",
+    )
+
+    args = parser.parse_args()
+
+    label_map = parse_label_map(args.label_map)
+    exclude_labels = parse_label_set(args.exclude_labels)
+
+    os.makedirs(args.reports_dir, exist_ok=True)
+
+    evaluate_one(
+        pred_dir=args.pred_dir,
+        test_set_dir=args.test_set_dir,
+        out_path=os.path.join(args.reports_dir, "ner_report_spacy.json"),
+        pred_glob="*_spacy.json",
+        min_id=args.min_id,
+        max_id=args.max_id,
+        label_map=label_map,
+        exclude_labels=exclude_labels,
+        per_label=args.per_label,
+        strict_test_id=args.strict_test_id,
+    )
+
+    evaluate_one(
+        pred_dir=args.pred_dir,
+        test_set_dir=args.test_set_dir,
+        out_path=os.path.join(args.reports_dir, "ner_report_gigachat_zero.json"),
+        pred_glob="*_gigachat_zero.json",
+        min_id=args.min_id,
+        max_id=args.max_id,
+        label_map=label_map,
+        exclude_labels=exclude_labels,
+        per_label=args.per_label,
+        strict_test_id=args.strict_test_id,
+    )
+
+    evaluate_one(
+        pred_dir=args.pred_dir,
+        test_set_dir=args.test_set_dir,
+        out_path=os.path.join(args.reports_dir, "ner_report_gigachat_few.json"),
+        pred_glob="*_gigachat_few.json",
+        min_id=args.min_id,
+        max_id=args.max_id,
+        label_map=label_map,
+        exclude_labels=exclude_labels,
+        per_label=args.per_label,
+        strict_test_id=args.strict_test_id,
+    )
 
 
 if __name__ == "__main__":

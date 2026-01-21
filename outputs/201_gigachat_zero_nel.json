@@ -1,0 +1,361 @@
+{
+  "table_name": "201_locations_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Брокопондо",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Брокопондо",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "7364",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "14 215",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "text": "193",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Коммевейне",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Ньив-Амстердам",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "2353",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "24 649",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "text": "1048",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Корони",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Тотнесс",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "3902",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "2887",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "text": "74",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Маровейне",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Албина",
+      "entities": [
+        {
+          "text": "Албина",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q580016"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "4627",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 5,
+      "text": "16 642",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "text": "360",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Никкери",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Ньив-Никкери",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "5353",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "text": "36 639",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "text": "684",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Пара",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Онвервахт",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "5393",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 5,
+      "text": "18 749",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "text": "348",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Парамарибо",
+      "entities": [
+        {
+          "text": "Парамарибо",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q3001"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Парамарибо",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "183",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 5,
+      "text": "242 946",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "text": "132757",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Сарамакка",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Гронинген",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "3 636",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 5,
+      "text": "15 980",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "text": "439",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Сипаливини",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "отсутствует",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "130 567",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 5,
+      "text": "34 136",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 6,
+      "text": "26",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Ваника",
+      "entities": [
+        {
+          "text": "Ваника",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q1147524"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Лелидорп",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "text": "442",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 5,
+      "text": "85 986",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 6,
+      "text": "19454",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "Всего",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "text": "163 820",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 5,
+      "text": "492 829",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 6,
+      "text": "301",
+      "entities": []
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 3,
+    "attempted": 3,
+    "total": 3,
+    "limit": 1
+  }
+}

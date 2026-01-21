@@ -1,0 +1,127 @@
+{
+  "table_name": "202_sports_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Атлетик Эскальдес",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Эскальдес-Энгордань",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Интер Эскальдес",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Эскальдес-Энгордань",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Каррой",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Андорра-ла-Велья",
+      "entities": [
+        {
+          "text": "Андорра-ла-Велья",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q1863"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Ордино[3]",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Ордино",
+      "entities": [
+        {
+          "text": "Ордино",
+          "label": "ORG",
+          "kb_id": "http://www.wikidata.org/entity/Q24272"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Санта-Колома",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Санта-Колома",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Сан-Жулиа",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Сан-Жулиа-де-Лория",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "УЭ Санта-Колома",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Санта-Колома",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "Энгордань",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Эскальдес-Энгордань",
+      "entities": []
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 2,
+    "attempted": 2,
+    "total": 2,
+    "limit": 1
+  }
+}

@@ -1,0 +1,762 @@
+{
+  "table_name": "224_locations_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Китай",
+      "entities": [
+        {
+          "text": "Китай",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q148"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "187",
+      "entities": [
+        {
+          "text": "187",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "США",
+      "entities": [
+        {
+          "text": "США",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q30"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "122",
+      "entities": [
+        {
+          "text": "122",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Япония",
+      "entities": [
+        {
+          "text": "Япония",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q17"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "35",
+      "entities": [
+        {
+          "text": "35",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Германия",
+      "entities": [
+        {
+          "text": "Германия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q183"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "23",
+      "entities": [
+        {
+          "text": "23",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Франция",
+      "entities": [
+        {
+          "text": "Франция",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q142"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "16",
+      "entities": [
+        {
+          "text": "16",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Голландия",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "16",
+      "entities": [
+        {
+          "text": "16",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "Ирландия",
+      "entities": [
+        {
+          "text": "Ирландия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q27"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "14",
+      "entities": [
+        {
+          "text": "14",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "Великобритания",
+      "entities": [
+        {
+          "text": "Великобритания",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q145"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "11",
+      "entities": [
+        {
+          "text": "11",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "Канада",
+      "entities": [
+        {
+          "text": "Канада",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q16"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "11",
+      "entities": [
+        {
+          "text": "11",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "Италия",
+      "entities": [
+        {
+          "text": "Италия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q38"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "6",
+      "entities": [
+        {
+          "text": "6",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "text": "Бразилия",
+      "entities": [
+        {
+          "text": "Бразилия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q155"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "6",
+      "entities": [
+        {
+          "text": "6",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 1,
+      "text": "Саудовская Аравия",
+      "entities": [
+        {
+          "text": "Саудовская Аравия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q851"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "6",
+      "entities": [
+        {
+          "text": "6",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 1,
+      "text": "Южная Корея",
+      "entities": [
+        {
+          "text": "Южная Корея",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q884"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "5",
+      "entities": [
+        {
+          "text": "5",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 1,
+      "text": "Польша",
+      "entities": [
+        {
+          "text": "Польша",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q36"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "4",
+      "entities": [
+        {
+          "text": "4",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "col": 1,
+      "text": "Сингапур",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "4",
+      "entities": [
+        {
+          "text": "4",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "col": 1,
+      "text": "Россия",
+      "entities": [
+        {
+          "text": "Россия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q159"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "col": 1,
+      "text": "Швейцария",
+      "entities": [
+        {
+          "text": "Швейцария",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q39"
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "col": 1,
+      "text": "Норвегия",
+      "entities": [
+        {
+          "text": "Норвегия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q20"
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "col": 2,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "col": 1,
+      "text": "Швеция",
+      "entities": [
+        {
+          "text": "Швеция",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q34"
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "col": 2,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "col": 1,
+      "text": "Индия",
+      "entities": [
+        {
+          "text": "Индия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q668"
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "col": 2,
+      "text": "3",
+      "entities": [
+        {
+          "text": "3",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "col": 1,
+      "text": "Словения",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 2,
+      "text": "2",
+      "entities": [
+        {
+          "text": "2",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "col": 1,
+      "text": "Австралия",
+      "entities": [
+        {
+          "text": "Австралия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q408"
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "col": 2,
+      "text": "2",
+      "entities": [
+        {
+          "text": "2",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 24,
+      "col": 1,
+      "text": "Люксембург",
+      "entities": []
+    },
+    {
+      "row": 24,
+      "col": 2,
+      "text": "2",
+      "entities": [
+        {
+          "text": "2",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "col": 1,
+      "text": "ОАЭ",
+      "entities": [
+        {
+          "text": "ОАЭ",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q878"
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "col": 2,
+      "text": "2",
+      "entities": [
+        {
+          "text": "2",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "col": 1,
+      "text": "Финляндия",
+      "entities": [
+        {
+          "text": "Финляндия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q33"
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "col": 2,
+      "text": "2",
+      "entities": [
+        {
+          "text": "2",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 27,
+      "col": 1,
+      "text": "Чехия",
+      "entities": [
+        {
+          "text": "Чехия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q213"
+        }
+      ]
+    },
+    {
+      "row": 27,
+      "col": 2,
+      "text": "2",
+      "entities": [
+        {
+          "text": "2",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 28,
+      "col": 1,
+      "text": "Тайвань",
+      "entities": [
+        {
+          "text": "Тайвань",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q865"
+        }
+      ]
+    },
+    {
+      "row": 28,
+      "col": 2,
+      "text": "2",
+      "entities": [
+        {
+          "text": "2",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 29,
+      "col": 1,
+      "text": "Болгария",
+      "entities": [
+        {
+          "text": "Болгария",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q219"
+        }
+      ]
+    },
+    {
+      "row": 29,
+      "col": 2,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 30,
+      "col": 1,
+      "text": "Марокко",
+      "entities": [
+        {
+          "text": "Марокко",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q1028"
+        }
+      ]
+    },
+    {
+      "row": 30,
+      "col": 2,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 31,
+      "col": 1,
+      "text": "Австрия",
+      "entities": [
+        {
+          "text": "Австрия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q40"
+        }
+      ]
+    },
+    {
+      "row": 31,
+      "col": 2,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 32,
+      "col": 1,
+      "text": "Гонконг",
+      "entities": [
+        {
+          "text": "Гонконг",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q8646"
+        }
+      ]
+    },
+    {
+      "row": 32,
+      "col": 2,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 33,
+      "col": 1,
+      "text": "Испания",
+      "entities": [
+        {
+          "text": "Испания",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q29"
+        }
+      ]
+    },
+    {
+      "row": 33,
+      "col": 2,
+      "text": "1",
+      "entities": [
+        {
+          "text": "1",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 28,
+    "attempted": 28,
+    "total": 60,
+    "limit": 1
+  }
+}

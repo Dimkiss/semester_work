@@ -1,0 +1,402 @@
+{
+  "table_name": "225_locations_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Армения",
+      "entities": [
+        {
+          "text": "Армения",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q399"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Ереван",
+      "entities": [
+        {
+          "text": "Ереван",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q1953"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Болгария",
+      "entities": [
+        {
+          "text": "Болгария",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q219"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Плевен",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Белоруссия",
+      "entities": [
+        {
+          "text": "Белоруссия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q184"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Гомель",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Великобритания",
+      "entities": [
+        {
+          "text": "Великобритания",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q145"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Глазго",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Германия",
+      "entities": [
+        {
+          "text": "Германия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q183"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Дортмунд",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Германия",
+      "entities": [
+        {
+          "text": "Германия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q183"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Гера",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Греция",
+      "entities": [
+        {
+          "text": "Греция",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q41"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Волос",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Канада",
+      "entities": [
+        {
+          "text": "Канада",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q16"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Торонто",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Казахстан",
+      "entities": [
+        {
+          "text": "Казахстан",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q232"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Уральск",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Россия",
+      "entities": [
+        {
+          "text": "Россия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q159"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Москва",
+      "entities": [
+        {
+          "text": "Москва",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q649"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "США",
+      "entities": [
+        {
+          "text": "США",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q30"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "Мобил",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "Турция",
+      "entities": [
+        {
+          "text": "Турция",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q43"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "Анталья",
+      "entities": [
+        {
+          "text": "Анталья",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q6487"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "Украина",
+      "entities": [
+        {
+          "text": "Украина",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q212"
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "text": "Одесса",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "Украина[199]",
+      "entities": [
+        {
+          "text": "Украина[199]",
+          "label": "PER",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 3,
+      "text": "Луганск",
+      "entities": [
+        {
+          "text": "Луганск",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q134279"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "Украина[200]",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 3,
+      "text": "Донецк",
+      "entities": [
+        {
+          "text": "Донецк",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q43070"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "Франция",
+      "entities": [
+        {
+          "text": "Франция",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q142"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "col": 3,
+      "text": "Ле-Ман",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "Финляндия",
+      "entities": [
+        {
+          "text": "Финляндия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q33"
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "col": 3,
+      "text": "Каяани",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 2,
+      "text": "Южная Корея",
+      "entities": [
+        {
+          "text": "Южная Корея",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q884"
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "col": 3,
+      "text": "Чхонджу",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 2,
+      "text": "Китай",
+      "entities": [
+        {
+          "text": "Китай",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q148"
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "col": 3,
+      "text": "Яньтай",
+      "entities": [
+        {
+          "text": "Яньтай",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q210493"
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "col": 2,
+      "text": "Испания[201]",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 3,
+      "text": "Севилья",
+      "entities": []
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 23,
+    "attempted": 24,
+    "total": 24,
+    "limit": 1
+  }
+}

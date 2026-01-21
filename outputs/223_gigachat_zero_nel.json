@@ -1,0 +1,575 @@
+{
+  "table_name": "223_locations_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Португальская Юго-Западная Африка",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "1975",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Республика Ангола",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Дагомея",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "1975",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Республика Бенин",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Протекторат Бечуаналенд",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "1966",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Республика Ботсвана",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Республика Верхняя Вольта",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "1984",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Республика Буркина-Фасо",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Убанги-Шари",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "1960",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Центральноафриканская Республика",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Республика Заир",
+      "entities": [
+        {
+          "text": "Заир",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q974"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "1997",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Демократическая Республика Конго",
+      "entities": [
+        {
+          "text": "Демократическая Республика Конго",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q974"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "Среднее Конго",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "1960",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Республика Конго",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "Берег Слоновой Кости",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "1985",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Республика Кот-д’Ивуар*",
+      "entities": [
+        {
+          "text": "Кот-д’Ивуар",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q1008"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "Французская территория афаров и исса",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "1977",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Республика Джибути",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "Испанская Гвинея",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "1968",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Республика Экваториальная Гвинея",
+      "entities": [
+        {
+          "text": "Экваториальная Гвинея",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q983"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 1,
+      "text": "Абиссиния",
+      "entities": [
+        {
+          "text": "Абиссиния",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q115"
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "1941",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "Федеральная Демократическая Республика Эфиопия",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 1,
+      "text": "Золотой Берег",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "1957",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "Республика Гана",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 1,
+      "text": "часть Французской Западной Африки",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 2,
+      "text": "1958",
+      "entities": []
+    },
+    {
+      "row": 14,
+      "col": 3,
+      "text": "Республика Гвинея",
+      "entities": [
+        {
+          "text": "Гвинея",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q1006"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 1,
+      "text": "Португальская Гвинея",
+      "entities": [
+        {
+          "text": "Португальская Гвинея",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q2002279"
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "col": 2,
+      "text": "1974",
+      "entities": []
+    },
+    {
+      "row": 15,
+      "col": 3,
+      "text": "Республика Гвинея-Бисау",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 1,
+      "text": "Протекторат Басутоленд",
+      "entities": [
+        {
+          "text": "Басутоленд",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q2340665"
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "col": 2,
+      "text": "1966",
+      "entities": []
+    },
+    {
+      "row": 16,
+      "col": 3,
+      "text": "Королевство Лесото",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 1,
+      "text": "Протекторат Ньясаленд",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 2,
+      "text": "1964",
+      "entities": []
+    },
+    {
+      "row": 17,
+      "col": 3,
+      "text": "Республика Малави",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 1,
+      "text": "Французский Судан",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 2,
+      "text": "1960",
+      "entities": []
+    },
+    {
+      "row": 18,
+      "col": 3,
+      "text": "Республика Мали",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 1,
+      "text": "Германская Юго-Западная Африка",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 2,
+      "text": "1990",
+      "entities": []
+    },
+    {
+      "row": 19,
+      "col": 3,
+      "text": "Республика Намибия",
+      "entities": [
+        {
+          "text": "Намибия",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q1030"
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "col": 1,
+      "text": "Германская Восточная Африка / Руанда-Урунди",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 2,
+      "text": "1962",
+      "entities": []
+    },
+    {
+      "row": 20,
+      "col": 3,
+      "text": "Республика Руанда / Республика Бурунди",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 1,
+      "text": "Британский Сомалиленд / Итальянский Сомалиленд",
+      "entities": [
+        {
+          "text": "Британский Сомалиленд",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q662653"
+        },
+        {
+          "text": "Итальянский Сомалиленд",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q319984"
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "col": 2,
+      "text": "1960",
+      "entities": []
+    },
+    {
+      "row": 21,
+      "col": 3,
+      "text": "Республика Сомали",
+      "entities": [
+        {
+          "text": "Сомали",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q1045"
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "col": 1,
+      "text": "Занзибар / Танганьика",
+      "entities": [
+        {
+          "text": "Занзибар",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q1774"
+        },
+        {
+          "text": "Танганьика",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q431731"
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "col": 2,
+      "text": "1964",
+      "entities": []
+    },
+    {
+      "row": 22,
+      "col": 3,
+      "text": "Объединённая республика Танзания",
+      "entities": [
+        {
+          "text": "Объединённая республика Танзания",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q924"
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "col": 1,
+      "text": "Буганда",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 2,
+      "text": "1962",
+      "entities": []
+    },
+    {
+      "row": 23,
+      "col": 3,
+      "text": "Республика Уганда",
+      "entities": [
+        {
+          "text": "Уганда",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q1036"
+        }
+      ]
+    },
+    {
+      "row": 24,
+      "col": 1,
+      "text": "Северная Родезия",
+      "entities": []
+    },
+    {
+      "row": 24,
+      "col": 2,
+      "text": "1964",
+      "entities": []
+    },
+    {
+      "row": 24,
+      "col": 3,
+      "text": "Республика Замбия",
+      "entities": [
+        {
+          "text": "Замбия",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q953"
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "col": 1,
+      "text": "Южная Родезия",
+      "entities": []
+    },
+    {
+      "row": 25,
+      "col": 2,
+      "text": "1980",
+      "entities": []
+    },
+    {
+      "row": 25,
+      "col": 3,
+      "text": "Республика Зимбабве",
+      "entities": []
+    },
+    {
+      "row": 26,
+      "col": 1,
+      "text": "Королевство Свазиленд",
+      "entities": [
+        {
+          "text": "Королевство Свазиленд",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q1050"
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "col": 2,
+      "text": "2018",
+      "entities": []
+    },
+    {
+      "row": 26,
+      "col": 3,
+      "text": "Королевство Эсватини",
+      "entities": []
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 18,
+    "attempted": 18,
+    "total": 18,
+    "limit": 1
+  }
+}

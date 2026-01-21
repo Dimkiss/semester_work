@@ -1,0 +1,546 @@
+{
+  "table_name": "205_locations_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Центральный",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "ЦФО",
+      "entities": [
+        {
+          "text": "ЦФО",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q190778"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 6,
+      "text": "6037",
+      "entities": [
+        {
+          "text": "6037",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 7,
+      "text": "18",
+      "entities": [
+        {
+          "text": "18",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 8,
+      "text": "Москва",
+      "entities": [
+        {
+          "text": "Москва",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q649"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 9,
+      "text": "−2,9",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Северо-Западный",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "СЗФО",
+      "entities": [
+        {
+          "text": "СЗФО",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q383093"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 6,
+      "text": "826",
+      "entities": [
+        {
+          "text": "826",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 7,
+      "text": "11",
+      "entities": [
+        {
+          "text": "11",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 8,
+      "text": "Санкт-Петербург",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 9,
+      "text": "−2,1",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Южный",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "ЮФО",
+      "entities": [
+        {
+          "text": "ЮФО",
+          "label": "ORG",
+          "kb_id": "http://www.wikidata.org/entity/Q483599"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 6,
+      "text": "3681",
+      "entities": [
+        {
+          "text": "3681",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 7,
+      "text": "8",
+      "entities": [
+        {
+          "text": "8",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 8,
+      "text": "Ростов-на-Дону",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 9,
+      "text": "−2,4",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Северо-Кавказский",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "СКФО",
+      "entities": [
+        {
+          "text": "СКФО",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q485161"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 6,
+      "text": "5848",
+      "entities": [
+        {
+          "text": "5848",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "text": "7",
+      "entities": [
+        {
+          "text": "7",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "col": 8,
+      "text": "Пятигорск",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 9,
+      "text": "68",
+      "entities": [
+        {
+          "text": "68",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Приволжский",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "ПФО",
+      "entities": [
+        {
+          "text": "ПФО",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q202317"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 6,
+      "text": "2803",
+      "entities": [
+        {
+          "text": "2803",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 7,
+      "text": "14",
+      "entities": [
+        {
+          "text": "14",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 8,
+      "text": "Нижний Новгород",
+      "entities": [
+        {
+          "text": "Нижний Новгород",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q891"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 9,
+      "text": "−2,6",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Уральский",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "УрФО",
+      "entities": [
+        {
+          "text": "УрФО",
+          "label": "ORG",
+          "kb_id": "http://www.wikidata.org/entity/Q41964"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 6,
+      "text": "678",
+      "entities": [
+        {
+          "text": "678",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 7,
+      "text": "6",
+      "entities": [
+        {
+          "text": "6",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 8,
+      "text": "Екатеринбург",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 9,
+      "text": "01",
+      "entities": [
+        {
+          "text": "01",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Сибирский",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "СФО",
+      "entities": [
+        {
+          "text": "СФО",
+          "label": "ORG",
+          "kb_id": "http://www.wikidata.org/entity/Q41979"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 6,
+      "text": "390",
+      "entities": [
+        {
+          "text": "390",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 7,
+      "text": "10",
+      "entities": [
+        {
+          "text": "10",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 8,
+      "text": "Новосибирск",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 9,
+      "text": "−1,5",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Дальневосточный",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "ДФО /ДВФО[12]",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 6,
+      "text": "117",
+      "entities": [
+        {
+          "text": "117",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 7,
+      "text": "11",
+      "entities": [
+        {
+          "text": "11",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 8,
+      "text": "Владивосток",
+      "entities": [
+        {
+          "text": "Владивосток",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q959"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 9,
+      "text": "−0,1",
+      "entities": [
+        {
+          "text": "−0,1",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Россия",
+      "entities": [
+        {
+          "text": "Россия",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q159"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "РФ",
+      "entities": [
+        {
+          "text": "РФ",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q159"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 6,
+      "text": "854",
+      "entities": [
+        {
+          "text": "854",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 7,
+      "text": "85",
+      "entities": [
+        {
+          "text": "85",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 8,
+      "text": "Москва",
+      "entities": [
+        {
+          "text": "Москва",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q649"
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "col": 9,
+      "text": "−1,5",
+      "entities": []
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 13,
+    "attempted": 13,
+    "total": 34,
+    "limit": 1
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "table_name": "219_locations_table.csv",
+  "method": "spacy",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Беверидж (англ. Beveridge Reef)",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "20°00′ ю. ш. 167°47′ з. д.HGЯO",
+      "entities": [
+        {
+          "text": "HGЯO",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Представляет собой подводную гору, увенчанную коралловым атоллом, обнажающимся во время отливов. Длина с севера на юг — 9,5 км, ширина с запада на восток — 7,5 км. Общая площадь — 56 км². Глубина лагуны — 11 м.",
+      "entities": [
+        {
+          "text": "запада",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q21097109"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Антиоп (англ. Antiope Reef)",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "18°14′ ю. ш. 168°20′ з. д.HGЯO",
+      "entities": [
+        {
+          "text": "HGЯO",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Представляет собой овальное плато диаметром в 400 м. Минимальная глубина — 9,5 м. Впервые замечен в 1886 году британским судном «Antiope».",
+      "entities": [
+        {
+          "text": "Antiope",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Хэренс (англ. Harans Reef)",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "21°32′ ю. ш. 168°54′ з. д.HGЯO",
+      "entities": [
+        {
+          "text": "HGЯO",
+          "label": "ORG",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Впервые замечен в 1848 году Хэренсом с корабля «Thomas Dickenson».",
+      "entities": [
+        {
+          "text": "Хэренсом",
+          "label": "PER",
+          "kb_id": null
+        }
+      ]
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 1,
+    "attempted": 5,
+    "total": 6,
+    "limit": 1
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "table_name": "213_locations_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Дакка",
+      "entities": [
+        {
+          "text": "Дакка",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q1354"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "8 906 039",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "Дакка",
+      "entities": [
+        {
+          "text": "Дакка",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q1354"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Читтагонг",
+      "entities": [
+        {
+          "text": "Читтагонг",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q158087"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "2 592 439",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "Читтагонг",
+      "entities": [
+        {
+          "text": "Читтагонг",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q158087"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Кхулна",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "664 728",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "Кхулна",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 1,
+      "text": "Силхет",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "531 663",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "Силхет",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "text": "Раджшахи",
+      "entities": [
+        {
+          "text": "Раджшахи",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q379382"
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "451 425",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "Раджшахи",
+      "entities": [
+        {
+          "text": "Раджшахи",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q379382"
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "text": "Комилла",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "407 901",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "Читтагонг",
+      "entities": [
+        {
+          "text": "Читтагонг",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q158087"
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "col": 1,
+      "text": "Тонги",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "406 420",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "Дакка",
+      "entities": [
+        {
+          "text": "Дакка",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q1354"
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "col": 1,
+      "text": "Богра",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "400 983",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "Раджшахи",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 1,
+      "text": "Маймансингх",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "389 918",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "Маймансингх",
+      "entities": [
+        {
+          "text": "Маймансингх",
+          "label": "PER",
+          "kb_id": "http://www.wikidata.org/entity/Q1429976"
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "col": 1,
+      "text": "Барисал",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "339 308",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "Барисал",
+      "entities": []
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 9,
+    "attempted": 9,
+    "total": 9,
+    "limit": 1
+  }
+}

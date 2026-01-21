@@ -1,0 +1,241 @@
+{
+  "table_name": "211_locations_table.csv",
+  "method": "gigachat_zero",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "zero"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 2,
+      "text": "Андрос",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "5 957",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "7 386",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "Абако",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "2 009",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "17 224",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "Инагуа",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "1 679",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "913",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 2,
+      "text": "Большой Багама",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 3,
+      "text": "1 373",
+      "entities": []
+    },
+    {
+      "row": 5,
+      "col": 4,
+      "text": "51 756",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 2,
+      "text": "Лонг-Айленд",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 3,
+      "text": "596",
+      "entities": []
+    },
+    {
+      "row": 6,
+      "col": 4,
+      "text": "3 094",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 2,
+      "text": "Эльютера",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 3,
+      "text": "457",
+      "entities": []
+    },
+    {
+      "row": 7,
+      "col": 4,
+      "text": "11 000",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 2,
+      "text": "Кэт",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 3,
+      "text": "389",
+      "entities": []
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "text": "1 522",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 2,
+      "text": "Аклинс",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 3,
+      "text": "389",
+      "entities": []
+    },
+    {
+      "row": 9,
+      "col": 4,
+      "text": "565",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 2,
+      "text": "Маягуана",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "text": "280",
+      "entities": []
+    },
+    {
+      "row": 10,
+      "col": 4,
+      "text": "277",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "text": "Эксума",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 3,
+      "text": "250",
+      "entities": []
+    },
+    {
+      "row": 11,
+      "col": 4,
+      "text": "6 928",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "text": "Нью-Провиденс",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 3,
+      "text": "207",
+      "entities": []
+    },
+    {
+      "row": 12,
+      "col": 4,
+      "text": "274 400",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "text": "Сан-Сальвадор",
+      "entities": [
+        {
+          "text": "Сан-Сальвадор",
+          "label": "LOC",
+          "kb_id": "http://www.wikidata.org/entity/Q3110"
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "col": 3,
+      "text": "163",
+      "entities": []
+    },
+    {
+      "row": 13,
+      "col": 4,
+      "text": "930",
+      "entities": []
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 1,
+    "attempted": 1,
+    "total": 1,
+    "limit": 1
+  }
+}

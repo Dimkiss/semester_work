@@ -1,39 +1,45 @@
+import re
 import time
 from typing import Dict, Optional, Tuple
 
-import httpx
+import requests
+
+CYR_RE = re.compile(r"[А-Яа-яЁё]")
 
 
-class WikidataNEL:
-    def __init__(self, language: str = "ru", sleep_s: float = 0.05, timeout_s: float = 10.0):
+def is_russian(text: str) -> bool:
+    return bool(CYR_RE.search(text or ""))
+
+
+class EntityLinker:
+    def __init__(self, language: str = "ru", limit: int = 1, sleep_s: float = 0.05):
         self.language = language
+        self.limit = limit
         self.sleep_s = sleep_s
-        self.client = httpx.Client(
-            headers={"User-Agent": "NER-NEL-Semester-Work/1.0"},
-            timeout=timeout_s,
-            follow_redirects=True,
-        )
+        self.session = requests.Session()
+        self.session.headers.update({"User-Agent": "NER-NEL-Semester-Work/1.0"})
         self.cache: Dict[Tuple[str, int], Optional[str]] = {}
 
-    def search_wikidata(self, query: str, limit: int = 5) -> Optional[str]:
+    def search_wikidata(self, query: str) -> Optional[str]:
         q = (query or "").strip()
         if not q:
             return None
 
-        key = (q.lower(), limit)
+        key = (q.lower(), self.limit)
         if key in self.cache:
             return self.cache[key]
 
+        url = "https://www.wikidata.org/w/api.php"
         params = {
             "action": "wbsearchentities",
             "search": q,
             "language": self.language,
             "format": "json",
-            "limit": limit,
+            "limit": self.limit,
         }
 
         try:
-            resp = self.client.get("https://www.wikidata.org/w/api.php", params=params)
+            resp = self.session.get(url, params=params, timeout=10)
             resp.raise_for_status()
             data = resp.json()
             results = data.get("search", [])
@@ -44,12 +50,3 @@ class WikidataNEL:
         except Exception:
             self.cache[key] = None
             return None
-
-    def close(self):
-        self.client.close()
-
-    def __enter__(self):
-        return self
-
-    def __exit__(self, exc_type, exc, tb):
-        self.close()

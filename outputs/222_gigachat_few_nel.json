@@ -1,0 +1,163 @@
+{
+  "table_name": "222_locations_table.csv",
+  "method": "gigachat_few",
+  "meta": {
+    "drop_header": true,
+    "drop_first_col": null,
+    "index_base": 1,
+    "mode": "few"
+  },
+  "results": [
+    {
+      "row": 2,
+      "col": 1,
+      "text": "Афроевразия",
+      "entities": [
+        {
+          "text": "Афроевразия",
+          "label": "MISC",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "text": "1644,9x822,45.",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "text": "58 %.",
+      "entities": [
+        {
+          "text": "58 %",
+          "label": "PERCENT",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "col": 4,
+      "text": "71 %.",
+      "entities": []
+    },
+    {
+      "row": 2,
+      "col": 5,
+      "text": "95.0",
+      "entities": [
+        {
+          "text": "95.0",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "text": "Америка",
+      "entities": [
+        {
+          "text": "Америка",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q30"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 2,
+      "text": "833,2х416,6.",
+      "entities": []
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "text": "29 %.",
+      "entities": [
+        {
+          "text": "29 %",
+          "label": "PERCENT",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 4,
+      "text": "12 %.",
+      "entities": [
+        {
+          "text": "12 %",
+          "label": "PERCENT",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "col": 5,
+      "text": "221.0",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 1,
+      "text": "Океания",
+      "entities": [
+        {
+          "text": "Океания",
+          "label": "GPE",
+          "kb_id": "http://www.wikidata.org/entity/Q538"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 2,
+      "text": "491,2х245,6",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 3,
+      "text": "8 %.",
+      "entities": []
+    },
+    {
+      "row": 4,
+      "col": 4,
+      "text": "8 %",
+      "entities": [
+        {
+          "text": "8 %",
+          "label": "PERCENT",
+          "kb_id": null
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "col": 5,
+      "text": "3.2",
+      "entities": [
+        {
+          "text": "3.2",
+          "label": "QUANTITY",
+          "kb_id": null
+        }
+      ]
+    }
+  ],
+  "nel": {
+    "kb": "wikidata",
+    "linked": 2,
+    "attempted": 2,
+    "total": 9,
+    "limit": 1
+  }
+}
